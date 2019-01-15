@@ -1,0 +1,45 @@
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2015 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ *************************************************************************/
+
+@media(max-width: 767px) {
+    .scf-toolbar-row {
+        padding-top: 15px;
+    }
+}
+
+.scf-myassigned-toolbar {
+    padding: 10px 15px;
+}
+
+
+/*csslint adjoining-classes: false*/
+
+.input-group .form-control.scf-myassigned-category {
+    width: 140px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.scf-myassigned-toolbar .scf-view-toggle-button {
+    text-align: center;
+}
+
+.scf-myassigned-toolbar .scf-view-toggle-button > .btn {
+    width: 45%;
+}

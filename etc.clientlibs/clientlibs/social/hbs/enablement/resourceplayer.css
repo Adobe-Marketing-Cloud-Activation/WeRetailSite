@@ -1,0 +1,116 @@
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2013 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ **************************************************************************/
+
+.scf-enablement-resource-player {
+    padding-top: 5px;
+}
+
+.scf-enablement-resource-player .scf-enablement-fullscreen-button {
+    min-width: 20px;
+    min-height: 20px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    padding: 3px 5px 3px 5px;
+}
+
+.scf-enablement-resource-player .scf-enablement-fullscreen-button:hover {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 1)
+}
+
+.scf-asset-cover,
+.scf-asset-container {
+    position: relative;
+    padding-bottom: 46%;
+    height: 0;
+    overflow: hidden;
+}
+
+.scf-asset-cover {
+    display: none;
+    text-align: center;
+}
+
+.scf-asset-container {
+    display: none;
+    text-align: center;
+}
+
+.scf-asset-cover .scf-play-button {
+    /* Center play button horizontally and vertically */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 82px;
+    height: 82px;
+    background-image: url("../../../../settings/wcm/designs/default/resources/social/enablement/play.png");
+}
+
+.scf-asset-cover,
+.scf-asset-container,
+.scf-video-asset {
+    /* 
+     * For images that can't fill the entire space while
+     * preserving aspect ratio, set container background
+     * as black for pillar/letter-boxing effect.
+     */
+    background: black;
+}
+
+.scf-cover-image,
+.scf-image-asset {
+    /* 
+     * Stretch out image to fill as much space as possible while
+     * preserving aspect ratio. Remaining space in the container
+     * will be black (due to styling immediately above) for 
+     * pillar/letter-boxing effect
+     */
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.scf-video-asset,
+.scf-scorm-asset,
+.scf-pdf-asset,
+.scf-swf-asset {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.scf-asset-displaytext {
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    color: red;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+}

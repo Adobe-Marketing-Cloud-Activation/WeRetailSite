@@ -1,0 +1,1519 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-US"  >
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    
+
+
+
+  
+<link href="https://aem.enablementadobe.com/etc.clientlibs/settings/wcm/designs/social/console/static.css" rel="stylesheet" type="text/css"/>
+<link href="https://aem.enablementadobe.com/etc.clientlibs/settings/wcm/designs/social/console/resources.css" rel="stylesheet" type="text/css"/>
+
+
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/foundation/clientlibs/main.css" type="text/css"/>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/jquery.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/utils.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/jquery/granite.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/foundation/clientlibs/jquery.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/foundation/clientlibs/shared.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/foundation/clientlibs/main.js"></script>
+
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/bootstrap3.js"></script>
+
+
+        <link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/commons/scf.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/breadcrumbs.css" type="text/css"/>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/underscore.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/moment.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/backbone.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/handlebars.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/commons/scf.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/breadcrumbs.js"></script>
+
+    
+        <link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/tally/voting.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/subscriptions.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/comments.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/activitystreams.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/socialgraph.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/userprofile.css" type="text/css"/>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/tally/voting.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/subscriptions.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/comments.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/infiniscroll.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/activitystreams.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/socialgraph.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/userprofile.js"></script>
+
+    
+        <link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/jquery-ui.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/tagging.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/forum.css" type="text/css"/>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/jquery-ui.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/foundation/clientlibs/jquery-ui.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/tagging.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/forum.js"></script>
+
+    
+        
+    
+        
+    
+        
+    
+        <script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/lodash/modern.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/cq/personalization/clientlib/personalization/kernel.js"></script>
+
+    
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/themes/sitethemes/scf-skin.css" type="text/css"/>
+
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/themes/sitethemes/bootstrap-united/clientlibs.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/themes/sitethemes/bootstrap-weretail/clientlibs.css" type="text/css"/>
+
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/datatables/core.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/datatables/bootstrap.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/gamification/leaderboard.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/featuredcontent.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/quicksearch.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/sitepage.css" type="text/css"/>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/datatables/core.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/datatables/bootstrap.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/gamification/leaderboard.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/quicksearch.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/sitepage.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    
+
+    
+    <title>Profile</title>
+</head>
+
+
+
+
+<body class="scf-site-body">
+    <script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content'>{"id":"/content/we-retail/us/en/community/profile/jcr:content","properties":{"jcr:created":1539449152388,"pageTitle":"Profile","jcr:createdBy":"admin","jcr:title":"Profile","jcr:uuid":"90ce8859-8cbd-471e-be06-343e9cdca134","jcr:versionHistory":"faa32ccd-8924-479a-8567-e96105589e7a","jcr:predecessors":["d8e7ac85-584a-42f6-bd1d-3410475cbc35"],"jcr:isCheckedOut":true,"jcr:mixinTypes":["cq:LiveSync","mix:versionable"],"hideInNav":true,"jcr:primaryType":"cq:PageContent","jcr:baseVersion":"d8e7ac85-584a-42f6-bd1d-3410475cbc35","navTitle":"Profile"},"pageProperties":{"page-template":"weretail"},"groupPage":false,"theme":"cq.social.console.theme.bootstrap-united","siteTitle":"Communities","ugcPath":["/content/usergenerated/asi/jcr/content/we-retail/us/en/community"],"hasBreadcrumbs":false,"siteDescription":"We.Retail Community","siteUrl":"/content/we-retail/us/en/community","baseLanguage":"English","messagingAllowed":true,"searchPagePath":"/content/we-retail/us/en/community/search","siteId":"community-minqg","userAdmin":false,"resourceType":"social/console/components/hbs/sitepage","url":"/content/we-retail/us/en/community/profile/_jcr_content.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+
+    
+<div class="clientcontext parbase"><script type="text/javascript">
+    $CQ(function() {
+        CQ_Analytics.SegmentMgr.loadSegments("\/etc\/segmentation");
+        CQ_Analytics.ClientContextUtils.init("\/etc\/clientcontext\/default", "\/content\/we\u002Dretail\/us\/en\/community\/profile");
+
+        
+    });
+</script>
+</div>
+
+<div class="cloudservices servicecomponents"><div class="cloudservice sitecatalyst"></div>
+
+</div>
+
+<script type="text/javascript">
+            (function() {
+                window.ContextHub = window.ContextHub || {};
+
+                /* setting paths */
+                ContextHub.Paths = ContextHub.Paths || {};
+                ContextHub.Paths.CONTEXTHUB_PATH = "/libs/settings/cloudsettings/legacy/contexthub";
+                ContextHub.Paths.RESOURCE_PATH = "\/content\/we\u002Dretail\/us\/en\/community\/profile\/_jcr_content\/contexthub";
+                ContextHub.Paths.SEGMENTATION_PATH = "\/conf\/we\u002Dretail\/settings\/wcm\/segments";
+                ContextHub.Paths.CQ_CONTEXT_PATH = "";
+
+                /* setting initial constants */
+                ContextHub.Constants = ContextHub.Constants || {};
+                ContextHub.Constants.ANONYMOUS_HOME = "/home/users/X/XCAgDSuYTdL4Y6VZPa-t";
+                ContextHub.Constants.MODE = "no-ui";
+            }());
+        </script><script src="../../../../../../../../../../../etc/cloudsettings.kernel.js/libs/settings/cloudsettings/legacy/contexthub.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/core/wcm/components/search/v1/search/clientlibs/site.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/weretail/clientlibs/clientlib-communities.css" type="text/css"/>
+
+<div class="container">
+    <div class="header">
+    <div class="header">
+<div id="top" class="we-retail-header" data-we-header-content="/content/we-retail/us/en/community/profile.header_include.html">
+    
+<div class="navbar navbar-inverse navbar-fixed-top hidden-xs hidden-sm">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="#" data-toggle="modal" data-target=".we-LanguageModal" title="English"><i class="we-lang-icon we-lang-icon-US"></i> en</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li>
+<div class="we-Cart">
+
+    <a class="we-Cart-button" href="#" v-on:click="toggle">
+        <i class="fa fa-shopping-cart"></i> My cart <span class="badge active" v-cloak v-if="cartEntriesSize > 0">{{cartEntriesSize}}</span>
+    </a>
+
+    <cart-content inline-template>
+        <div class="we-Cart-content" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/cart.html" itemscope="itemscope">
+            <div class="we-Cart-header">
+                <div class="we-Cart-headerLeft">
+                    <a href="#" v-on:click="$parent.toggle">
+                        <i class="we-Icon we-Icon--close"></i>
+                    </a>
+                </div>
+                <div class="we-Cart-headerRight">
+                    <span itemprop="totalEntries" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope">{{cartEntriesSize}}</span> items in cart
+                </div>
+            </div>
+
+            <div class="we-Cart-empty" v-if="cartEntriesSize == 0">The cart is empty.</div>
+
+            <div class="we-Cart-data">
+
+                <div class="we-Cart-entries" v-if="cartEntriesSize > 0">
+                    <div class="we-Cart-entry" v-for="(index, cartEntry) in cartEntries" itemprop="entries" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/cartentry.html" itemscope="itemscope">
+
+                        <img class="we-Cart-image" v-bind:src="cartEntry.thumbnail" alt="{{ cartEntry.title }}" itemprop="asset" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope"/>
+
+                        <div class="we-Cart-entryContent">
+                            <div itemprop="product" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/product.html" itemscope="itemscope">
+                                <meta content="{{ cartEntry.title }}" itemprop="name" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope"/>
+                                <a href="#" v-bind:href="cartEntry.page" itemprop="path" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                    <strong>{{ cartEntry.title }}</strong>
+                                </a>
+                                <div class="text-muted">
+                                    <small v-if="cartEntryPromotions(index) && cartEntryPromotions(index).length > 0">
+                                        <span class="text-info" v-for="promotion in cartEntryPromotions(index)" v-html="promotion.message"></span>
+                                    </small>
+                                    <small itemprop="description" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                        {{ cartEntry.description }}
+                                    </small>
+                                    <ul v-if="cartEntry.variant" class="small we-Cart-entryVariants">
+                                        <li v-for="(key, val) in cartEntry.variant">
+                                            <span>{{ key }}</span>: {{ val }}
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="we-Cart-entryQuantity">
+                                <label class="text-muted">Qty:</label>
+                                
+                                
+                                
+                                <span v-if="cartEntry.readonly == true" itemprop="quantity" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope">{{ cartEntry.quantity }}</span>
+                                
+                                <form method="POST" action="../../../../../../profile.weretail.modifycartentry.html" v-if="cartEntry.readonly != true">
+                                    <input type="hidden" name="entryNumber" value="{{index}}"/>
+                                    <input type="hidden" name="redirect" value="/content/we-retail/us/en/community/profile.html"/>
+                                    <input type="number" name="quantity" v-model="cartEntry.quantity" min="0" step="1" v-on:change.prevent="updateCart" itemprop="quantity" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope"/>
+                                </form>
+                            </div>
+                            <div class="we-Cart-entryPrice" itemprop="itemPrice" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                <strong>{{ cartEntry.priceFormatted }}</strong>
+                            </div>
+                        </div>
+
+                        <div class="we-Cart-remove">
+                            <form method="POST" action="../../../../../../profile.weretail.deletecartentry.html" v-on:click.prevent="updateCart" v-if="cartEntry.readonly != true">
+                                <input type="hidden" name="entryNumber" value="{{index}}"/>
+                                <input type="hidden" name="redirect" value="/content/we-retail/us/en/community/profile.html"/>
+                                <button type="submit" class="btn btn-default btn-icon"><i class="text-muted fa fa-times-circle-o"></i></button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="we-Cart-promotions" v-if="orderPromotions && orderPromotions.length > 0">
+                    <span v-for="promotion in orderPromotions" class="we-Cart-promotion" v-html="promotion.message"></span>
+                </div>
+
+                <div class="we-Cart-footer">
+                    <div class="we-Cart-subtotal" v-if="cartEntriesSize > 0">
+                        sub-total: <span itemprop="total" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">{{cartTotalPrice}}</span>
+                    </div>
+                    <a v-if="cartEntriesSize > 0" class="btn btn-primary btn-action pull-right" href="../../../../../../../user/cart.html">Checkout</a>
+                </div>
+
+            </div>
+        </div>
+    </cart-content>
+</div>
+</li>
+            
+            <li><a href="../../../../../../signin.html">Login</a></li>
+            
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-absolute-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#we-example-navbar-collapse-inverse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
+            </button>
+
+            <button type="button" class="navbar-toggle navbar-toggle-close collapsed" data-toggle="collapse" data-target="#we-example-navbar-collapse-inverse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="we-Icon we-Icon--close"></i>
+            </button>
+
+            <a class="navbar-brand" href="../../../../../../../../en.html">we.<strong>Retail</strong></a>
+            <div class="pull-right visible-xs visible-sm">
+<div class="we-Cart">
+    <a class="we-Cart-button" href="#" v-on:click="toggle">
+        <i class="fa fa-shopping-cart"></i> <span class="badge active" v-cloak v-if="cartEntriesSize > 0">{{cartEntriesSize}}</span>
+    </a>
+</div></div>
+        </div>
+
+        <!-- /.navbar-header -->
+        <div class="collapse navbar-collapse width" id="we-example-navbar-collapse-inverse">
+            <ul class="nav navbar-nav navbar-center">
+                <li class="visible-xs visible-sm"><a href="../../../../../../../../en.html">we.<strong class="text-primary">Retail</strong></a></li>
+                <div class="we-navigation">
+<nav class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../experience.html" title="Experience" class="cmp-navigation__item-link">Experience</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/arctic-surfing-in-lofoten.html" title="Arctic Surfing In Lofoten" class="cmp-navigation__item-link">Arctic Surfing In Lofoten</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/hours-of-wilderness.html" title="48 hours of Wilderness" class="cmp-navigation__item-link">48 hours of Wilderness</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/fly-fishing-the-amazon.html" title="Fly-fishing the Amazon" class="cmp-navigation__item-link">Fly-fishing the Amazon</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/skitouring.html" title="Skitouring" class="cmp-navigation__item-link">Skitouring</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/steelhead-and-spines-in-alaska.html" title="Steelhead and Spines in Alaska" class="cmp-navigation__item-link">Steelhead and Spines in Alaska</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/wester-australia-by-camper-van.html" title="Camping in Western Australia" class="cmp-navigation__item-link">Camping in Western Australia</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../men.html" title="Men" class="cmp-navigation__item-link">Men</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../women.html" title="Women" class="cmp-navigation__item-link">Women</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../equipment.html" title="Equipment" class="cmp-navigation__item-link">Equipment</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../about-us.html" title="About Us" class="cmp-navigation__item-link">About Us</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../products.html" title="Products" class="cmp-navigation__item-link">Products</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../products/women.html" title="Women" class="cmp-navigation__item-link">Women</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../products/men.html" title="Men" class="cmp-navigation__item-link">Men</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../products/equipment.html" title="Equipment" class="cmp-navigation__item-link">Equipment</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--active">
+        
+    <a href="../../../../../../../community.html" title="Community" class="cmp-navigation__item-link">Community</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../trending.html" title="Trending" class="cmp-navigation__item-link">Trending</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../forum.html" title="Forum" class="cmp-navigation__item-link">Forum</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../files.html" title="Files" class="cmp-navigation__item-link">Files</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../catalog.html" title="Catalog" class="cmp-navigation__item-link">Catalog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../assignments.html" title="Assignments" class="cmp-navigation__item-link">Assignments</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../blog.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../questions.html" title="Questions" class="cmp-navigation__item-link">Questions</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../ideas.html" title="Ideas" class="cmp-navigation__item-link">Ideas</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../calendar.html" title="Calendar" class="cmp-navigation__item-link">Calendar</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../groups.html" title="Groups" class="cmp-navigation__item-link">Groups</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../members.html" title="Members" class="cmp-navigation__item-link">Members</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../social.html" title="Social" class="cmp-navigation__item-link">Social</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+                <li class="visible-xs visible-sm divider" role="separator"></li>
+                <li class="visible-xs visible-sm"><a href="../../../../../../signin.html">Login</a></li>
+                
+                
+                
+                
+                
+                <li class="visible-xs visible-sm"><a href="#" data-toggle="modal" data-target=".we-LanguageModal"><i class="we-lang-icon we-lang-icon-US"></i> en</a></li>
+            </ul>
+        </div>
+
+        <!-- /.navbar-collapse -->
+        <div class="navbar-right-outside">
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#navbar-search">
+                <span class="sr-only">Search</span><i class="we-Icon we-Icon--search" aria-hidden="true"></i>
+            </a>
+        </div>
+        <!-- /.navbar-right-outside -->
+
+        <span class="navbar-shutter"></span>
+    </nav>
+    <!-- /.navbar -->
+</div>
+
+    
+
+<div class="we-SearchModal modal fade we-SearchModal-community" id="navbar-search" role="dialog" data-color="primary">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span><i class="we-Icon we-Icon--search"></i>Search anything</span>
+                <button type="button" class="close" data-dismiss="modal"><span>Close search</span><i class="we-Icon we-Icon--close-alt"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        
+<form id="form-search-input-inline" data-paths="[/content/we-retail/us/en]" class="scf-js-searchform navbar-form navbar-left" role="search">
+    <div class="scf-quicksearch-form-group form-group">
+        <input type="search" id="scf-js-quicksearch-input-inline" placeholder="Start typing..." data-dropdown="drop_search" aria-controls="drop_search" aria-expanded="false" name="input_value" class="we-SearchModal-input" value="" required="" autocomplete="off"/>
+        <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+        <input type="hidden" name="resultPage" class="scf-js-seach-resultPage" value="/content/we-retail/us/en/community/search"/>
+        <input type="hidden" name="searchEndpoint" class="scf-js-search-endpoint" value="/content/we-retail/us/en/community/search/jcr:content/content/primary/searchresult"/>
+    </div>
+</form>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.we-SearchModal -->
+
+<div class="we-LanguageModal modal fade" tabindex="-1" role="dialog" data-color="primary">
+    <div class="modal-dialog modal-center modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title text-center">CHOOSE YOUR COUNTRY</h3>
+            </div>
+            <div class="modal-body">
+                <div class="we-languagenavigation">
+<nav class="cmp-languagenavigation">
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-en-US cmp-languagenavigation__item--level-0 cmp-languagenavigation__item--active">
+        
+    <i class="we-lang-icon we-lang-icon-US" title="United States"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-en-US cmp-languagenavigation__item--level-1 cmp-languagenavigation__item--active">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="https://aem.enablementadobe.com/content/we-retail/us/en/community/profile.html" hreflang="en-US" lang="en-US" rel="alternate" title="English">English</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-es-US cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../es.html" hreflang="es-US" lang="es-US" rel="alternate" title="Español">Español</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-en-CA cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-CA" title="Canada"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-en-CA cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../ca/en.html" hreflang="en-CA" lang="en-CA" rel="alternate" title="English">English</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-fr-CA cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../ca/fr.html" hreflang="fr-CA" lang="fr-CA" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-de-CH cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-CH" title="Switzerland"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-de-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../ch/de.html" hreflang="de-CH" lang="de-CH" rel="alternate" title="Deutsch">Deutsch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-fr-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../ch/fr.html" hreflang="fr-CH" lang="fr-CH" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-it-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../ch/it.html" hreflang="it-CH" lang="it-CH" rel="alternate" title="Italiano">Italiano</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-DE cmp-languagenavigation__item--langcode-de-DE cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-DE" title="Germany"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-DE cmp-languagenavigation__item--langcode-de-DE cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../de/de.html" hreflang="de-DE" lang="de-DE" rel="alternate" title="Deutsch">Deutsch</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-FR cmp-languagenavigation__item--langcode-fr-FR cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-FR" title="France"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-FR cmp-languagenavigation__item--langcode-fr-FR cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../fr/fr.html" hreflang="fr-FR" lang="fr-FR" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-ES cmp-languagenavigation__item--langcode-es-ES cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-ES" title="Spain"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-ES cmp-languagenavigation__item--langcode-es-ES cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../es/es.html" hreflang="es-ES" lang="es-ES" rel="alternate" title="Español">Español</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-IT cmp-languagenavigation__item--langcode-it-IT cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-IT" title="Italy"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-IT cmp-languagenavigation__item--langcode-it-IT cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../it/it.html" hreflang="it-IT" lang="it-IT" rel="alternate" title="Italiano">Italiano</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+
+            </div>
+        </div>
+        <div class="modal-after">
+            <a href="#" data-dismiss="modal"><i class="we-Icon we-Icon--close-alt"></i> Close</a>
+        </div>
+    </div>
+</div><!-- /.we-LanguageModal -->
+
+</div>
+</div>
+
+    </div>
+<div class="groupnav groupnavbar"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/groupnav'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/groupnav","resourceType":"social/console/components/hbs/groupnavbar","url":"/content/we-retail/us/en/community/profile/_jcr_content/groupnav.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+<div class="scf-group-navbar scf-js-group-navbar"  >
+    <ul class="nav nav-pills scf-site-nav">
+        
+    </ul>
+</div>
+</div>
+
+<div class="container-fluid scf-site-body-content-container">
+    <div class="content rightcolumncontent"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content","properties":{"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:primaryType":"nt:unstructured"},"resourceType":"social/console/components/hbs/rightcolumncontent","url":"/content/we-retail/us/en/community/profile/_jcr_content/content.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+<div class="row scf-site-content">
+    <div class="col-md-8 scf-site-primary">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="responsivegrid">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="userprofile aem-GridColumn aem-GridColumn--default--12"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile","properties":{"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:primaryType":"nt:unstructured"},"authorizableID":"jason.werner@dodgit.com","authProfilePath":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile","profileProperties":{"familyName":"Werner","givenName":"Jason","email":"jason.werner@dodgit.com"},"mayEdit":false,"largeAvatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.80.png?ck=1539449162","displayName":"Jason Werner","resourceType":"social/console/components/hbs/userprofile","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+
+    <div class="scf scf-user-profile" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile" data-scf-component="social/console/components/hbs/userprofile">
+        
+            <div class="scf-user-info-card">
+                <div class="scf-user-avatar-left scf-profile-header">
+                    <img class="scf-profile-avatar" src="../../../../../../../../../../../home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.80-ck=1539449162.png"/>
+                    
+                </div>
+                <div class="scf-user-info-middle">
+                    <div>
+                        <label class="scf-large-lable">Jason Werner</label>
+                        <br /> <div class="userbadges"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges","properties":{"jcr:lastModifiedBy":"admin","jcr:created":1389289508070,"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:createdBy":"admin","jcr:lastModified":1518654214109,"name":"Badges","jcr:primaryType":"nt:unstructured","allowUserView":"true","title":"Badges"},"earnedBadges":[{"id":"/libs/community/badging/images/bronze-badge","title":"Bronze","imageUrl":"/libs/community/badging/images/bronze-badge/bronze.png","dateAssigned":"2018-02-15T00:32:33.135+0000","isAssigned":false,"earnedScore":1}],"earnedTopBadges":[{"id":"/libs/community/badging/images/bronze-badge","title":"Bronze","imageUrl":"/libs/community/badging/images/bronze-badge/bronze.png","dateAssigned":"2018-02-15T00:32:33.135+0000","isAssigned":false,"earnedScore":1}],"resourceType":"social/console/components/hbs/userbadges","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/userbadges.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+
+<div class="scf scf-user-profile-top-badges" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges" data-scf-component="social/console/components/hbs/userbadges">
+    <div class="scf-js-user-profile-badges-top">
+        
+            <span class="scf-js-user-profile-top-earned-badge"><img src="../../../../../../../../../../../libs/community/badging/images/bronze-badge/bronze.png"/></span>
+        
+        <span class="scf-js-user-profile-top-earned-badge-count"></span>
+    </div>
+    <div class="scf-js-user-profile-badges-top">
+        
+        <span class="scf-js-user-profile-top-assigned-badge-count"></span>
+    </div>
+</div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            
+                
+            
+            <br/>
+            <div>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tabs-1" data-toggle="tab" evt="click=handleTab">Profile</a></li>
+                    <li><a href="#tabs-2" data-toggle="tab" evt="click=handleTab">Activities</a></li>
+                    <li><a href="#tabs-3" data-toggle="tab" evt="click=handleTab">Badges</a></li>
+                </ul>
+                <div class="scf-tab-content">
+                    <div id="tabs-1" class="active tab scf-tab-pane">
+                        <header class="scf-profile-header">
+                            <h4 class="scf-profile-heading">Profile Data</h4>
+                            
+                            <div class="scf-clear-both"></div>
+                        </header>
+                        <div class="scf-composer-block scf-js-composer-block">
+                            <form class="scf-profile-form" id="profile-read-only-form">
+                                <div class="form-group-read_only">
+                                    <div class="scf-container-fluid">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Screen Name: </label>
+                                                <span>Jason Werner</span>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Gender: </label>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">First Name: </label>
+                                                
+                                                    <span>Jason</span>
+                                                
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Address: </label>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Last Name: </label>
+                                                
+                                                    <span>Werner</span>
+                                                
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">City, State: </label>
+                                                <span>, </span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 scf-profile-email-label-container">
+                                                <label class="scf-profile-form-label">Email Address: </label>
+                                                <span>jason.werner@dodgit.com</span>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Always show contributions in my preferred language: </label>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="row">
+                                                <label class="scf-profile-form-label">Language: </label>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                            <div class="row">
+                                                <label class="scf-profile-form-label">Occupation: </label>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                            <div class="row">
+                                                <label class="scf-profile-form-label">URL: </label>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div>
+                                                <label class="scf-profile-form-label">Bio: </label>
+                                            </div>
+                                            <div>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="scf-composer-block scf-js-composer-block scf-is-collapsed">
+                            <form role="form" evt="submit=editProfile" action="../../../../../../../../../../../content.social.json" class="scf-profile-form" id="profile-edit-form">
+                                <input type="hidden" name=":operation" value="social:updateUserProfile" />
+                                <input type="hidden" name="_charset_" value="utf-8">
+                                <div class="form-group">
+                                    <div class="scf-container-fluid">
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Screen Name: </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Gender: </label>
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" data-attrib="displayName" value="Jason Werner" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <select class="form-control" data-attrib="gender" id="scf-gender-list">
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">First Name: </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Address: </label>
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" data-attrib="fname" value="Jason" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" data-attrib="address" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Last Name: </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">City, State: </label>
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" data-attrib="lname" value="Werner" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" data-attrib="city_n_state" value=", " />
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Email Address: </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Always show contributions in my preferred language: </label>
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                
+                                                    <input type="email" class="form-control" data-attrib="email" value="jason.werner@dodgit.com" />
+                                                
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <select class="form-control" data-attrib="smartRendering" id="scf-smartRendering-list">
+                                            <option value="off">Off</option>
+                                            <option value="on">On</option>
+                                        </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="row-left-padding">
+                                                <label class="scf-profile-form-label">Language: </label>
+                                            </div>
+                                            <div class="row-left-padding">
+                                                <select class="form-control" data-attrib="language" id="scf-userlanguage-list">
+                                        </select>
+                                            </div>
+                                            <div class="row-left-padding">
+                                                <label class="scf-profile-form-label">Occupation: </label>
+                                            </div>
+                                            <div class="row-left-padding">
+                                                <input type="text" class="form-control" data-attrib="jobTitle" value="" />
+                                            </div>
+                                            <div class="row-left-padding">
+                                                <label class="scf-profile-form-label">URL: </label>
+                                            </div>
+                                            <div class="row-left-padding">
+                                                <input type="url" class="form-control" data-attrib="url" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div>
+                                                <label class="scf-profile-form-label">Bio: </label>
+                                            </div>
+                                            <div class="row-right-padding">
+                                                <textarea class="form-control scf-profile-form-textarea" data-attrib="aboutMe"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="tabs-2" class="tab scf-tab-pane">
+                        <div class="activitystreams"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/activitystream'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/activitystream","properties":{"jcr:lastModifiedBy":"admin","jcr:created":1389289508070,"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:createdBy":"admin","jcr:lastModified":1518654214100,"name":"Activity","jcr:primaryType":"nt:unstructured","allowUserView":"true","title":"Activity"},"pageInfo":{"basePageURL":"/content/we-retail/us/en/community/profile","currentIndex":0,"pageSize":10,"totalPages":2,"urlpattern":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/activitystream.social.${startIndex}.10.html","hasMultiplePages":true,"hasNextPage":true,"hasPreviousPage":false,"nextPageURL":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/activitystream.social.10.10.html","previousPageURL":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/activitystream.social.0.10.html","nextSuffix":"10.10","previousSuffix":"0.10","includedPath":"/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile","orderReversed":false,"lastPage":10,"selectedPage":1,"sortIndex":null},"streamPath":"/content/we-retail/us/en/activitystreams","selector":"USER","items":[{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ef6dfe68-ebbb-43a2-a69a-8b0dac19ff45","target":{"objectType":"article","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ef6dfe68-ebbb-43a2-a69a-8b0dac19ff45/social:nestedmaps","sentiment":5,"jcr:created":1539449158538,"authorizableId":"aaron.mcdonald@mailinator.com","mtlanguage":"en","added":"2018-02-14T19:34:21.743-05:00","displayName":"Slopeside Jacket","jcr:createdBy":"admin","publishDate":"2018-02-14T19:34:21.811-05:00","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/slopeside-jacket/aaron_i_was_in_the-bBsz","jcr:title":"Slopeside Jacket","url":"/content/we-retail/us/en/community/questions.topic.html/slopeside-jacket.html","objectType":"article","approved":true,"userIdentifier":"aaron.mcdonald@mailinator.com","jcr:description":"Is there a waterproof rating for the Slopeside jacket, and are the seams taped?","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/topic","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/slopeside-jacket","eventTopic":"comment","latestActivityDate_dt":"2018-02-15T00:34:22.343Z"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/slopeside-jacket","content":"Is there a waterproof rating for the Slopeside jacket, and are the seams taped?","displayName":"Slopeside Jacket"},"user":{"id":"/social/authors/jason.werner@dodgit.com","name":"Jason Werner","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile","avatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"jason.werner@dodgit.com","resourceType":"social/commons/components/author","url":"/social/authors/jason.werner@dodgit.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile"},"title":"jason.werner@dodgit.com add Slopeside Jacket","verb":"add","published":1518654862701,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ef6dfe68-ebbb-43a2-a69a-8b0dac19ff45/social:nestedmaps","sentiment":5,"jcr:created":1539449158541,"authorizableId":"jason.werner@dodgit.com","added":"2018-02-14T19:34:22.263-05:00","displayName":"an answer","jcr:createdBy":"admin","publishDate":"2018-02-14T19:34:22.400-05:00","contextPath":"","url":"/content/we-retail/us/en/community/questions.topic.html/slopeside-jacket.html?filter=page+has+aaron_i_was_in_the-bBsz","objectType":"comment","approved":true,"userIdentifier":"jason.werner@dodgit.com","jcr:description":"Aaron, I was in the same boat as you when looking at this jacket. I ended up deciding to just buy the jacket and hope that it came with all the info I needed to make an educated decision and either keep it or send it back for something else. This is what the Slopeside gives you: -Guaranteed waterproof to 10,000 mm -Guaranteed breathability to 10,000 g/m2 -Critically taped 13mm seams Now that's a nice jacket. Needless to say, I kept mine.","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/slopeside-jacket/aaron_i_was_in_the-bBsz","eventTopic":"comment"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/slopeside-jacket/aaron_i_was_in_the-bBsz","content":"Aaron, I was in the same boat as you when looking at this jacket. I ended up deciding to just buy the jacket and hope that it came with all the info I needed to make an educated decision and either keep it or send it back for something else. This is what the Slopeside gives you: -Guaranteed waterproof to 10,000 mm -Guaranteed breathability to 10,000 g/m2 -Critically taped 13mm seams Now that's a nice jacket. Needless to say, I kept mine.","displayName":"an answer"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ef6dfe68-ebbb-43a2-a69a-8b0dac19ff45.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ef6dfe68-ebbb-43a2-a69a-8b0dac19ff45","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/8910f74f-1fc2-4687-8091-e0eff8cafa95","target":{"objectType":"article","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/8910f74f-1fc2-4687-8091-e0eff8cafa95/social:nestedmaps","sentiment":5,"authorizableId":"weston.mccall@dodgit.com","added":"2018-02-14T19:34:10.378-05:00","displayName":"Blackcomb Gloves","publishDate":"2018-02-14T19:34:10.532-05:00","jcr:title":"Blackcomb Gloves","objectType":"article","approved":true,"userIdentifier":"weston.mccall@dodgit.com","isPinned_b":true,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/blackcomb-gloves","moderate":true,"latestActivityDate_dt":"2018-02-15T00:34:15.917Z","jcr:created":1539449159090,"mtlanguage":"en","jcr:createdBy":"admin","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/blackcomb-gloves/if_you_don_t_wantto-KuT2","url":"/content/we-retail/us/en/community/questions.topic.html/blackcomb-gloves.html","isFeatured_b":true,"jcr:description":"Do the Blackcomb gloves have a pocket for hand warmers?","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/topic","isVirtual":false,"eventTopic":"comment"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/blackcomb-gloves","content":"Do the Blackcomb gloves have a pocket for hand warmers?","displayName":"Blackcomb Gloves"},"user":{"id":"/social/authors/jason.werner@dodgit.com","name":"Jason Werner","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile","avatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"jason.werner@dodgit.com","resourceType":"social/commons/components/author","url":"/social/authors/jason.werner@dodgit.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile"},"title":"jason.werner@dodgit.com add Blackcomb Gloves","verb":"add","published":1518654856157,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/8910f74f-1fc2-4687-8091-e0eff8cafa95/social:nestedmaps","sentiment":5,"jcr:created":1539449159091,"authorizableId":"jason.werner@dodgit.com","added":"2018-02-14T19:34:15.911-05:00","displayName":"an answer","jcr:createdBy":"admin","publishDate":"2018-02-14T19:34:15.940-05:00","contextPath":"","url":"/content/we-retail/us/en/community/questions.topic.html/blackcomb-gloves.html?filter=page+has+if_you_don_t_wantto-KuT2","objectType":"comment","approved":true,"userIdentifier":"jason.werner@dodgit.com","jcr:description":"If you don't want to spend the extra money for gloves with a warmer pouch, I would suggest taking a pair of one-size-fits-all-liners (if you don't already have some, they cost $2 just about anywhere) and wearing them under your gloves. This way, you can slide the hand warmer between the gloves and not risk irritating your hands. The only drawback is, of course, if you need to grip anything like ski poles the warmers will get in the way. Good luck!","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/blackcomb-gloves/if_you_don_t_wantto-KuT2","eventTopic":"comment"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/blackcomb-gloves/if_you_don_t_wantto-KuT2","content":"If you don't want to spend the extra money for gloves with a warmer pouch, I would suggest taking a pair of one-size-fits-all-liners (if you don't already have some, they cost $2 just about anywhere) and wearing them under your gloves. This way, you can slide the hand warmer between the gloves and not risk irritating your hands. The only drawback is, of course, if you need to grip anything like ski poles the warmers will get in the way. Good luck!","displayName":"an answer"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/8910f74f-1fc2-4687-8091-e0eff8cafa95.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/8910f74f-1fc2-4687-8091-e0eff8cafa95","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/5d761eba-e63e-4b5b-abb7-6904335f6639","target":{"objectType":"article","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/5d761eba-e63e-4b5b-abb7-6904335f6639/social:nestedmaps","sentiment":5,"jcr:created":1539449158713,"authorizableId":"andrew.schaeffer@trashymail.com","mtlanguage":"en","added":"2018-02-14T19:33:56.828-05:00","displayName":"Longirod Trek hiking poles","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:56.854-05:00","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/longirod-trek-hiking/in_that_case_youma-HwQc","jcr:title":"Longirod Trek hiking poles","url":"/content/we-retail/us/en/community/questions.topic.html/longirod-trek-hiking.html","objectType":"article","approved":true,"userIdentifier":"andrew.schaeffer@trashymail.com","voting_voting_1_tl":"mix:atomicCounter","jcr:description":"I am having trouble with my Longirod Trek hiking poles. I tighten the extension locks as tight as I can, but they still loosen up after only an hour of use. Is there a trick to this that I need to know about? Is this a defect that is covered by my warranty?","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/topic","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/longirod-trek-hiking","eventTopic":"comment","latestActivityDate_dt":"2018-02-15T00:33:59.124Z"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/longirod-trek-hiking","content":"I am having trouble with my Longirod Trek hiking poles. I tighten the extension locks as tight as I can, but they still loosen up after only an hour of use. Is there a trick to this that I need to know about? Is this a defect that is covered by my warranty?","displayName":"Longirod Trek hiking poles"},"user":{"id":"/social/authors/jason.werner@dodgit.com","name":"Jason Werner","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile","avatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"jason.werner@dodgit.com","resourceType":"social/commons/components/author","url":"/social/authors/jason.werner@dodgit.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile"},"title":"jason.werner@dodgit.com add Longirod Trek hiking poles","verb":"add","published":1518654839556,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/5d761eba-e63e-4b5b-abb7-6904335f6639/social:nestedmaps","sentiment":5,"jcr:created":1539449158715,"authorizableId":"jason.werner@dodgit.com","added":"2018-02-14T19:33:59.112-05:00","displayName":"an answer","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:59.183-05:00","contextPath":"","url":"/content/we-retail/us/en/community/questions.topic.html/longirod-trek-hiking.html?filter=page+has+in_that_case_youma-HwQc","objectType":"comment","approved":true,"userIdentifier":"jason.werner@dodgit.com","jcr:description":"In that case, you may have just bought a pair of poles that can't do what you expect them to, which is to stay tight for an entire hike. The twist and lock poles are kind of an outdated technology as far as poles are concerned. The threads inside the locking mechanism are just asking to get worn out or stripped every time you make an adjustment. It's a catch 22. If you don't tighten the poles tight enough, they don't stay at the height they are supposed to. If you tighten the poles too tight, every time you do the threads will become less effective. I would recommend finding a pair of poles that have the FlickLock system. You simply pull a lever out from the pole to adjust, and then clamp it back down to tighten, much like the quick-release lever on bicycle tires and seats.","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/longirod-trek-hiking/in_that_case_youma-HwQc","eventTopic":"comment"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/longirod-trek-hiking/in_that_case_youma-HwQc","content":"In that case, you may have just bought a pair of poles that can't do what you expect them to, which is to stay tight for an entire hike. The twist and lock poles are kind of an outdated technology as far as poles are concerned. The threads inside the locking mechanism are just asking to get worn out or stripped every time you make an adjustment. It's a catch 22. If you don't tighten the poles tight enough, they don't stay at the height they are supposed to. If you tighten the poles too tight, every time you do the threads will become less effective. I would recommend finding a pair of poles that have the FlickLock system. You simply pull a lever out from the pole to adjust, and then clamp it back down to tighten, much like the quick-release lever on bicycle tires and seats.","displayName":"an answer"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/5d761eba-e63e-4b5b-abb7-6904335f6639.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/5d761eba-e63e-4b5b-abb7-6904335f6639","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/a3f1c120-56eb-4782-adf4-5ec457541eab","target":{"objectType":"article","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/a3f1c120-56eb-4782-adf4-5ec457541eab/social:nestedmaps","sentiment":5,"jcr:created":1539449159424,"authorizableId":"andrew.schaeffer@trashymail.com","mtlanguage":"en","added":"2018-02-14T19:33:56.828-05:00","displayName":"Longirod Trek hiking poles","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:56.854-05:00","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/longirod-trek-hiking/i_can_t_really_tell-Tmx4","jcr:title":"Longirod Trek hiking poles","url":"/content/we-retail/us/en/community/questions.topic.html/longirod-trek-hiking.html","objectType":"article","approved":true,"userIdentifier":"andrew.schaeffer@trashymail.com","jcr:description":"I am having trouble with my Longirod Trek hiking poles. I tighten the extension locks as tight as I can, but they still loosen up after only an hour of use. Is there a trick to this that I need to know about? Is this a defect that is covered by my warranty?","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/topic","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/longirod-trek-hiking","eventTopic":"comment","latestActivityDate_dt":"2018-02-15T00:33:57.291Z"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/longirod-trek-hiking","content":"I am having trouble with my Longirod Trek hiking poles. I tighten the extension locks as tight as I can, but they still loosen up after only an hour of use. Is there a trick to this that I need to know about? Is this a defect that is covered by my warranty?","displayName":"Longirod Trek hiking poles"},"user":{"id":"/social/authors/jason.werner@dodgit.com","name":"Jason Werner","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile","avatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"jason.werner@dodgit.com","resourceType":"social/commons/components/author","url":"/social/authors/jason.werner@dodgit.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile"},"title":"jason.werner@dodgit.com add Longirod Trek hiking poles","verb":"add","published":1518654837762,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/a3f1c120-56eb-4782-adf4-5ec457541eab/social:nestedmaps","sentiment":5,"jcr:created":1539449159426,"authorizableId":"jason.werner@dodgit.com","added":"2018-02-14T19:33:57.266-05:00","displayName":"an answer","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:57.332-05:00","contextPath":"","url":"/content/we-retail/us/en/community/questions.topic.html/longirod-trek-hiking.html?filter=page+has+i_can_t_really_tell-Tmx4","objectType":"comment","approved":true,"userIdentifier":"jason.werner@dodgit.com","jcr:description":"I can't really tell with the picture, so you'll have to tell me if the pole extensions have a twist and lock or a lever clamp.","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/longirod-trek-hiking/i_can_t_really_tell-Tmx4","eventTopic":"comment"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/longirod-trek-hiking/i_can_t_really_tell-Tmx4","content":"I can't really tell with the picture, so you'll have to tell me if the pole extensions have a twist and lock or a lever clamp.","displayName":"an answer"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/a3f1c120-56eb-4782-adf4-5ec457541eab.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/a3f1c120-56eb-4782-adf4-5ec457541eab","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ec33fe12-3539-49ed-a61a-ba89808e647b","target":{"objectType":"collection","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ec33fe12-3539-49ed-a61a-ba89808e647b/social:nestedmaps","sentiment":5,"jcr:created":1539449159495,"authorizableId":"andrew.schaeffer@trashymail.com","mtlanguage":"en","added":"2018-02-14T19:33:21.729-05:00","displayName":"Longstep Trek hiking boots","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:21.808-05:00","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/longstep-trek-hiking/i_agree_with_jasono-hAVO","jcr:title":"Longstep Trek hiking boots","url":"/content/we-retail/us/en/community/forum.topic.html/longstep-trek-hiking.html","objectType":"collection","approved":true,"trackerId_s":"5/QaRMdDR8+3HFG1rbWZXkJTG1Plc08IP/pZ9ry8zjY=","userIdentifier":"andrew.schaeffer@trashymail.com","jcr:description":"I am having trouble with my Longstep Trek hiking boots. I tighten the laces as tight as I can, but they still loosen up after only an hour of use. Is there a trick to this that I need to know about? Is this a defect that is covered by my warranty?","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/topic","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/longstep-trek-hiking","eventTopic":"forum","latestActivityDate_dt":"2018-02-15T00:33:25.657Z"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/longstep-trek-hiking","content":"I am having trouble with my Longstep Trek hiking boots. I tighten the laces as tight as I can, but they still loosen up after only an hour of use. Is there a trick to this that I need to know about? Is this a defect that is covered by my warranty?","displayName":"Longstep Trek hiking boots"},"user":{"id":"/social/authors/jason.werner@dodgit.com","name":"Jason Werner","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile","avatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"jason.werner@dodgit.com","resourceType":"social/commons/components/author","url":"/social/authors/jason.werner@dodgit.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile"},"title":"jason.werner@dodgit.com add Longstep Trek hiking boots","verb":"add","published":1518654806737,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ec33fe12-3539-49ed-a61a-ba89808e647b/social:nestedmaps","sentiment":5,"jcr:created":1539449159497,"authorizableId":"jason.werner@dodgit.com","added":"2018-02-14T19:33:24.851-05:00","displayName":"a post","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:24.918-05:00","contextPath":"","url":"/content/we-retail/us/en/community/forum.topic.html/longstep-trek-hiking.html?filter=page+has+in_that_case_youma-2jL4","objectType":"comment","approved":true,"userIdentifier":"jason.werner@dodgit.com","jcr:description":"In that case, you may have just bought a pair of boots that can't do what you expect them to, which is to stay tight for an entire hike. ","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/longstep-trek-hiking/in_that_case_youma-2jL4","eventTopic":"forum"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/longstep-trek-hiking/in_that_case_youma-2jL4","content":"In that case, you may have just bought a pair of boots that can't do what you expect them to, which is to stay tight for an entire hike. ","displayName":"a post"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ec33fe12-3539-49ed-a61a-ba89808e647b.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ec33fe12-3539-49ed-a61a-ba89808e647b","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/3bb3cc75-2c95-48e6-9e80-9b15aeebeeb3","target":{"objectType":"collection","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/3bb3cc75-2c95-48e6-9e80-9b15aeebeeb3/social:nestedmaps","sentiment":5,"jcr:created":1539449159842,"authorizableId":"boyd.larsen@dodgit.com","mtlanguage":"en","added":"2018-02-14T19:32:30.766-05:00","displayName":"Do you wear the Interlaken Trek shoes?","jcr:createdBy":"admin","publishDate":"2018-02-14T19:32:30.827-05:00","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/groups/hiking/jcr:content/content/primary/forum/do-you-wear-the-inte/i_don_t_know_anythin-elSn","jcr:title":"Do you wear the Interlaken Trek shoes?","url":"/content/we-retail/us/en/community/groups/hiking.topic.html/do-you-wear-the-inte.html","objectType":"collection","approved":true,"userIdentifier":"boyd.larsen@dodgit.com","jcr:description":"I'm wondering how good these shoes are for a serious trail runner. I don't really have to worry about pronation or anything; I just need a quality pair of shoes that can take a beating.","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/topic","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/groups/hiking/jcr:content/content/primary/forum/do-you-wear-the-inte","eventTopic":"forum","latestActivityDate_dt":"2018-02-15T00:32:31.884Z"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/groups/hiking/jcr:content/content/primary/forum/do-you-wear-the-inte","content":"I'm wondering how good these shoes are for a serious trail runner. I don't really have to worry about pronation or anything; I just need a quality pair of shoes that can take a beating.","displayName":"Do you wear the Interlaken Trek shoes?"},"user":{"id":"/social/authors/jason.werner@dodgit.com","name":"Jason Werner","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile","avatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"jason.werner@dodgit.com","resourceType":"social/commons/components/author","url":"/social/authors/jason.werner@dodgit.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile"},"title":"jason.werner@dodgit.com add Do you wear the Interlaken Trek shoes?","verb":"add","published":1518654752492,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/3bb3cc75-2c95-48e6-9e80-9b15aeebeeb3/social:nestedmaps","sentiment":5,"jcr:created":1539449159844,"authorizableId":"jason.werner@dodgit.com","added":"2018-02-14T19:32:31.861-05:00","displayName":"a post","jcr:createdBy":"admin","publishDate":"2018-02-14T19:32:31.916-05:00","contextPath":"","url":"/content/we-retail/us/en/community/groups/hiking.topic.html/do-you-wear-the-inte.html?filter=page+has+i_don_t_know_anythin-elSn","objectType":"comment","approved":true,"userIdentifier":"jason.werner@dodgit.com","jcr:description":"I don't know anything about the Interlaken shoes, but my boyfriend recently got the Nairobi runners. They are listed as trail running shoes, but he uses them for it anyway and I know he really likes them a lot.","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/groups/hiking/jcr:content/content/primary/forum/do-you-wear-the-inte/i_don_t_know_anythin-elSn","eventTopic":"forum"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/groups/hiking/jcr:content/content/primary/forum/do-you-wear-the-inte/i_don_t_know_anythin-elSn","content":"I don't know anything about the Interlaken shoes, but my boyfriend recently got the Nairobi runners. They are listed as trail running shoes, but he uses them for it anyway and I know he really likes them a lot.","displayName":"a post"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/3bb3cc75-2c95-48e6-9e80-9b15aeebeeb3.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/3bb3cc75-2c95-48e6-9e80-9b15aeebeeb3","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"}],"totalSize":12,"resourceType":"social/activitystreams/components/hbs/activitystreams","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/activitystream.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html","isAllowAllView":false,"isAllowUserView":true,"isAllowFollowingView":false}</script>
+
+<div class="social-activitystream" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/activitystream" data-scf-component="social/activitystreams/components/hbs/activitystreams">
+    <div id="scf-activities-navwrapper">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+            
+            
+                <li class="scf-activities-tab"><a class="scf-useractivities" href="#social-activities" evt="click=userActivity">My Activities</a>
+                </li>
+            
+
+            
+        </ul>
+        <div class="scf-scrollTableInner scf-is-my-activites">
+            <table id="scf-activitiestable" class="table table-striped header-fixed">
+                <thead>
+                    <tr>
+                        <th class="scf-activity-member col-xs-3 col-md-1 text-center">Member</th>
+                        <th class="scf-activity-info col-xs-8 col-md-6 text-left">Action</th>
+                        <th class="scf-activity-time col-xs-2 col-md-1 text-left">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                     
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ef6dfe68-ebbb-43a2-a69a-8b0dac19ff45" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Jason Werner" title="Jason Werner" src="../../../../../../../../../../../home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Jason Werner</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../questions.topic.html/slopeside-jacket-filter=page+has+aaron_i_was_in_the-bBsz.html">
+
+        
+                Replied</a> to
+        
+
+<b><a href="../../../../../../questions.topic.html/slopeside-jacket.html">Slopeside Jacket</a></b>
+
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    Aaron, I was in the same boat as you when looking at this jacket. I ended up deciding to just buy the jacket and hope that it came with all the info I needed to make an educated decision and either keep it or send it back for something else. This is what the Slopeside gives you: -Guaranteed waterproof to 10,000 mm -Guaranteed breathability to 10,000 g/m2 -Critically taped 13mm seams Now that's a nice jacket. Needless to say, I kept mine.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:34 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/8910f74f-1fc2-4687-8091-e0eff8cafa95" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Jason Werner" title="Jason Werner" src="../../../../../../../../../../../home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Jason Werner</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../questions.topic.html/blackcomb-gloves-filter=page+has+if_you_don_t_wantto-KuT2.html">
+
+        
+                Replied</a> to
+        
+
+<b><a href="../../../../../../questions.topic.html/blackcomb-gloves.html">Blackcomb Gloves</a></b>
+
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    If you don't want to spend the extra money for gloves with a warmer pouch, I would suggest taking a pair of one-size-fits-all-liners (if you don't already have some, they cost $2 just about anywhere) and wearing them under your gloves. This way, you can slide the hand warmer between the gloves and not risk irritating your hands. The only drawback is, of course, if you need to grip anything like ski poles the warmers will get in the way. Good luck!
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:34 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/5d761eba-e63e-4b5b-abb7-6904335f6639" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Jason Werner" title="Jason Werner" src="../../../../../../../../../../../home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Jason Werner</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../questions.topic.html/longirod-trek-hiking-filter=page+has+in_that_case_youma-HwQc.html">
+
+        
+                Replied</a> to
+        
+
+<b><a href="../../../../../../questions.topic.html/longirod-trek-hiking.html">Longirod Trek hiking poles</a></b>
+
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    In that case, you may have just bought a pair of poles that can't do what you expect them to, which is to stay tight for an entire hike. The twist and lock poles are kind of an outdated technology as far as poles are concerned. The threads inside the locking mechanism are just asking to get worn out or stripped every time you make an adjustment. It's a catch 22. If you don't tighten the poles tight enough, they don't stay at the height they are supposed to. If you tighten the poles too tight, every time you do the threads will become less effective. I would recommend finding a pair of poles that have the FlickLock system. You simply pull a lever out from the pole to adjust, and then clamp it back down to tighten, much like the quick-release lever on bicycle tires and seats.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:33 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/a3f1c120-56eb-4782-adf4-5ec457541eab" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Jason Werner" title="Jason Werner" src="../../../../../../../../../../../home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Jason Werner</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../questions.topic.html/longirod-trek-hiking-filter=page+has+i_can_t_really_tell-Tmx4.html">
+
+        
+                Replied</a> to
+        
+
+<b><a href="../../../../../../questions.topic.html/longirod-trek-hiking.html">Longirod Trek hiking poles</a></b>
+
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    I can't really tell with the picture, so you'll have to tell me if the pole extensions have a twist and lock or a lever clamp.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:33 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/ec33fe12-3539-49ed-a61a-ba89808e647b" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Jason Werner" title="Jason Werner" src="../../../../../../../../../../../home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Jason Werner</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../forum.topic.html/longstep-trek-hiking-filter=page+has+in_that_case_youma-2jL4.html">Replied </a>to
+    <b><a href="../../../../../../forum.topic.html/longstep-trek-hiking.html">Longstep Trek hiking boots</a></b>
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    In that case, you may have just bought a pair of boots that can't do what you expect them to, which is to stay tight for an entire hike. 
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:33 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/3bb3cc75-2c95-48e6-9e80-9b15aeebeeb3" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Jason Werner" title="Jason Werner" src="../../../../../../../../../../../home/users/community/w/TwnbJ4f7zNoLhU4O9BJ_/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Jason Werner</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../groups/hiking.topic.html/do-you-wear-the-inte-filter=page+has+i_don_t_know_anythin-elSn.html">Replied </a>to
+    <b><a href="../../../../../../groups/hiking.topic.html/do-you-wear-the-inte.html">Do you wear the Interlaken Trek shoes?</a></b>
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    I don't know anything about the Interlaken shoes, but my boyfriend recently got the Nairobi runners. They are listed as trail running shoes, but he uses them for it anyway and I know he really likes them a lot.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:32 AM</p>
+    </td>
+
+</tr>
+ 
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+</div>
+
+                    </div>
+                    <div id="tabs-3" class="tab scf-tab-pane">
+                        <div class="userbadges"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges","properties":{"jcr:lastModifiedBy":"admin","jcr:created":1389289508070,"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:createdBy":"admin","jcr:lastModified":1518654214109,"name":"Badges","jcr:primaryType":"nt:unstructured","allowUserView":"true","title":"Badges"},"earnedBadges":[{"id":"/libs/community/badging/images/bronze-badge","title":"Bronze","imageUrl":"/libs/community/badging/images/bronze-badge/bronze.png","dateAssigned":"2018-02-15T00:32:33.135+0000","isAssigned":false,"earnedScore":1}],"earnedTopBadges":[{"id":"/libs/community/badging/images/bronze-badge","title":"Bronze","imageUrl":"/libs/community/badging/images/bronze-badge/bronze.png","dateAssigned":"2018-02-15T00:32:33.135+0000","isAssigned":false,"earnedScore":1}],"resourceType":"social/console/components/hbs/userbadges","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/userbadges.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+
+<div class="scf scf-user-profile-badges" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges" data-scf-component="social/console/components/hbs/userbadges">
+    <div class="dropdown">
+        <button class="btn btn-default" type="button" id="scf-js-badges-select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <span class="scf-js-badges-select-label">All Badges</span>
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="scf-js-badges-select">
+            <li><a evt="click=selectBadges" data-type="" href="#">All Badges</a></li>
+            <li><a evt="click=selectBadges" data-type="assigned-badges" href="#">All Assigned</a></li>
+            <li><a evt="click=selectBadges" data-type="earned-badges" href="#">All Earned</a></li>
+        </ul>
+    </div>
+    <br />
+    
+        <div id="earned-badges" class="scf-js-user-profile-badges-list">
+            
+                <span class="scf-js-user-profile-badge"><img src="../../../../../../../../../../../libs/community/badging/images/bronze-badge/bronze.png"/>Bronze</span>
+            
+        </div>
+    
+    
+</div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</div>
+
+    
+</div></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 scf-site-aux scf-site-content-right">
+        <div class="responsivegrid">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="relationships aem-GridColumn aem-GridColumn--default--12"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followees'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followees","properties":{"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:primaryType":"nt:unstructured","relType":"USER"},"totalSize":0,"resourceType":"social/socialgraph/components/hbs/relationships","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/auxilary/followees.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+<div class="scf scf-follows" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followees" data-scf-component="social/socialgraph/components/hbs/relationships">
+    
+        <h3>Following&nbsp;<small>0</small></h3>
+    
+    <ul class="scf-relationshiplist">
+        
+    </ul>
+</div>
+</div>
+<div class="relationships aem-GridColumn aem-GridColumn--default--12"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followers'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followers","properties":{"outgoing":"false","jcr:mixinTypes":["cq:LiveRelationship"],"jcr:primaryType":"nt:unstructured","relType":"USER"},"totalSize":0,"resourceType":"social/socialgraph/components/hbs/relationships","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/auxilary/followers.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+<div class="scf scf-follows" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followers" data-scf-component="social/socialgraph/components/hbs/relationships">
+    
+        <h3>Followers&nbsp;<small>0</small></h3>
+    
+    <ul class="scf-relationshiplist">
+        
+    </ul>
+</div>
+</div>
+
+    
+</div></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="scf-js-site-title" data-id="community-minqg" href="/content/we-retail/us/en/community.html" style="visibility: hidden;"></div>
+<div class="footer">
+
+    
+
+
+
+
+
+    <footer class="we-Footer">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="we-Logo we-Logo--big">
+                        we.<strong>Retail</strong>
+                    </div>
+                </div>
+
+                <div class="col-md-9 col-sm-12">
+                    <div class="we-navigation">
+<nav class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../experience.html" title="Experience" class="cmp-navigation__item-link">Experience</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../men.html" title="Men" class="cmp-navigation__item-link">Men</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../women.html" title="Women" class="cmp-navigation__item-link">Women</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../equipment.html" title="Equipment" class="cmp-navigation__item-link">Equipment</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../about-us.html" title="About Us" class="cmp-navigation__item-link">About Us</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../products.html" title="Products" class="cmp-navigation__item-link">Products</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--active">
+        
+    <a href="../../../../../../../community.html" title="Community" class="cmp-navigation__item-link">Community</a>
+
+        
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+
+                </div>
+
+
+            </div>
+
+            <div class="row we-Footer-section we-Footer-section--sub">
+                <div class="we-Footer-section-item">
+                    <span class="text-uppercase text-muted">© 2019 All rights reserved</span>
+                </div>
+                <div class="we-Footer-section-item">
+                    <a href="#" class="text-uppercase text-muted">Terms of use &amp; privacy policy</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <a href="#top" class="btn btn-action btn-action-up btn-primary">Ride to the top</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</div>
+
+</div>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/core/wcm/components/search/v1/search/clientlibs/site.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/weretail/clientlibs/clientlib-communities.js"></script>
+
+
+
+
+</body>
+</html>

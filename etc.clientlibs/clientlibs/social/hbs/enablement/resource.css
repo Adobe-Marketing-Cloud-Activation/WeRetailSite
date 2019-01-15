@@ -1,0 +1,168 @@
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2013 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ **************************************************************************/
+
+.scf-enablement-resource-landing-page {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+.scf-enablement-resource-landing-page .content {
+    display: inline-block;
+    width: 80%;
+}
+
+.scf-enablement-resource-landing-page .grey-border {
+    border: 1px solid #f5f5f5;
+    padding-bottom: 19px;
+}
+
+.enablement-resource-information {
+    width: 80%;
+}
+
+.scf-enablement-resource-landing-page .line-height-100 {
+    line-height: 100%;
+}
+
+.enablement-resource-item {
+    margin-top: 1%;
+}
+
+.enablement-resource-ratings {
+    margin-top: 0.5%;
+}
+
+.enablement-resource-info-item {
+    padding-left: 27px;
+    padding-right: 13px;
+}
+
+.enablement-resource-title {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.enablement-resource-player {
+    margin-top: 5px;
+}
+
+.enablement-resource-pubDate {
+    font-size: 16px;
+}
+
+.enablement-resource-details {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.enablement-resource-details-due-date {
+    color: #c6c2c2;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.enablement-resource-description {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.scf .enablement-resource-description .description-toggle {
+    color: black;
+    background-color: white;
+    border: 1px solid #cfcfcf;
+    min-height: 0;
+    min-width: 0;
+}
+
+.scf-enablement-resource-landing-page .resource-contacts-container {
+    display: inline-block;
+    vertical-align: top;
+    font-family: adobe-clean, Helvetica, Arial, sans-serif;
+    margin-left: 19px;
+}
+
+.scf-enablement-resource-landing-page .contacts {
+    margin-bottom: 10px;
+}
+
+.scf-enablement-resource-landing-page .contacts .contact-type-title {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.scf-enablement-resource-landing-page .contacts .avatar-image-container {
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.scf-enablement-resource-landing-page .contacts .avatar-image {
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.scf-enablement-resource-landing-page .contacts .contact-name {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 26px;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+    color: #000000;
+}
+
+@media(min-width: 1110px) {
+    .scf-enablement-resource-landing-page .contacts .contact-name {
+        width: 13em;
+    }
+}
+
+.scf-enablement-resource-landing-page .due-status-safe {
+    color: #aaaaaa;
+}
+
+.scf-enablement-resource-landing-page .due-status-warning {
+    color: #f7b44f;
+}
+
+.scf-enablement-resource-landing-page .due-status-expired {
+    color: #ed3b3b;
+}
+
+ul.enablement-resource-tags {
+    padding: 0;
+}
+
+ul.enablement-resource-tags li {
+    background-color: #56C0E0;
+    color: white;
+    padding: .2em 1em;
+    margin: 3px 0 3px 0;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+}

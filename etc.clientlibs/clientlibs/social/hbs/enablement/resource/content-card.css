@@ -1,0 +1,350 @@
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2015 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ *************************************************************************/
+
+.scf-content-card .scf-resource-icon {
+    float: left;
+    color: #FFFFFF;
+    background-color: #323232;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-family: "Helvetica Neue", Helvetica;
+    opacity: 0.9;
+}
+
+.scf-row {
+    padding-top: 30px;
+}
+
+.scf-content-card .thumbnail {
+    position: relative;
+    margin-bottom: 7.6px;
+}
+
+.scf-content-card .thumbnail .card-image {
+    height: 165px;
+    background-position: center;
+    background-size: cover;
+}
+
+.scf-content-card .scf-card-header {
+    position: relative;
+    z-index: 99;
+}
+
+.scf-content-card .card-info {
+    border-width: 1px;
+    border-color: #DDDDDD;
+    border-bottom-style: solid;
+    padding-bottom: 18.6px;
+}
+
+.scf-content-card .card-info .title {
+    overflow: hidden;
+    color: #3E8ACC;
+    font-size: 16px;
+    height: 40px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+@media(min-width: 768px) {
+    .scf-content-card .card-info .title {
+        font-size: 14px;
+    }
+}
+
+.scf-content-card .card-detail-info {
+    min-height: 30px;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.scf-content-card .card-info .avatar-image-container {
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.scf-content-card .card-info .avatar-image {
+    max-width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.scf-content-card .card-info .contact-name {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 26px;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 12px;
+    color: #000000;
+}
+
+.scf-content-card .thumbnail .card-image {
+    background-color: #DDDDDD;
+}
+
+.scf-content-card .thumbnail .disabled-link-card {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.scf-content-card .contact-info {
+    display: block;
+}
+
+.scf-content-card .asset-card-icon {
+    float: left;
+    height: 20px;
+    width: 30px;
+}
+
+.scf-content-card .learningpath-card-icon {
+    float: left;
+    background-color: #db524b;
+    color: white;
+    padding: 6px 12px;
+}
+
+.scf-content-card .pdf-asset-card-icon {
+    background: url("../../../../../settings/wcm/designs/default/resources/social/enablement/PDF.png") no-repeat center;
+}
+
+.scf-content-card .video-asset-card-icon {
+    background: url("../../../../../settings/wcm/designs/default/resources/social/enablement/Video.png") no-repeat center;
+}
+
+.scf-content-card .image-asset-card-icon {
+    background: url("../../../../../settings/wcm/designs/default/resources/social/enablement/Image.png") no-repeat center;
+}
+
+.scf-content-card .resource-asset-card-icon {
+    background: url("../../../../../settings/wcm/designs/default/resources/social/enablement/Resource.png") no-repeat center;
+}
+
+.scf-content-card .url-connect-asset-card-icon {
+    background: url("../../../../../settings/wcm/designs/default/resources/social/enablement/connect.png") no-repeat center;
+}
+
+.scf-content-card .url-asset-card-icon {
+    background: url("../../../../../settings/wcm/designs/default/resources/social/enablement/URL.png") no-repeat center;
+}
+
+.scf-content-card .html-asset-card-icon {
+    background: url("../../../../../settings/wcm/designs/default/resources/social/enablement/HTML.png") no-repeat center;
+}
+
+.scf-content-card .presenter-asset-card-icon {
+    background: url("../../../../../settings/wcm/designs/default/resources/social/enablement/Presenter.png") no-repeat center;
+}
+
+.card-detail-info .glyphicon {
+    color: #999999;
+    font-size: 16px;
+}
+
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2015 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ *************************************************************************/
+
+.scf-content-card .image-content-info .resolution {
+    display: inline-block;
+}
+
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2015 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ *************************************************************************/
+
+.scf-content-card .video-content-info .duration-icon {
+    display: inline-block;
+}
+
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2015 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ *************************************************************************/
+
+.scf-content-card .learningpath-card-icon span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2015 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ *************************************************************************/
+
+.scf-assignment-status {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 5px 10px;
+    font-family: "Helvetica Neue", Helvetica;
+}
+
+.scf-content-card .scf-assignment-status {
+    float: right;
+}
+
+.scf-table-cell .scf-assignment-status {
+    float: left;
+}
+
+.scf-assignment-status-completed {
+    background-color: #3E8ACC;
+}
+
+.scf-assignment-status-inprogress {
+    background-color: #777777;
+}
+
+.scf-assignment-status-new {
+    background-color: #58B957;
+}
+
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2015 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ *************************************************************************/
+
+.scf-content-card .swf-content-info .resolution {
+    display: inline-block;
+}
+
+/*************************************************************************
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2015 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ *
+ *************************************************************************/
+
+.scf-content-card .scf-due-status {
+    color: #000000;
+    font-weight: bold;
+}
+
+.scf-content-card .due-status-complete {
+    color: #09e82e;
+}
+
+.scf-content-card .due-status-safe {
+    color: #aaaaaa;
+}
+
+.scf-content-card .due-status-warning {
+    color: #f7b44f;
+}
+
+.scf-content-card .due-status-expired {
+    color: #ed3b3b;
+}
+

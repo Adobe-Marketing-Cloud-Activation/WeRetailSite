@@ -1,0 +1,320 @@
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2014 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+@font-face {
+    font-family: "SCFIcons";
+    src: url("scf/resources/AdobeIcons-74324ff07761daf4c31d04544b133fef.eot");
+    src: url("scf/resources/AdobeIcons-74324ff07761daf4c31d04544b133fef-.eot#iefix") format("embedded-opentype"), url("scf/resources/AdobeIcons-74324ff07761daf4c31d04544b133fef.woff") format("woff"), url("scf/resources/AdobeIcons-74324ff07761daf4c31d04544b133fef.ttf") format("truetype"), url("https://aem.enablementadobe.com/etc.clientlibs/clientlibs/social/commons/scf/resources/icons/AdobeIcons-74324ff07761daf4c31d04544b133fef.svg?#webfont") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.scf {
+    font-family: helvetica, arial;
+    color: #4B4B4B;
+}
+
+.scf h4 {
+    font-size: 14px;
+    color: #4b4b4b;
+    margin: 10px 0;
+}
+
+.scf h2 {
+    font-size: 24px;
+    color: #4B4B4B;
+    margin: 0px;
+    font-weight: 100;
+}
+
+.scf .scf-link {
+    font-size: 14px;
+    color: #4191D2;
+    cursor: pointer;
+}
+
+.scf .scf-link:visited {
+    color: #96509B;
+}
+
+.scf .scf-link:hover {
+    text-decoration: underline;
+}
+
+.scf .scf-quiet {
+    font-size: 12px;
+    color: #969696;
+}
+
+.scf .scf-clear-both {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.scf-is-hidden {
+    display: none;
+}
+
+.scf [class^="scf-icon-"] {
+    font-family: SCFIcons;
+}
+
+.scf [class^="scf-icon-"].large {
+    font-size: 32px;
+}
+
+.scf-icon-comment:before {
+    content: "\f159";
+    font-family: SCFIcons;
+}
+
+.scf-icon-viewOff:before {
+    content: "\f2a7";
+    font-family: SCFIcons;
+}
+
+.scf-icon-fullscreen:before {
+    content: "\f1c2";
+    font-family: SCFIcons;
+}
+
+.scf-modal-screen {
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-color: #000000;
+}
+
+.scf-modal-dialog {
+    z-index: 2200;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    min-width: 300px;
+    padding: 15px;
+    background-color: #3C3C3C;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.scf-modal-dialog h2 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    text-align: left;
+    line-height: 24px;
+}
+
+.scf-modal-dialog input,
+.scf-modal-dialog select,
+.scf-modal-dialog option,
+.scf-modal-dialog textarea {
+    color: #333333;
+}
+
+.scf-modal-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    line-height: 24px;
+}
+
+.scf-error {
+    border: 2px solid !important;
+    border-color: #EB413C !important;
+}
+
+.scf-js-error-message {
+    background-color: #EB413C;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.scf-js-error-message:before {
+    font-family: SCFIcons;
+    content: "\f10d";
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.scf-icon-dblright:before {
+    content: "   ";
+    font-size: 14px;
+    font-family: SCFIcons;
+}
+
+.scf-horizontal-tag-list {
+    display: inline;
+    padding: 0px;
+}
+
+.scf-horizontal-tag-list li {
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.scf-selected-tag {
+    padding: 5px;
+    margin-right: 5px;
+    background-color: #969696;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.scf-selected-tag .scf-remove-tag:before {
+    font-family: SCFIcons;
+    content: "\f14d";
+}
+
+.scf-icon-folder:before {
+    content: "";
+    font-family: SCFIcons;
+}
+
+.scf-icon-gear-after:after {
+    content: "\f1c5";
+    font-family: SCFIcons;
+}
+
+.scf-icon-add:before {
+    content: "\f106";
+    font-family: SCFIcons;
+}
+
+.scf-icon-attachment:before {
+    content: "";
+    font-family: SCFIcons;
+}
+
+.scf-icon-check-after:after {
+    content: "\f145";
+    font-family: SCFIcons;
+}
+
+.scf-icon-camera:before {
+    content: "\f13b";
+    font-family: SCFIcons;
+}
+
+.scf-icon-image:before {
+    content: "\f1ed";
+    font-family: SCFIcons;
+}
+
+.scf-icon-calendar:before {
+    content: "\f137";
+    font-family: SCFIcons;
+}
+
+.scf-icon-delete:before {
+    content: "\f171";
+    font-family: SCFIcons;
+}
+
+
+/*Arrows*/
+
+.scf-icon-right:before {
+    content: "\f102";
+}
+
+.scf-icon-left:before {
+    content: "\f101";
+}
+
+
+/****** pagination styles **********/
+
+.scf-pages {
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.scf-pages-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.scf-pages-list:first-child {
+    border-top: solid;
+    border-width: 1px;
+    border-color: #E6E6E6;
+}
+
+.scf-pages-list:last-child {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #E6E6E6;
+}
+
+.scf-pages-list-item {
+    display: inline-block;
+    margin: 3px 0px;
+}
+
+.scf-page {
+    cursor: pointer;
+    display: inline-block;
+    padding: 1px 3px;
+    border: 1px solid #227ECB;
+    min-width: 16px;
+    text-align: center;
+}
+
+a.scf-currentPage {
+    color: #FFFFFF;
+    border: none;
+    background: #DCDCDC;
+    cursor: default;
+}
+
+.scf .scf-load-more {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+}
+
+.scf .scf-replies-count {
+    display: inline-block;
+}
+
+.scf-overlay-header h3 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.scf-is-overlay-hidden {
+    display: none;
+}
+
+.scf-action-container .scf-action-item {
+    float: left;
+    margin: 6px 10px 6px 0;
+}

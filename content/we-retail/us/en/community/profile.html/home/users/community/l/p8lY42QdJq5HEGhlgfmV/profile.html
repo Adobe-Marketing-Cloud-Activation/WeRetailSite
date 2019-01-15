@@ -1,0 +1,1632 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-US"  >
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    
+
+
+
+  
+<link href="https://aem.enablementadobe.com/etc.clientlibs/settings/wcm/designs/social/console/static.css" rel="stylesheet" type="text/css"/>
+<link href="https://aem.enablementadobe.com/etc.clientlibs/settings/wcm/designs/social/console/resources.css" rel="stylesheet" type="text/css"/>
+
+
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/foundation/clientlibs/main.css" type="text/css"/>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/jquery.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/utils.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/jquery/granite.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/foundation/clientlibs/jquery.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/foundation/clientlibs/shared.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/foundation/clientlibs/main.js"></script>
+
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/bootstrap3.js"></script>
+
+
+        <link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/commons/scf.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/breadcrumbs.css" type="text/css"/>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/underscore.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/moment.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/backbone.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/handlebars.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/commons/scf.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/breadcrumbs.js"></script>
+
+    
+        <link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/tally/voting.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/subscriptions.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/comments.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/activitystreams.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/socialgraph.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/userprofile.css" type="text/css"/>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/tally/voting.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/subscriptions.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/comments.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/infiniscroll.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/activitystreams.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/socialgraph.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/userprofile.js"></script>
+
+    
+        <link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/jquery-ui.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/tagging.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/forum.css" type="text/css"/>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/jquery-ui.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/foundation/clientlibs/jquery-ui.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/tagging.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/forum.js"></script>
+
+    
+        
+    
+        
+    
+        
+    
+        <script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/granite/lodash/modern.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/cq/personalization/clientlib/personalization/kernel.js"></script>
+
+    
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/themes/sitethemes/scf-skin.css" type="text/css"/>
+
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/themes/sitethemes/bootstrap-united/clientlibs.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/themes/sitethemes/bootstrap-weretail/clientlibs.css" type="text/css"/>
+
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/datatables/core.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/datatables/bootstrap.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/gamification/leaderboard.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/featuredcontent.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/quicksearch.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/sitepage.css" type="text/css"/>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/datatables/core.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/thirdparty/datatables/bootstrap.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/gamification/leaderboard.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/hbs/quicksearch.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/clientlibs/social/console/sitepage.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    
+
+    
+    <title>Profile</title>
+</head>
+
+
+
+
+<body class="scf-site-body">
+    <script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content'>{"id":"/content/we-retail/us/en/community/profile/jcr:content","properties":{"jcr:created":1539449152388,"pageTitle":"Profile","jcr:createdBy":"admin","jcr:title":"Profile","jcr:uuid":"90ce8859-8cbd-471e-be06-343e9cdca134","jcr:versionHistory":"faa32ccd-8924-479a-8567-e96105589e7a","jcr:predecessors":["d8e7ac85-584a-42f6-bd1d-3410475cbc35"],"jcr:isCheckedOut":true,"jcr:mixinTypes":["cq:LiveSync","mix:versionable"],"hideInNav":true,"jcr:primaryType":"cq:PageContent","jcr:baseVersion":"d8e7ac85-584a-42f6-bd1d-3410475cbc35","navTitle":"Profile"},"pageProperties":{"page-template":"weretail"},"groupPage":false,"theme":"cq.social.console.theme.bootstrap-united","siteTitle":"Communities","ugcPath":["/content/usergenerated/asi/jcr/content/we-retail/us/en/community"],"hasBreadcrumbs":false,"siteDescription":"We.Retail Community","siteUrl":"/content/we-retail/us/en/community","baseLanguage":"English","messagingAllowed":true,"searchPagePath":"/content/we-retail/us/en/community/search","siteId":"community-minqg","userAdmin":false,"resourceType":"social/console/components/hbs/sitepage","url":"/content/we-retail/us/en/community/profile/_jcr_content.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+
+    
+<div class="clientcontext parbase"><script type="text/javascript">
+    $CQ(function() {
+        CQ_Analytics.SegmentMgr.loadSegments("\/etc\/segmentation");
+        CQ_Analytics.ClientContextUtils.init("\/etc\/clientcontext\/default", "\/content\/we\u002Dretail\/us\/en\/community\/profile");
+
+        
+    });
+</script>
+</div>
+
+<div class="cloudservices servicecomponents"><div class="cloudservice sitecatalyst"></div>
+
+</div>
+
+<script type="text/javascript">
+            (function() {
+                window.ContextHub = window.ContextHub || {};
+
+                /* setting paths */
+                ContextHub.Paths = ContextHub.Paths || {};
+                ContextHub.Paths.CONTEXTHUB_PATH = "/libs/settings/cloudsettings/legacy/contexthub";
+                ContextHub.Paths.RESOURCE_PATH = "\/content\/we\u002Dretail\/us\/en\/community\/profile\/_jcr_content\/contexthub";
+                ContextHub.Paths.SEGMENTATION_PATH = "\/conf\/we\u002Dretail\/settings\/wcm\/segments";
+                ContextHub.Paths.CQ_CONTEXT_PATH = "";
+
+                /* setting initial constants */
+                ContextHub.Constants = ContextHub.Constants || {};
+                ContextHub.Constants.ANONYMOUS_HOME = "/home/users/X/XCAgDSuYTdL4Y6VZPa-t";
+                ContextHub.Constants.MODE = "no-ui";
+            }());
+        </script><script src="../../../../../../../../../../../etc/cloudsettings.kernel.js/libs/settings/cloudsettings/legacy/contexthub.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/core/wcm/components/search/v1/search/clientlibs/site.css" type="text/css"/>
+<link rel="stylesheet" href="../../../../../../../../../../../etc.clientlibs/weretail/clientlibs/clientlib-communities.css" type="text/css"/>
+
+<div class="container">
+    <div class="header">
+    <div class="header">
+<div id="top" class="we-retail-header" data-we-header-content="/content/we-retail/us/en/community/profile.header_include.html">
+    
+<div class="navbar navbar-inverse navbar-fixed-top hidden-xs hidden-sm">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="#" data-toggle="modal" data-target=".we-LanguageModal" title="English"><i class="we-lang-icon we-lang-icon-US"></i> en</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            
+            <li>
+<div class="we-Cart">
+
+    <a class="we-Cart-button" href="#" v-on:click="toggle">
+        <i class="fa fa-shopping-cart"></i> My cart <span class="badge active" v-cloak v-if="cartEntriesSize > 0">{{cartEntriesSize}}</span>
+    </a>
+
+    <cart-content inline-template>
+        <div class="we-Cart-content" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/cart.html" itemscope="itemscope">
+            <div class="we-Cart-header">
+                <div class="we-Cart-headerLeft">
+                    <a href="#" v-on:click="$parent.toggle">
+                        <i class="we-Icon we-Icon--close"></i>
+                    </a>
+                </div>
+                <div class="we-Cart-headerRight">
+                    <span itemprop="totalEntries" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope">{{cartEntriesSize}}</span> items in cart
+                </div>
+            </div>
+
+            <div class="we-Cart-empty" v-if="cartEntriesSize == 0">The cart is empty.</div>
+
+            <div class="we-Cart-data">
+
+                <div class="we-Cart-entries" v-if="cartEntriesSize > 0">
+                    <div class="we-Cart-entry" v-for="(index, cartEntry) in cartEntries" itemprop="entries" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/cartentry.html" itemscope="itemscope">
+
+                        <img class="we-Cart-image" v-bind:src="cartEntry.thumbnail" alt="{{ cartEntry.title }}" itemprop="asset" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope"/>
+
+                        <div class="we-Cart-entryContent">
+                            <div itemprop="product" itemtype="http://localhost:8080/apps/public/weretail/hapi_types/product.html" itemscope="itemscope">
+                                <meta content="{{ cartEntry.title }}" itemprop="name" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope"/>
+                                <a href="#" v-bind:href="cartEntry.page" itemprop="path" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                    <strong>{{ cartEntry.title }}</strong>
+                                </a>
+                                <div class="text-muted">
+                                    <small v-if="cartEntryPromotions(index) && cartEntryPromotions(index).length > 0">
+                                        <span class="text-info" v-for="promotion in cartEntryPromotions(index)" v-html="promotion.message"></span>
+                                    </small>
+                                    <small itemprop="description" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                        {{ cartEntry.description }}
+                                    </small>
+                                    <ul v-if="cartEntry.variant" class="small we-Cart-entryVariants">
+                                        <li v-for="(key, val) in cartEntry.variant">
+                                            <span>{{ key }}</span>: {{ val }}
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="we-Cart-entryQuantity">
+                                <label class="text-muted">Qty:</label>
+                                
+                                
+                                
+                                <span v-if="cartEntry.readonly == true" itemprop="quantity" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope">{{ cartEntry.quantity }}</span>
+                                
+                                <form method="POST" action="../../../../../../profile.weretail.modifycartentry.html" v-if="cartEntry.readonly != true">
+                                    <input type="hidden" name="entryNumber" value="{{index}}"/>
+                                    <input type="hidden" name="redirect" value="/content/we-retail/us/en/community/profile.html"/>
+                                    <input type="number" name="quantity" v-model="cartEntry.quantity" min="0" step="1" v-on:change.prevent="updateCart" itemprop="quantity" itemtype="http://localhost:8080/libs/sling/hapi/types/number.html" itemscope="itemscope"/>
+                                </form>
+                            </div>
+                            <div class="we-Cart-entryPrice" itemprop="itemPrice" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">
+                                <strong>{{ cartEntry.priceFormatted }}</strong>
+                            </div>
+                        </div>
+
+                        <div class="we-Cart-remove">
+                            <form method="POST" action="../../../../../../profile.weretail.deletecartentry.html" v-on:click.prevent="updateCart" v-if="cartEntry.readonly != true">
+                                <input type="hidden" name="entryNumber" value="{{index}}"/>
+                                <input type="hidden" name="redirect" value="/content/we-retail/us/en/community/profile.html"/>
+                                <button type="submit" class="btn btn-default btn-icon"><i class="text-muted fa fa-times-circle-o"></i></button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="we-Cart-promotions" v-if="orderPromotions && orderPromotions.length > 0">
+                    <span v-for="promotion in orderPromotions" class="we-Cart-promotion" v-html="promotion.message"></span>
+                </div>
+
+                <div class="we-Cart-footer">
+                    <div class="we-Cart-subtotal" v-if="cartEntriesSize > 0">
+                        sub-total: <span itemprop="total" itemtype="http://localhost:8080/libs/sling/hapi/types/text.html" itemscope="itemscope">{{cartTotalPrice}}</span>
+                    </div>
+                    <a v-if="cartEntriesSize > 0" class="btn btn-primary btn-action pull-right" href="../../../../../../../user/cart.html">Checkout</a>
+                </div>
+
+            </div>
+        </div>
+    </cart-content>
+</div>
+</li>
+            
+            <li><a href="../../../../../../signin.html">Login</a></li>
+            
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+    <nav class="navbar navbar-inverse navbar-absolute-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#we-example-navbar-collapse-inverse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
+            </button>
+
+            <button type="button" class="navbar-toggle navbar-toggle-close collapsed" data-toggle="collapse" data-target="#we-example-navbar-collapse-inverse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="we-Icon we-Icon--close"></i>
+            </button>
+
+            <a class="navbar-brand" href="../../../../../../../../en.html">we.<strong>Retail</strong></a>
+            <div class="pull-right visible-xs visible-sm">
+<div class="we-Cart">
+    <a class="we-Cart-button" href="#" v-on:click="toggle">
+        <i class="fa fa-shopping-cart"></i> <span class="badge active" v-cloak v-if="cartEntriesSize > 0">{{cartEntriesSize}}</span>
+    </a>
+</div></div>
+        </div>
+
+        <!-- /.navbar-header -->
+        <div class="collapse navbar-collapse width" id="we-example-navbar-collapse-inverse">
+            <ul class="nav navbar-nav navbar-center">
+                <li class="visible-xs visible-sm"><a href="../../../../../../../../en.html">we.<strong class="text-primary">Retail</strong></a></li>
+                <div class="we-navigation">
+<nav class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../experience.html" title="Experience" class="cmp-navigation__item-link">Experience</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/arctic-surfing-in-lofoten.html" title="Arctic Surfing In Lofoten" class="cmp-navigation__item-link">Arctic Surfing In Lofoten</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/hours-of-wilderness.html" title="48 hours of Wilderness" class="cmp-navigation__item-link">48 hours of Wilderness</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/fly-fishing-the-amazon.html" title="Fly-fishing the Amazon" class="cmp-navigation__item-link">Fly-fishing the Amazon</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/skitouring.html" title="Skitouring" class="cmp-navigation__item-link">Skitouring</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/steelhead-and-spines-in-alaska.html" title="Steelhead and Spines in Alaska" class="cmp-navigation__item-link">Steelhead and Spines in Alaska</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../experience/wester-australia-by-camper-van.html" title="Camping in Western Australia" class="cmp-navigation__item-link">Camping in Western Australia</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../men.html" title="Men" class="cmp-navigation__item-link">Men</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../women.html" title="Women" class="cmp-navigation__item-link">Women</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../equipment.html" title="Equipment" class="cmp-navigation__item-link">Equipment</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../about-us.html" title="About Us" class="cmp-navigation__item-link">About Us</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../products.html" title="Products" class="cmp-navigation__item-link">Products</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../products/women.html" title="Women" class="cmp-navigation__item-link">Women</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../products/men.html" title="Men" class="cmp-navigation__item-link">Men</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../../products/equipment.html" title="Equipment" class="cmp-navigation__item-link">Equipment</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--active">
+        
+    <a href="../../../../../../../community.html" title="Community" class="cmp-navigation__item-link">Community</a>
+
+        
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../trending.html" title="Trending" class="cmp-navigation__item-link">Trending</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../forum.html" title="Forum" class="cmp-navigation__item-link">Forum</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../files.html" title="Files" class="cmp-navigation__item-link">Files</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../catalog.html" title="Catalog" class="cmp-navigation__item-link">Catalog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../assignments.html" title="Assignments" class="cmp-navigation__item-link">Assignments</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../blog.html" title="Blog" class="cmp-navigation__item-link">Blog</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../questions.html" title="Questions" class="cmp-navigation__item-link">Questions</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../ideas.html" title="Ideas" class="cmp-navigation__item-link">Ideas</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../calendar.html" title="Calendar" class="cmp-navigation__item-link">Calendar</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../groups.html" title="Groups" class="cmp-navigation__item-link">Groups</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../members.html" title="Members" class="cmp-navigation__item-link">Members</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-1">
+        
+    <a href="../../../../../../social.html" title="Social" class="cmp-navigation__item-link">Social</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+                <li class="visible-xs visible-sm divider" role="separator"></li>
+                <li class="visible-xs visible-sm"><a href="../../../../../../signin.html">Login</a></li>
+                
+                
+                
+                
+                
+                <li class="visible-xs visible-sm"><a href="#" data-toggle="modal" data-target=".we-LanguageModal"><i class="we-lang-icon we-lang-icon-US"></i> en</a></li>
+            </ul>
+        </div>
+
+        <!-- /.navbar-collapse -->
+        <div class="navbar-right-outside">
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#navbar-search">
+                <span class="sr-only">Search</span><i class="we-Icon we-Icon--search" aria-hidden="true"></i>
+            </a>
+        </div>
+        <!-- /.navbar-right-outside -->
+
+        <span class="navbar-shutter"></span>
+    </nav>
+    <!-- /.navbar -->
+</div>
+
+    
+
+<div class="we-SearchModal modal fade we-SearchModal-community" id="navbar-search" role="dialog" data-color="primary">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span><i class="we-Icon we-Icon--search"></i>Search anything</span>
+                <button type="button" class="close" data-dismiss="modal"><span>Close search</span><i class="we-Icon we-Icon--close-alt"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+                        
+<form id="form-search-input-inline" data-paths="[/content/we-retail/us/en]" class="scf-js-searchform navbar-form navbar-left" role="search">
+    <div class="scf-quicksearch-form-group form-group">
+        <input type="search" id="scf-js-quicksearch-input-inline" placeholder="Start typing..." data-dropdown="drop_search" aria-controls="drop_search" aria-expanded="false" name="input_value" class="we-SearchModal-input" value="" required="" autocomplete="off"/>
+        <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+        <input type="hidden" name="resultPage" class="scf-js-seach-resultPage" value="/content/we-retail/us/en/community/search"/>
+        <input type="hidden" name="searchEndpoint" class="scf-js-search-endpoint" value="/content/we-retail/us/en/community/search/jcr:content/content/primary/searchresult"/>
+    </div>
+</form>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.we-SearchModal -->
+
+<div class="we-LanguageModal modal fade" tabindex="-1" role="dialog" data-color="primary">
+    <div class="modal-dialog modal-center modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title text-center">CHOOSE YOUR COUNTRY</h3>
+            </div>
+            <div class="modal-body">
+                <div class="we-languagenavigation">
+<nav class="cmp-languagenavigation">
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-en-US cmp-languagenavigation__item--level-0 cmp-languagenavigation__item--active">
+        
+    <i class="we-lang-icon we-lang-icon-US" title="United States"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-en-US cmp-languagenavigation__item--level-1 cmp-languagenavigation__item--active">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="https://aem.enablementadobe.com/content/we-retail/us/en/community/profile.html" hreflang="en-US" lang="en-US" rel="alternate" title="English">English</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-US cmp-languagenavigation__item--langcode-es-US cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../es.html" hreflang="es-US" lang="es-US" rel="alternate" title="Español">Español</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-en-CA cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-CA" title="Canada"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-en-CA cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../ca/en.html" hreflang="en-CA" lang="en-CA" rel="alternate" title="English">English</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CA cmp-languagenavigation__item--langcode-fr-CA cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../ca/fr.html" hreflang="fr-CA" lang="fr-CA" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-de-CH cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-CH" title="Switzerland"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-de-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../ch/de.html" hreflang="de-CH" lang="de-CH" rel="alternate" title="Deutsch">Deutsch</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-fr-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../ch/fr.html" hreflang="fr-CH" lang="fr-CH" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-CH cmp-languagenavigation__item--langcode-it-CH cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../ch/it.html" hreflang="it-CH" lang="it-CH" rel="alternate" title="Italiano">Italiano</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-DE cmp-languagenavigation__item--langcode-de-DE cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-DE" title="Germany"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-DE cmp-languagenavigation__item--langcode-de-DE cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../de/de.html" hreflang="de-DE" lang="de-DE" rel="alternate" title="Deutsch">Deutsch</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-FR cmp-languagenavigation__item--langcode-fr-FR cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-FR" title="France"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-FR cmp-languagenavigation__item--langcode-fr-FR cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../fr/fr.html" hreflang="fr-FR" lang="fr-FR" rel="alternate" title="Français">Français</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-ES cmp-languagenavigation__item--langcode-es-ES cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-ES" title="Spain"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-ES cmp-languagenavigation__item--langcode-es-ES cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../es/es.html" hreflang="es-ES" lang="es-ES" rel="alternate" title="Español">Español</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-IT cmp-languagenavigation__item--langcode-it-IT cmp-languagenavigation__item--level-0">
+        
+    <i class="we-lang-icon we-lang-icon-IT" title="Italy"></i>
+    
+
+        
+    <ul class="cmp-languagenavigation__group">
+        
+    <li class="cmp-languagenavigation__item cmp-languagenavigation__item--countrycode-IT cmp-languagenavigation__item--langcode-it-IT cmp-languagenavigation__item--level-1">
+        
+    
+    <a class="cmp-languagenavigation__item-link" href="../../../../../../../../../it/it.html" hreflang="it-IT" lang="it-IT" rel="alternate" title="Italiano">Italiano</a>
+
+        
+    </li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+
+            </div>
+        </div>
+        <div class="modal-after">
+            <a href="#" data-dismiss="modal"><i class="we-Icon we-Icon--close-alt"></i> Close</a>
+        </div>
+    </div>
+</div><!-- /.we-LanguageModal -->
+
+</div>
+</div>
+
+    </div>
+<div class="groupnav groupnavbar"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/groupnav'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/groupnav","resourceType":"social/console/components/hbs/groupnavbar","url":"/content/we-retail/us/en/community/profile/_jcr_content/groupnav.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+<div class="scf-group-navbar scf-js-group-navbar"  >
+    <ul class="nav nav-pills scf-site-nav">
+        
+    </ul>
+</div>
+</div>
+
+<div class="container-fluid scf-site-body-content-container">
+    <div class="content rightcolumncontent"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content","properties":{"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:primaryType":"nt:unstructured"},"resourceType":"social/console/components/hbs/rightcolumncontent","url":"/content/we-retail/us/en/community/profile/_jcr_content/content.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+<div class="row scf-site-content">
+    <div class="col-md-8 scf-site-primary">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="responsivegrid">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="userprofile aem-GridColumn aem-GridColumn--default--12"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile","properties":{"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:primaryType":"nt:unstructured"},"authorizableID":"donna.billups@pookmail.com","authProfilePath":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile","profileProperties":{"familyName":"Billups","givenName":"Donna","email":"donna.billups@pookmail.com"},"mayEdit":false,"largeAvatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.80.png?ck=1539449162","displayName":"Donna Billups","resourceType":"social/console/components/hbs/userprofile","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+
+    <div class="scf scf-user-profile" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile" data-scf-component="social/console/components/hbs/userprofile">
+        
+            <div class="scf-user-info-card">
+                <div class="scf-user-avatar-left scf-profile-header">
+                    <img class="scf-profile-avatar" src="../../../../../../../../../../../home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.80-ck=1539449162.png"/>
+                    
+                </div>
+                <div class="scf-user-info-middle">
+                    <div>
+                        <label class="scf-large-lable">Donna Billups</label>
+                        <br /> <div class="userbadges"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges","properties":{"jcr:lastModifiedBy":"admin","jcr:created":1389289508070,"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:createdBy":"admin","jcr:lastModified":1518654214109,"name":"Badges","jcr:primaryType":"nt:unstructured","allowUserView":"true","title":"Badges"},"earnedBadges":[{"id":"/libs/community/badging/images/silver-badge","title":"Silver","imageUrl":"/libs/community/badging/images/silver-badge/silver.png","dateAssigned":"2018-02-15T00:33:38.255+0000","isAssigned":false,"earnedScore":15},{"id":"/libs/community/badging/images/bronze-badge","title":"Bronze","imageUrl":"/libs/community/badging/images/bronze-badge/bronze.png","dateAssigned":"2018-02-15T00:32:36.032+0000","isAssigned":false,"earnedScore":2}],"earnedTopBadges":[{"id":"/libs/community/badging/images/silver-badge","title":"Silver","imageUrl":"/libs/community/badging/images/silver-badge/silver.png","dateAssigned":"2018-02-15T00:33:38.255+0000","isAssigned":false,"earnedScore":15}],"resourceType":"social/console/components/hbs/userbadges","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/userbadges.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+
+<div class="scf scf-user-profile-top-badges" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges" data-scf-component="social/console/components/hbs/userbadges">
+    <div class="scf-js-user-profile-badges-top">
+        
+            <span class="scf-js-user-profile-top-earned-badge"><img src="../../../../../../../../../../../libs/community/badging/images/silver-badge/silver.png"/></span>
+        
+        <span class="scf-js-user-profile-top-earned-badge-count"></span>
+    </div>
+    <div class="scf-js-user-profile-badges-top">
+        
+        <span class="scf-js-user-profile-top-assigned-badge-count"></span>
+    </div>
+</div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+            
+            
+                
+            
+            <br/>
+            <div>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#tabs-1" data-toggle="tab" evt="click=handleTab">Profile</a></li>
+                    <li><a href="#tabs-2" data-toggle="tab" evt="click=handleTab">Activities</a></li>
+                    <li><a href="#tabs-3" data-toggle="tab" evt="click=handleTab">Badges</a></li>
+                </ul>
+                <div class="scf-tab-content">
+                    <div id="tabs-1" class="active tab scf-tab-pane">
+                        <header class="scf-profile-header">
+                            <h4 class="scf-profile-heading">Profile Data</h4>
+                            
+                            <div class="scf-clear-both"></div>
+                        </header>
+                        <div class="scf-composer-block scf-js-composer-block">
+                            <form class="scf-profile-form" id="profile-read-only-form">
+                                <div class="form-group-read_only">
+                                    <div class="scf-container-fluid">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Screen Name: </label>
+                                                <span>Donna Billups</span>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Gender: </label>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">First Name: </label>
+                                                
+                                                    <span>Donna</span>
+                                                
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Address: </label>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Last Name: </label>
+                                                
+                                                    <span>Billups</span>
+                                                
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">City, State: </label>
+                                                <span>, </span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-6 scf-profile-email-label-container">
+                                                <label class="scf-profile-form-label">Email Address: </label>
+                                                <span>donna.billups@pookmail.com</span>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Always show contributions in my preferred language: </label>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="row">
+                                                <label class="scf-profile-form-label">Language: </label>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                            <div class="row">
+                                                <label class="scf-profile-form-label">Occupation: </label>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                            <div class="row">
+                                                <label class="scf-profile-form-label">URL: </label>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div>
+                                                <label class="scf-profile-form-label">Bio: </label>
+                                            </div>
+                                            <div>
+                                                
+                                                    <span></span>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="scf-composer-block scf-js-composer-block scf-is-collapsed">
+                            <form role="form" evt="submit=editProfile" action="../../../../../../../../../../../content.social.json" class="scf-profile-form" id="profile-edit-form">
+                                <input type="hidden" name=":operation" value="social:updateUserProfile" />
+                                <input type="hidden" name="_charset_" value="utf-8">
+                                <div class="form-group">
+                                    <div class="scf-container-fluid">
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Screen Name: </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Gender: </label>
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" data-attrib="displayName" value="Donna Billups" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <select class="form-control" data-attrib="gender" id="scf-gender-list">
+                                            <option value="male">Male</option>
+                                            <option value="female">Female</option>
+                                        </select>
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">First Name: </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Address: </label>
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" data-attrib="fname" value="Donna" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" data-attrib="address" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Last Name: </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">City, State: </label>
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" data-attrib="lname" value="Billups" />
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" data-attrib="city_n_state" value=", " />
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Email Address: </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label class="scf-profile-form-label">Always show contributions in my preferred language: </label>
+                                            </div>
+                                        </div>
+                                        <div class="row-small-padding">
+                                            <div class="col-sm-6">
+                                                
+                                                    <input type="email" class="form-control" data-attrib="email" value="donna.billups@pookmail.com" />
+                                                
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <select class="form-control" data-attrib="smartRendering" id="scf-smartRendering-list">
+                                            <option value="off">Off</option>
+                                            <option value="on">On</option>
+                                        </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="row-left-padding">
+                                                <label class="scf-profile-form-label">Language: </label>
+                                            </div>
+                                            <div class="row-left-padding">
+                                                <select class="form-control" data-attrib="language" id="scf-userlanguage-list">
+                                        </select>
+                                            </div>
+                                            <div class="row-left-padding">
+                                                <label class="scf-profile-form-label">Occupation: </label>
+                                            </div>
+                                            <div class="row-left-padding">
+                                                <input type="text" class="form-control" data-attrib="jobTitle" value="" />
+                                            </div>
+                                            <div class="row-left-padding">
+                                                <label class="scf-profile-form-label">URL: </label>
+                                            </div>
+                                            <div class="row-left-padding">
+                                                <input type="url" class="form-control" data-attrib="url" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div>
+                                                <label class="scf-profile-form-label">Bio: </label>
+                                            </div>
+                                            <div class="row-right-padding">
+                                                <textarea class="form-control scf-profile-form-textarea" data-attrib="aboutMe"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div id="tabs-2" class="tab scf-tab-pane">
+                        <div class="activitystreams"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/activitystream'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/activitystream","properties":{"jcr:lastModifiedBy":"admin","jcr:created":1389289508070,"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:createdBy":"admin","jcr:lastModified":1518654214100,"name":"Activity","jcr:primaryType":"nt:unstructured","allowUserView":"true","title":"Activity"},"pageInfo":{"basePageURL":"/content/we-retail/us/en/community/profile","currentIndex":0,"pageSize":10,"totalPages":2,"urlpattern":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/activitystream.social.${startIndex}.10.html","hasMultiplePages":true,"hasNextPage":true,"hasPreviousPage":false,"nextPageURL":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/activitystream.social.10.10.html","previousPageURL":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/activitystream.social.0.10.html","nextSuffix":"10.10","previousSuffix":"0.10","includedPath":"/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile","orderReversed":false,"lastPage":10,"selectedPage":1,"sortIndex":null},"streamPath":"/content/we-retail/us/en/activitystreams","selector":"USER","items":[{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/0eb874a3-34ad-4153-8708-cbbb203c024b","target":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/0eb874a3-34ad-4153-8708-cbbb203c024b/social:nestedmaps","sentiment":5,"authorizableId":"weston.mccall@dodgit.com","added":"2018-02-14T19:34:41.123-05:00","displayName":"Removable thumb sleeve for gloves ","publishDate":"2018-02-14T19:34:41.336-05:00","isDraft":false,"jcr:title":"Removable thumb sleeve for gloves ","objectType":"comment","approved":true,"userIdentifier":"weston.mccall@dodgit.com","id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation/removable-thumb-slee","moderate":true,"latestActivityDate_dt":"2018-02-15T00:34:42.338Z","cq:tags":["FALSE"],"jcr:created":1539449158889,"mtlanguage":"en","jcr:createdBy":"admin","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation/removable-thumb-slee/i_love_it_can_t_be-XEa1","state_s":"Submitted","url":"/content/we-retail/us/en/community/ideas.idea.html/removable-thumb-slee.html","liking_voting_1_tl":"mix:atomicCounter","isFeatured_b":true,"jcr:description":"\u003Cp\u003EWinter is upon us and that means Skiing and Riding! It also means it gets cold. I don't know about you, but sometimes when it gets cold my nose runs. Have you ever had to wipe your nose on your glove?  Sure we all do and yeah, it is kind of gross.  I've used those gloves that have those soft terry-cloth bits on the thumb.  That works for a day, but the next day? Here is my idea:\u003C/p\u003E\u003Cp\u003EYou take the Blackcomb glove, and you take one of those terry-cloth wristbands that you use for basketball, And then you cut a hole for your thumb so that you can slide the wristband over your hand!  Obviously, you will need a wider wristband, but hopefully you get the idea!\u003C/p\u003E\u003Cp\u003ENow you have a soft liner that you can take off your glove at the end of the day to wash it! How clever is that? I would call it the SNOT rag. That would stand for: Swipe Nose On Thumb!\u003C/p\u003E\u003Cp\u003EHow about it We.Retail _ is that a great idea or what?\u003C/p\u003E","jcr:primaryType":"social:asiResource","subType":"social/ideation/components/hbs/idea","isVirtual":false,"eventTopic":"ideation"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation/removable-thumb-slee","content":"\u003Cp\u003EWinter is upon us and that means Skiing and Riding! It also means it gets cold. I don't know about you, but sometimes when it gets cold my nose runs. Have you ever had to wipe your nose on your glove?  Sure we all do and yeah, it is kind of gross.  I've used those gloves that have those soft terry-cloth bits on the thumb.  That works for a day, but the next day? Here is my idea:\u003C/p\u003E\u003Cp\u003EYou take the Blackcomb glove, and you take one of those terry-cloth wristbands that you use for basketball, And then you cut a hole for your thumb so that you can slide the wristband over your hand!  Obviously, you will need a wider wristband, but hopefully you get the idea!\u003C/p\u003E\u003Cp\u003ENow you have a soft liner that you can take off your glove at the end of the day to wash it! How clever is that? I would call it the SNOT rag. That would stand for: Swipe Nose On Thumb!\u003C/p\u003E\u003Cp\u003EHow about it We.Retail _ is that a great idea or what?\u003C/p\u003E","displayName":"Removable thumb sleeve for gloves "},"user":{"id":"/social/authors/donna.billups@pookmail.com","name":"Donna Billups","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile","avatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"donna.billups@pookmail.com","resourceType":"social/commons/components/author","url":"/social/authors/donna.billups@pookmail.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile"},"title":"donna.billups@pookmail.com add Removable thumb sleeve for gloves ","verb":"add","published":1518654882887,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/0eb874a3-34ad-4153-8708-cbbb203c024b/social:nestedmaps","sentiment":5,"jcr:created":1539449158891,"authorizableId":"donna.billups@pookmail.com","added":"2018-02-14T19:34:42.312-05:00","displayName":"a comment","jcr:createdBy":"admin","publishDate":"2018-02-14T19:34:42.374-05:00","contextPath":"","url":"/content/we-retail/us/en/community/ideas.idea.html/removable-thumb-slee.html?filter=page+has+i_love_it_can_t_be-XEa1","objectType":"comment","approved":true,"userIdentifier":"donna.billups@pookmail.com","jcr:description":"I love it!  Can't believe no one does this yet.  What about different colors for the 'hand-bands'?","jcr:primaryType":"social:asiResource","subType":"social/ideation/components/hbs/comment","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation/removable-thumb-slee/i_love_it_can_t_be-XEa1","eventTopic":"ideation"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation/removable-thumb-slee/i_love_it_can_t_be-XEa1","content":"I love it!  Can't believe no one does this yet.  What about different colors for the 'hand-bands'?","displayName":"a comment"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/0eb874a3-34ad-4153-8708-cbbb203c024b.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/0eb874a3-34ad-4153-8708-cbbb203c024b","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/bed777f8-23da-4088-ad4e-550bb070d9b8","target":{"objectType":"article","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/bed777f8-23da-4088-ad4e-550bb070d9b8/social:nestedmaps","sentiment":5,"authorizableId":"weston.mccall@dodgit.com","added":"2018-02-14T19:34:41.123-05:00","displayName":"removable-thumb-slee","publishDate":"2018-02-14T19:34:41.336-05:00","isDraft":false,"jcr:title":"Removable thumb sleeve for gloves ","useReferrer":false,"objectType":"article","approved":true,"userIdentifier":"weston.mccall@dodgit.com","id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation/removable-thumb-slee","moderate":true,"latestActivityDate_dt":"2018-02-15T00:34:41.304Z","cq:tags":["FALSE"],"jcr:created":1539449159515,"social:rootCommentSystem":"/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation","jcr:createdBy":"admin","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation/removable-thumb-slee","state_s":"Submitted","url":"/content/we-retail/us/en/community/ideas.idea.html/removable-thumb-slee.html","liking_voting_1_tl":"mix:atomicCounter","isFeatured_b":true,"jcr:description":"\u003Cp\u003EWinter is upon us and that means Skiing and Riding! It also means it gets cold. I don't know about you, but sometimes when it gets cold my nose runs. Have you ever had to wipe your nose on your glove?  Sure we all do and yeah, it is kind of gross.  I've used those gloves that have those soft terry-cloth bits on the thumb.  That works for a day, but the next day? Here is my idea:\u003C/p\u003E\u003Cp\u003EYou take the Blackcomb glove, and you take one of those terry-cloth wristbands that you use for basketball, And then you cut a hole for your thumb so that you can slide the wristband over your hand!  Obviously, you will need a wider wristband, but hopefully you get the idea!\u003C/p\u003E\u003Cp\u003ENow you have a soft liner that you can take off your glove at the end of the day to wash it! How clever is that? I would call it the SNOT rag. That would stand for: Swipe Nose On Thumb!\u003C/p\u003E\u003Cp\u003EHow about it We.Retail _ is that a great idea or what?\u003C/p\u003E","jcr:primaryType":"social:asiResource","subType":"social/ideation/components/hbs/idea","isVirtual":false,"eventTopic":"ideation"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation/removable-thumb-slee","content":"\u003Cp\u003EWinter is upon us and that means Skiing and Riding! It also means it gets cold. I don't know about you, but sometimes when it gets cold my nose runs. Have you ever had to wipe your nose on your glove?  Sure we all do and yeah, it is kind of gross.  I've used those gloves that have those soft terry-cloth bits on the thumb.  That works for a day, but the next day? Here is my idea:\u003C/p\u003E\u003Cp\u003EYou take the Blackcomb glove, and you take one of those terry-cloth wristbands that you use for basketball, And then you cut a hole for your thumb so that you can slide the wristband over your hand!  Obviously, you will need a wider wristband, but hopefully you get the idea!\u003C/p\u003E\u003Cp\u003ENow you have a soft liner that you can take off your glove at the end of the day to wash it! How clever is that? I would call it the SNOT rag. That would stand for: Swipe Nose On Thumb!\u003C/p\u003E\u003Cp\u003EHow about it We.Retail _ is that a great idea or what?\u003C/p\u003E","displayName":"removable-thumb-slee"},"user":{"id":"/social/authors/donna.billups@pookmail.com","name":"Donna Billups","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile","avatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"donna.billups@pookmail.com","resourceType":"social/commons/components/author","url":"/social/authors/donna.billups@pookmail.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile"},"title":"donna.billups@pookmail.com add liking removable-thumb-slee","verb":"add liking","published":1518654882293,"object":{"objectType":"review","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/bed777f8-23da-4088-ad4e-550bb070d9b8/social:nestedmaps","displayresponse":"LIKE","jcr:created":1539449159516,"displayName":"voting","jcr:createdBy":"admin","url":"/content/we-retail/us/en/community/ideas.html?filter=page+has+jcr:content/content/primary/ideation/removable-thumb-slee/voting","objectType":"review","social:key":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation/removable-thumb-slee","userIdentifier":"weston.mccall@dodgit.com","response":"1","jcr:primaryType":"social:asiResource","subType":"social/tally/components/hbs/liking","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation/removable-thumb-slee/voting"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/ideas/jcr:content/content/primary/ideation/removable-thumb-slee/voting","content":"","displayName":"voting"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/bed777f8-23da-4088-ad4e-550bb070d9b8.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/bed777f8-23da-4088-ad4e-550bb070d9b8","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/93e6a129-f855-490f-aff4-9983e0172b17","target":{"objectType":"article","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/93e6a129-f855-490f-aff4-9983e0172b17/social:nestedmaps","sentiment":5,"jcr:created":1539449158620,"authorizableId":"weston.mccall@dodgit.com","mtlanguage":"en","added":"2018-02-14T19:34:19.156-05:00","displayName":"Lagos mini longboard","jcr:createdBy":"admin","publishDate":"2018-02-14T19:34:19.205-05:00","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/lagos-mini-longboard/you_may_also_wantto-NwHZ","jcr:title":"Lagos mini longboard","url":"/content/we-retail/us/en/community/questions.topic.html/lagos-mini-longboard.html","objectType":"article","approved":true,"userIdentifier":"weston.mccall@dodgit.com","jcr:description":"Is the Lagos mini longboard surfboard epoxy or fiberglass?","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/topic","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/lagos-mini-longboard","eventTopic":"comment","latestActivityDate_dt":"2018-02-15T00:34:20.551Z"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/lagos-mini-longboard","content":"Is the Lagos mini longboard surfboard epoxy or fiberglass?","displayName":"Lagos mini longboard"},"user":{"id":"/social/authors/donna.billups@pookmail.com","name":"Donna Billups","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile","avatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"donna.billups@pookmail.com","resourceType":"social/commons/components/author","url":"/social/authors/donna.billups@pookmail.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile"},"title":"donna.billups@pookmail.com add Lagos mini longboard","verb":"add","published":1518654860894,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/93e6a129-f855-490f-aff4-9983e0172b17/social:nestedmaps","sentiment":5,"jcr:created":1539449158622,"authorizableId":"donna.billups@pookmail.com","added":"2018-02-14T19:34:20.530-05:00","displayName":"an answer","jcr:createdBy":"admin","publishDate":"2018-02-14T19:34:20.625-05:00","contextPath":"","url":"/content/we-retail/us/en/community/questions.topic.html/lagos-mini-longboard.html?filter=page+has+you_may_also_wantto-NwHZ","objectType":"comment","approved":true,"userIdentifier":"donna.billups@pookmail.com","jcr:description":"You may also want to check out NexGen. It's like epoxy, but crazy light without any stiffness.","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/lagos-mini-longboard/you_may_also_wantto-NwHZ","eventTopic":"comment"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/lagos-mini-longboard/you_may_also_wantto-NwHZ","content":"You may also want to check out NexGen. It's like epoxy, but crazy light without any stiffness.","displayName":"an answer"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/93e6a129-f855-490f-aff4-9983e0172b17.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/93e6a129-f855-490f-aff4-9983e0172b17","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/7a41d4e2-0d31-4cff-84d0-2b61122b0c6d","target":{"objectType":"article","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/7a41d4e2-0d31-4cff-84d0-2b61122b0c6d/social:nestedmaps","sentiment":5,"authorizableId":"weston.mccall@dodgit.com","added":"2018-02-14T19:34:10.378-05:00","displayName":"Blackcomb Gloves","publishDate":"2018-02-14T19:34:10.532-05:00","jcr:title":"Blackcomb Gloves","objectType":"article","approved":true,"userIdentifier":"weston.mccall@dodgit.com","isPinned_b":true,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/blackcomb-gloves","moderate":true,"latestActivityDate_dt":"2018-02-15T00:34:13.464Z","jcr:created":1539449160047,"mtlanguage":"en","jcr:createdBy":"admin","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/blackcomb-gloves/these_gloves_do_not-8A0h","url":"/content/we-retail/us/en/community/questions.topic.html/blackcomb-gloves.html","isFeatured_b":true,"jcr:description":"Do the Blackcomb gloves have a pocket for hand warmers?","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/topic","isVirtual":false,"eventTopic":"comment"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/blackcomb-gloves","content":"Do the Blackcomb gloves have a pocket for hand warmers?","displayName":"Blackcomb Gloves"},"user":{"id":"/social/authors/donna.billups@pookmail.com","name":"Donna Billups","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile","avatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"donna.billups@pookmail.com","resourceType":"social/commons/components/author","url":"/social/authors/donna.billups@pookmail.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile"},"title":"donna.billups@pookmail.com add Blackcomb Gloves","verb":"add","published":1518654853848,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/7a41d4e2-0d31-4cff-84d0-2b61122b0c6d/social:nestedmaps","sentiment":5,"jcr:created":1539449160049,"authorizableId":"donna.billups@pookmail.com","added":"2018-02-14T19:34:13.439-05:00","displayName":"an answer","jcr:createdBy":"admin","publishDate":"2018-02-14T19:34:13.544-05:00","contextPath":"","url":"/content/we-retail/us/en/community/questions.topic.html/blackcomb-gloves.html?filter=page+has+these_gloves_do_not-8A0h","objectType":"comment","approved":true,"userIdentifier":"donna.billups@pookmail.com","jcr:description":"These gloves do not have hand warmers, but I have found with them that you don't really need the warmers, and I consider myself one to get cold pretty easily, especially in my fingers and toes. The gloves are completely waterproof and have a great drawstring that helps to keep snow out and your body heat out.","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/blackcomb-gloves/these_gloves_do_not-8A0h","eventTopic":"comment"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/blackcomb-gloves/these_gloves_do_not-8A0h","content":"These gloves do not have hand warmers, but I have found with them that you don't really need the warmers, and I consider myself one to get cold pretty easily, especially in my fingers and toes. The gloves are completely waterproof and have a great drawstring that helps to keep snow out and your body heat out.","displayName":"an answer"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/7a41d4e2-0d31-4cff-84d0-2b61122b0c6d.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/7a41d4e2-0d31-4cff-84d0-2b61122b0c6d","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/b46928a0-93c7-4f51-b928-6a366847377a","target":{"objectType":"article","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/b46928a0-93c7-4f51-b928-6a366847377a/social:nestedmaps","sentiment":5,"authorizableId":"felicia.carter@trashymail.com","added":"2018-02-14T19:34:02.403-05:00","displayName":"Pufferfish fins","selectedAnswers":["/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/pufferfish-fins/one_of_my_kids_hasa-AwCG"],"publishDate":"2018-02-14T19:34:02.447-05:00","jcr:title":"Pufferfish fins","objectType":"article","approved":true,"userIdentifier":"felicia.carter@trashymail.com","id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/pufferfish-fins","moderate":true,"latestActivityDate_dt":"2018-02-15T00:34:05.388Z","cq:tags":["forum:topic/answered"],"jcr:created":1539449159469,"mtlanguage":"en","jcr:createdBy":"admin","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/pufferfish-fins/merci_pour_toutesce-naHa","url":"/content/we-retail/us/en/community/questions.topic.html/pufferfish-fins.html","isFeatured_b":true,"jcr:description":"I would like to know the materials used in the Pufferfish fins. Unfortunately, I am allergic to silicone and need to make sure the skirt and strap around the ankle won't be a problem for me.","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/topic","isVirtual":false,"eventTopic":"comment"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/pufferfish-fins","content":"I would like to know the materials used in the Pufferfish fins. Unfortunately, I am allergic to silicone and need to make sure the skirt and strap around the ankle won't be a problem for me.","displayName":"Pufferfish fins"},"user":{"id":"/social/authors/donna.billups@pookmail.com","name":"Donna Billups","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile","avatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"donna.billups@pookmail.com","resourceType":"social/commons/components/author","url":"/social/authors/donna.billups@pookmail.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile"},"title":"donna.billups@pookmail.com add Pufferfish fins","verb":"add","published":1518654845675,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/b46928a0-93c7-4f51-b928-6a366847377a/social:nestedmaps","sentiment":5,"jcr:created":1539449159471,"authorizableId":"donna.billups@pookmail.com","added":"2018-02-14T19:34:05.363-05:00","displayName":"an answer","jcr:createdBy":"admin","publishDate":"2018-02-14T19:34:05.424-05:00","contextPath":"","url":"/content/we-retail/us/en/community/questions.topic.html/pufferfish-fins.html?filter=page+has+merci_pour_toutesce-naHa","objectType":"comment","approved":true,"userIdentifier":"donna.billups@pookmail.com","jcr:description":"Merci pour toutes ces informations ! Cela m'est tres utile.","jcr:primaryType":"social:asiResource","subType":"social/qna/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/pufferfish-fins/merci_pour_toutesce-naHa","eventTopic":"comment"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/questions/jcr:content/content/primary/qna/pufferfish-fins/merci_pour_toutesce-naHa","content":"Merci pour toutes ces informations ! Cela m'est tres utile.","displayName":"an answer"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/b46928a0-93c7-4f51-b928-6a366847377a.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/b46928a0-93c7-4f51-b928-6a366847377a","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/cb894b67-dbe1-4df9-a014-2bb30bc9547e","target":{"objectType":"collection","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/cb894b67-dbe1-4df9-a014-2bb30bc9547e/social:nestedmaps","sentiment":5,"jcr:created":1539449159698,"authorizableId":"emily.andrews@mailinator.com","mtlanguage":"en","added":"2018-02-14T19:33:35.061-05:00","displayName":"Elastic super long longboard","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:35.100-05:00","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/elastic-super-long-l/donna_is_right_about-hadF","jcr:title":"Elastic super long longboard","url":"/content/we-retail/us/en/community/forum.topic.html/elastic-super-long-l.html","objectType":"collection","approved":true,"trackerId_s":"pugHAKgZ8XqwijEwP13PAlG8ehJablXa+tNsjk2q8oo=","userIdentifier":"emily.andrews@mailinator.com","jcr:description":"Is the Elastic super long longboard surfboard wood or glass?","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/topic","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/elastic-super-long-l","eventTopic":"forum","latestActivityDate_dt":"2018-02-15T00:33:38.976Z"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/elastic-super-long-l","content":"Is the Elastic super long longboard surfboard wood or glass?","displayName":"Elastic super long longboard"},"user":{"id":"/social/authors/donna.billups@pookmail.com","name":"Donna Billups","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile","avatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"donna.billups@pookmail.com","resourceType":"social/commons/components/author","url":"/social/authors/donna.billups@pookmail.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile"},"title":"donna.billups@pookmail.com add Elastic super long longboard","verb":"add","published":1518654821058,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/cb894b67-dbe1-4df9-a014-2bb30bc9547e/social:nestedmaps","sentiment":5,"jcr:created":1539449159699,"authorizableId":"donna.billups@pookmail.com","added":"2018-02-14T19:33:38.386-05:00","displayName":"a post","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:38.416-05:00","contextPath":"","url":"/content/we-retail/us/en/community/forum.topic.html/elastic-super-long-l.html?filter=page+has+you_may_also_wantto-58fV","objectType":"comment","approved":true,"userIdentifier":"donna.billups@pookmail.com","jcr:description":"You may also want to check out FutureBoards. It's like epoxy, but crazy light without any stiffness.","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/elastic-super-long-l/you_may_also_wantto-58fV","eventTopic":"forum"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/elastic-super-long-l/you_may_also_wantto-58fV","content":"You may also want to check out FutureBoards. It's like epoxy, but crazy light without any stiffness.","displayName":"a post"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/cb894b67-dbe1-4df9-a014-2bb30bc9547e.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/cb894b67-dbe1-4df9-a014-2bb30bc9547e","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/63b1219f-25a3-48c8-b47c-f488e38f1fd6","target":{"objectType":"collection","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/63b1219f-25a3-48c8-b47c-f488e38f1fd6/social:nestedmaps","sentiment":5,"jcr:created":1539449159437,"authorizableId":"josh.bradley@pookmail.com","mtlanguage":"en","added":"2018-02-14T19:33:30.414-05:00","displayName":"Snorkeling Equipment","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:30.467-05:00","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/snorkeling-equipment/merci_pour_toutesce-K7L0","jcr:title":"Snorkeling Equipment","url":"/content/we-retail/us/en/community/forum.topic.html/snorkeling-equipment.html","objectType":"collection","approved":true,"trackerId_s":"B8MCbPbgBK8AKfdJyROk17i/o862WUwdUDHg8kCZnhs=","userIdentifier":"josh.bradley@pookmail.com","jcr:description":"I would like to know the materials generally used in the snorkeling equipments. Unfortunately, I am allergic to silicone and need to make sure the strap around the neck won't be a problem for me.","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/topic","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/snorkeling-equipment","eventTopic":"forum","latestActivityDate_dt":"2018-02-15T00:33:34.484Z"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/snorkeling-equipment","content":"I would like to know the materials generally used in the snorkeling equipments. Unfortunately, I am allergic to silicone and need to make sure the strap around the neck won't be a problem for me.","displayName":"Snorkeling Equipment"},"user":{"id":"/social/authors/donna.billups@pookmail.com","name":"Donna Billups","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile","avatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"donna.billups@pookmail.com","resourceType":"social/commons/components/author","url":"/social/authors/donna.billups@pookmail.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile"},"title":"donna.billups@pookmail.com add Snorkeling Equipment","verb":"add","published":1518654817348,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/63b1219f-25a3-48c8-b47c-f488e38f1fd6/social:nestedmaps","sentiment":5,"jcr:created":1539449159439,"authorizableId":"donna.billups@pookmail.com","added":"2018-02-14T19:33:34.475-05:00","displayName":"a post","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:34.502-05:00","contextPath":"","url":"/content/we-retail/us/en/community/forum.topic.html/snorkeling-equipment.html?filter=page+has+merci_pour_toutesce-K7L0","objectType":"comment","approved":true,"userIdentifier":"donna.billups@pookmail.com","jcr:description":"Merci pour toutes ces informations ! Cela m'est tres utile.","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/snorkeling-equipment/merci_pour_toutesce-K7L0","eventTopic":"forum"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/snorkeling-equipment/merci_pour_toutesce-K7L0","content":"Merci pour toutes ces informations ! Cela m'est tres utile.","displayName":"a post"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/63b1219f-25a3-48c8-b47c-f488e38f1fd6.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/63b1219f-25a3-48c8-b47c-f488e38f1fd6","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/06f25bb9-110e-4328-8cfd-03a5ea9d25fd","target":{"objectType":"collection","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/06f25bb9-110e-4328-8cfd-03a5ea9d25fd/social:nestedmaps","sentiment":5,"jcr:created":1539449158772,"authorizableId":"josh.bradley@pookmail.com","mtlanguage":"en","added":"2018-02-14T19:33:30.414-05:00","displayName":"Snorkeling Equipment","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:30.467-05:00","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/snorkeling-equipment/worst_customer_exper-9ZWN","jcr:title":"Snorkeling Equipment","url":"/content/we-retail/us/en/community/forum.topic.html/snorkeling-equipment.html","objectType":"collection","approved":true,"trackerId_s":"B8MCbPbgBK8AKfdJyROk17i/o862WUwdUDHg8kCZnhs=","userIdentifier":"josh.bradley@pookmail.com","jcr:description":"I would like to know the materials generally used in the snorkeling equipments. Unfortunately, I am allergic to silicone and need to make sure the strap around the neck won't be a problem for me.","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/topic","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/snorkeling-equipment","eventTopic":"forum","latestActivityDate_dt":"2018-02-15T00:33:33.902Z"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/snorkeling-equipment","content":"I would like to know the materials generally used in the snorkeling equipments. Unfortunately, I am allergic to silicone and need to make sure the strap around the neck won't be a problem for me.","displayName":"Snorkeling Equipment"},"user":{"id":"/social/authors/donna.billups@pookmail.com","name":"Donna Billups","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile","avatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"donna.billups@pookmail.com","resourceType":"social/commons/components/author","url":"/social/authors/donna.billups@pookmail.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile"},"title":"donna.billups@pookmail.com add Snorkeling Equipment","verb":"add","published":1518654814373,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/06f25bb9-110e-4328-8cfd-03a5ea9d25fd/social:nestedmaps","sentiment":5,"jcr:created":1539449158774,"authorizableId":"donna.billups@pookmail.com","added":"2018-02-14T19:33:31.789-05:00","displayName":"a post","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:31.843-05:00","contextPath":"","url":"/content/we-retail/us/en/community/forum.topic.html/snorkeling-equipment.html?filter=page+has+one_of_my_kids_hasa-m0cf","objectType":"comment","approved":true,"userIdentifier":"donna.billups@pookmail.com","jcr:description":"One of my kids has a silicone allergy, so fortunately for you I have already done the research on this! If you are out there looking for snorkeling fins, you won't find much in the silicone free department. However, if you look around for SCUBA fins, you will find a pretty decent selection. The SCUBA fins will offer a heel strap that clicks to tighten, and is made entirely of plastic. The only drawback: you will need to wear neoprene dive boots. They are quite comfy and keep your feet warm, but it is another expense.","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/post","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/snorkeling-equipment/one_of_my_kids_hasa-m0cf","eventTopic":"forum"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/forum/jcr:content/content/primary/forum/snorkeling-equipment/one_of_my_kids_hasa-m0cf","content":"One of my kids has a silicone allergy, so fortunately for you I have already done the research on this! If you are out there looking for snorkeling fins, you won't find much in the silicone free department. However, if you look around for SCUBA fins, you will find a pretty decent selection. The SCUBA fins will offer a heel strap that clicks to tighten, and is made entirely of plastic. The only drawback: you will need to wear neoprene dive boots. They are quite comfy and keep your feet warm, but it is another expense.","displayName":"a post"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/06f25bb9-110e-4328-8cfd-03a5ea9d25fd.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/06f25bb9-110e-4328-8cfd-03a5ea9d25fd","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/c9aa3607-9ffe-4330-a334-f3d72e505b6e","target":{"objectType":"collection","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/c9aa3607-9ffe-4330-a334-f3d72e505b6e/social:nestedmaps","flagModerateThreshold":"1","allowDenyComments":"true","displayName":"Winter Sports","allowCloseComments":"true","rteEnabled":"true","allowFlagComments":"true","objectType":"collection","flagViewThreshold":"5","acceptFileTypes":[".jpeg, .jpg, .gif, .png, .pdf, .ppt, .pptx, .doc, .docx"],"feedEnabled":"true","allowFeaturedContent":"true","allowRepliesToComments":true,"id":"/content/we-retail/us/en/community/groups/wintersports/jcr:content/content/primary/forum","allowPrivilegedMembers":false,"maxSubjectLength":"104857600","allowFollowing":"true","allowTagging":"true","jcr:created":1539449159321,"allowSubscriptions":"true","jcr:createdBy":"admin","useFlagReasonFreeformText":"false","allowDeleteComments":"true","allowVoting":"true","url":"/content/we-retail/us/en/community/groups/wintersports.html","useFlagReasonList":"false","richTextEditor":"true","allowFileUploads":true,"maxMessageLength":"104857600","maxImageFileSize":"4194304","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/forum","isVirtual":false,"allowPinning":true},"id":"/content/we-retail/us/en/community/groups/wintersports/jcr:content/content/primary/forum","content":"","displayName":"Winter Sports"},"user":{"id":"/social/authors/donna.billups@pookmail.com","name":"Donna Billups","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile","avatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"donna.billups@pookmail.com","resourceType":"social/commons/components/author","url":"/social/authors/donna.billups@pookmail.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile"},"title":"donna.billups@pookmail.com post Winter Sports","verb":"post","published":1518654786348,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/c9aa3607-9ffe-4330-a334-f3d72e505b6e/social:nestedmaps","sentiment":5,"jcr:created":1539449159324,"authorizableId":"donna.billups@pookmail.com","added":"2018-02-14T19:33:05.904-05:00","displayName":"Gloves: you can't be too picky","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:06.030-05:00","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/groups/wintersports/jcr:content/content/primary/forum/gloves-you-cant-be-t","jcr:title":"Gloves: you can't be too picky","url":"/content/we-retail/us/en/community/groups/wintersports.topic.html/gloves-you-cant-be-t.html","objectType":"comment","approved":true,"userIdentifier":"donna.billups@pookmail.com","jcr:description":"it doesn't matter what you're up to. If its winter, and if you're outside enjoying, you are going to need a pair of quality gloves. If your hands are freezing, it doesn't matter how bundled up the rest of you is you're going to be miserable. I would recommend to the ladies that you check out the Classic leather gloves. They're made of genuine leather so you know they'll last, and so far they have done a fine job of keeping me warm.","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/topic","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/groups/wintersports/jcr:content/content/primary/forum/gloves-you-cant-be-t","eventTopic":"forum","latestActivityDate_dt":"2018-02-15T00:33:06.009Z"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/groups/wintersports/jcr:content/content/primary/forum/gloves-you-cant-be-t","content":"it doesn't matter what you're up to. If its winter, and if you're outside enjoying, you are going to need a pair of quality gloves. If your hands are freezing, it doesn't matter how bundled up the rest of you is you're going to be miserable. I would recommend to the ladies that you check out the Classic leather gloves. They're made of genuine leather so you know they'll last, and so far they have done a fine job of keeping me warm.","displayName":"Gloves: you can't be too picky"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/c9aa3607-9ffe-4330-a334-f3d72e505b6e.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/c9aa3607-9ffe-4330-a334-f3d72e505b6e","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"},{"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/f51897a2-9246-492b-a391-3593cd6f0870","target":{"objectType":"collection","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/f51897a2-9246-492b-a391-3593cd6f0870/social:nestedmaps","flagModerateThreshold":"1","allowDenyComments":"true","displayName":"Winter Sports","allowCloseComments":"true","rteEnabled":"true","allowFlagComments":"true","objectType":"collection","flagViewThreshold":"5","acceptFileTypes":[".jpeg, .jpg, .gif, .png, .pdf, .ppt, .pptx, .doc, .docx"],"feedEnabled":"true","allowFeaturedContent":"true","allowRepliesToComments":true,"id":"/content/we-retail/us/en/community/groups/wintersports/jcr:content/content/primary/forum","allowPrivilegedMembers":false,"maxSubjectLength":"104857600","allowFollowing":"true","allowTagging":"true","jcr:created":1539449159463,"allowSubscriptions":"true","jcr:createdBy":"admin","useFlagReasonFreeformText":"false","allowDeleteComments":"true","allowVoting":"true","url":"/content/we-retail/us/en/community/groups/wintersports.html","useFlagReasonList":"false","richTextEditor":"true","allowFileUploads":true,"maxMessageLength":"104857600","maxImageFileSize":"4194304","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/forum","isVirtual":false,"allowPinning":true},"id":"/content/we-retail/us/en/community/groups/wintersports/jcr:content/content/primary/forum","content":"","displayName":"Winter Sports"},"user":{"id":"/social/authors/donna.billups@pookmail.com","name":"Donna Billups","profileUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile","avatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png","largeAvatarUrl":"/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.48.png","numberOfPosts":0,"disabled":false,"authorizableId":"donna.billups@pookmail.com","resourceType":"social/commons/components/author","url":"/social/authors/donna.billups@pookmail.com.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html/home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile"},"title":"donna.billups@pookmail.com post Winter Sports","verb":"post","published":1518654784811,"object":{"objectType":"comment","properties":{"social:parentid":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/f51897a2-9246-492b-a391-3593cd6f0870/social:nestedmaps","sentiment":5,"jcr:created":1539449159464,"authorizableId":"donna.billups@pookmail.com","added":"2018-02-14T19:33:03.945-05:00","displayName":"My new addiction: curling","jcr:createdBy":"admin","publishDate":"2018-02-14T19:33:04.117-05:00","contextPath":"","latestActivityPath_s":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/groups/wintersports/jcr:content/content/primary/forum/my-new-addiction-cur","jcr:title":"My new addiction: curling","url":"/content/we-retail/us/en/community/groups/wintersports.topic.html/my-new-addiction-cur.html","objectType":"comment","approved":true,"userIdentifier":"donna.billups@pookmail.com","jcr:description":"Who would have ever thought that shuffleboard on ice could be so fun! If you've never tried it, I highly recommend it. Plus, it's a great activity for the whole family. I don't know why, but I became fascinated with the event and started making sure I didn't miss one match during the 2010 Olympics. I love how technical the sport is with the sweepers that make sure the rock travels at the exact speed to hit the mark. Too bad the United States came in dead last I hope we get better.","jcr:primaryType":"social:asiResource","subType":"social/forum/components/hbs/topic","isVirtual":false,"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/groups/wintersports/jcr:content/content/primary/forum/my-new-addiction-cur","eventTopic":"forum","latestActivityDate_dt":"2018-02-15T00:33:04.082Z"},"id":"/content/usergenerated/asi/jcr/content/we-retail/us/en/community/groups/wintersports/jcr:content/content/primary/forum/my-new-addiction-cur","content":"Who would have ever thought that shuffleboard on ice could be so fun! If you've never tried it, I highly recommend it. Plus, it's a great activity for the whole family. I don't know why, but I became fascinated with the event and started making sure I didn't miss one match during the 2010 Olympics. I love how technical the sport is with the sweepers that make sure the rock travels at the exact speed to hit the mark. Too bad the United States came in dead last I hope we get better.","displayName":"My new addiction: curling"},"url":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/f51897a2-9246-492b-a391-3593cd6f0870.html","path":"/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/f51897a2-9246-492b-a391-3593cd6f0870","resourceType":"social/activitystreams/components/hbs/activitystreams/activity"}],"totalSize":12,"resourceType":"social/activitystreams/components/hbs/activitystreams","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/activitystream.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html","isAllowAllView":false,"isAllowUserView":true,"isAllowFollowingView":false}</script>
+
+<div class="social-activitystream" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/activitystream" data-scf-component="social/activitystreams/components/hbs/activitystreams">
+    <div id="scf-activities-navwrapper">
+        <ul class="nav nav-tabs nav-justified" role="tablist">
+            
+            
+                <li class="scf-activities-tab"><a class="scf-useractivities" href="#social-activities" evt="click=userActivity">My Activities</a>
+                </li>
+            
+
+            
+        </ul>
+        <div class="scf-scrollTableInner scf-is-my-activites">
+            <table id="scf-activitiestable" class="table table-striped header-fixed">
+                <thead>
+                    <tr>
+                        <th class="scf-activity-member col-xs-3 col-md-1 text-center">Member</th>
+                        <th class="scf-activity-info col-xs-8 col-md-6 text-left">Action</th>
+                        <th class="scf-activity-time col-xs-2 col-md-1 text-left">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                     
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/0eb874a3-34ad-4153-8708-cbbb203c024b" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Donna Billups" title="Donna Billups" src="../../../../../../../../../../../home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Donna Billups</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../ideas.idea.html/removable-thumb-slee-filter=page+has+i_love_it_can_t_be-XEa1.html">Replied </a>to
+    <b><a href="../../../../../../ideas.idea.html/removable-thumb-slee.html">Removable thumb sleeve for gloves </a></b>
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    I love it!  Can't believe no one does this yet.  What about different colors for the 'hand-bands'?
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:34 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/bed777f8-23da-4088-ad4e-550bb070d9b8" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Donna Billups" title="Donna Billups" src="../../../../../../../../../../../home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Donna Billups</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+Liked
+    <b>
+    
+         <a href="../../../../../../ideas.idea.html/removable-thumb-slee.html">
+            
+                Removable thumb sleeve for gloves 
+            
+        </a>
+    
+    </b>
+
+        
+        
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:34 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/93e6a129-f855-490f-aff4-9983e0172b17" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Donna Billups" title="Donna Billups" src="../../../../../../../../../../../home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Donna Billups</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../questions.topic.html/lagos-mini-longboard-filter=page+has+you_may_also_wantto-NwHZ.html">
+
+        
+                Replied</a> to
+        
+
+<b><a href="../../../../../../questions.topic.html/lagos-mini-longboard.html">Lagos mini longboard</a></b>
+
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    You may also want to check out NexGen. It's like epoxy, but crazy light without any stiffness.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:34 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/7a41d4e2-0d31-4cff-84d0-2b61122b0c6d" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Donna Billups" title="Donna Billups" src="../../../../../../../../../../../home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Donna Billups</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../questions.topic.html/blackcomb-gloves-filter=page+has+these_gloves_do_not-8A0h.html">
+
+        
+                Replied</a> to
+        
+
+<b><a href="../../../../../../questions.topic.html/blackcomb-gloves.html">Blackcomb Gloves</a></b>
+
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    These gloves do not have hand warmers, but I have found with them that you don't really need the warmers, and I consider myself one to get cold pretty easily, especially in my fingers and toes. The gloves are completely waterproof and have a great drawstring that helps to keep snow out and your body heat out.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:34 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/b46928a0-93c7-4f51-b928-6a366847377a" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Donna Billups" title="Donna Billups" src="../../../../../../../../../../../home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Donna Billups</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../questions.topic.html/pufferfish-fins-filter=page+has+merci_pour_toutesce-naHa.html">
+
+        
+                Replied</a> to
+        
+
+<b><a href="../../../../../../questions.topic.html/pufferfish-fins.html">Pufferfish fins</a></b>
+
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    Merci pour toutes ces informations ! Cela m'est tres utile.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:34 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/cb894b67-dbe1-4df9-a014-2bb30bc9547e" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Donna Billups" title="Donna Billups" src="../../../../../../../../../../../home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Donna Billups</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../forum.topic.html/elastic-super-long-l-filter=page+has+you_may_also_wantto-58fV.html">Replied </a>to
+    <b><a href="../../../../../../forum.topic.html/elastic-super-long-l.html">Elastic super long longboard</a></b>
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    You may also want to check out FutureBoards. It's like epoxy, but crazy light without any stiffness.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:33 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/63b1219f-25a3-48c8-b47c-f488e38f1fd6" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Donna Billups" title="Donna Billups" src="../../../../../../../../../../../home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Donna Billups</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../forum.topic.html/snorkeling-equipment-filter=page+has+merci_pour_toutesce-K7L0.html">Replied </a>to
+    <b><a href="../../../../../../forum.topic.html/snorkeling-equipment.html">Snorkeling Equipment</a></b>
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    Merci pour toutes ces informations ! Cela m'est tres utile.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:33 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/06f25bb9-110e-4328-8cfd-03a5ea9d25fd" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Donna Billups" title="Donna Billups" src="../../../../../../../../../../../home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Donna Billups</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+<a href="../../../../../../forum.topic.html/snorkeling-equipment-filter=page+has+one_of_my_kids_hasa-m0cf.html">Replied </a>to
+    <b><a href="../../../../../../forum.topic.html/snorkeling-equipment.html">Snorkeling Equipment</a></b>
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    One of my kids has a silicone allergy, so fortunately for you I have already done the research on this! If you are out there looking for snorkeling fins, you won't find much in the silicone free department. However, if you look around for SCUBA fins, you will find a pretty decent selection. The SCUBA fins will offer a heel strap that clicks to tighten, and is made entirely of plastic. The only drawback: you will need to wear neoprene dive boots. They are quite comfy and keep your feet warm, but it is another expense.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:33 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/c9aa3607-9ffe-4330-a334-f3d72e505b6e" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Donna Billups" title="Donna Billups" src="../../../../../../../../../../../home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Donna Billups</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+Posted <a href="../../../../../../groups/wintersports.topic.html/gloves-you-cant-be-t.html">Gloves: you can&#x27;t be too picky</a> on <b><a href="../../../../../../groups/wintersports.html">Winter Sports</a></b>
+
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    it doesn't matter what you're up to. If its winter, and if you're outside enjoying, you are going to need a pair of quality gloves. If your hands are freezing, it doesn't matter how bundled up the rest of you is you're going to be miserable. I would recommend to the ladies that you check out the Classic leather gloves. They're made of genuine leather so you know they'll last, and so far they have done a fine job of keeping me warm.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:33 AM</p>
+    </td>
+
+</tr>
+  
+<tr class="social-activity" data-component-id="/content/usergenerated/asi/jcr/content/we-retail/us/en/activitystreams/activities/community/f51897a2-9246-492b-a391-3593cd6f0870" data-scf-component='social/activitystreams/components/hbs/activitystreams/activity'>
+
+    <td class="scf-activity-member scf-activity-row" align="center">
+        <img class="scf-activity-avatar img-responsive img-circle" alt="Donna Billups" title="Donna Billups" src="../../../../../../../../../../../home/users/community/l/p8lY42QdJq5HEGhlgfmV/profile/photos/primary/image.prof.thumbnail.32.png"></img>
+        <a class="scf-activity-user" href="profile.html">Donna Billups</a>
+    </td>
+
+    <td class="scf-activity-info scf-activity-row">
+        
+            
+Posted <a href="../../../../../../groups/wintersports.topic.html/my-new-addiction-cur.html">My new addiction: curling</a> on <b><a href="../../../../../../groups/wintersports.html">Winter Sports</a></b>
+
+        
+        
+            
+                <div class="scf-activity-content scf-is-expand">
+                    Who would have ever thought that shuffleboard on ice could be so fun! If you've never tried it, I highly recommend it. Plus, it's a great activity for the whole family. I don't know why, but I became fascinated with the event and started making sure I didn't miss one match during the 2010 Olympics. I love how technical the sport is with the sweepers that make sure the rock travels at the exact speed to hit the mark. Too bad the United States came in dead last I hope we get better.
+                </div>
+            
+        
+        <a class="scf-is-expandText scf-is-expandText" href="#">Show more</a>
+    </td>
+    <td class="scf-activity-time scf-activity-row">
+        <p class="scf-activity-time">Feb 15 2018, 12:33 AM</p>
+    </td>
+
+</tr>
+ 
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+</div>
+
+                    </div>
+                    <div id="tabs-3" class="tab scf-tab-pane">
+                        <div class="userbadges"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges","properties":{"jcr:lastModifiedBy":"admin","jcr:created":1389289508070,"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:createdBy":"admin","jcr:lastModified":1518654214109,"name":"Badges","jcr:primaryType":"nt:unstructured","allowUserView":"true","title":"Badges"},"earnedBadges":[{"id":"/libs/community/badging/images/silver-badge","title":"Silver","imageUrl":"/libs/community/badging/images/silver-badge/silver.png","dateAssigned":"2018-02-15T00:33:38.255+0000","isAssigned":false,"earnedScore":15},{"id":"/libs/community/badging/images/bronze-badge","title":"Bronze","imageUrl":"/libs/community/badging/images/bronze-badge/bronze.png","dateAssigned":"2018-02-15T00:32:36.032+0000","isAssigned":false,"earnedScore":2}],"earnedTopBadges":[{"id":"/libs/community/badging/images/silver-badge","title":"Silver","imageUrl":"/libs/community/badging/images/silver-badge/silver.png","dateAssigned":"2018-02-15T00:33:38.255+0000","isAssigned":false,"earnedScore":15}],"resourceType":"social/console/components/hbs/userbadges","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/primary/userprofile/userbadges.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+
+<div class="scf scf-user-profile-badges" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/primary/userprofile/userbadges" data-scf-component="social/console/components/hbs/userbadges">
+    <div class="dropdown">
+        <button class="btn btn-default" type="button" id="scf-js-badges-select" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <span class="scf-js-badges-select-label">All Badges</span>
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="scf-js-badges-select">
+            <li><a evt="click=selectBadges" data-type="" href="#">All Badges</a></li>
+            <li><a evt="click=selectBadges" data-type="assigned-badges" href="#">All Assigned</a></li>
+            <li><a evt="click=selectBadges" data-type="earned-badges" href="#">All Earned</a></li>
+        </ul>
+    </div>
+    <br />
+    
+        <div id="earned-badges" class="scf-js-user-profile-badges-list">
+            
+                <span class="scf-js-user-profile-badge"><img src="../../../../../../../../../../../libs/community/badging/images/silver-badge/silver.png"/>Silver</span>
+            
+                <span class="scf-js-user-profile-badge"><img src="../../../../../../../../../../../libs/community/badging/images/bronze-badge/bronze.png"/>Bronze</span>
+            
+        </div>
+    
+    
+</div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+</div>
+
+    
+</div></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 scf-site-aux scf-site-content-right">
+        <div class="responsivegrid">
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="relationships aem-GridColumn aem-GridColumn--default--12"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followees'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followees","properties":{"jcr:mixinTypes":["cq:LiveRelationship"],"jcr:primaryType":"nt:unstructured","relType":"USER"},"totalSize":0,"resourceType":"social/socialgraph/components/hbs/relationships","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/auxilary/followees.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+<div class="scf scf-follows" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followees" data-scf-component="social/socialgraph/components/hbs/relationships">
+    
+        <h3>Following&nbsp;<small>0</small></h3>
+    
+    <ul class="scf-relationshiplist">
+        
+    </ul>
+</div>
+</div>
+<div class="relationships aem-GridColumn aem-GridColumn--default--12"><script data-scf-json="true" type='application/json' id='/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followers'>{"id":"/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followers","properties":{"outgoing":"false","jcr:mixinTypes":["cq:LiveRelationship"],"jcr:primaryType":"nt:unstructured","relType":"USER"},"totalSize":0,"resourceType":"social/socialgraph/components/hbs/relationships","url":"/content/we-retail/us/en/community/profile/_jcr_content/content/auxilary/followers.social.json","friendlyUrl":"/content/we-retail/us/en/community/profile.html"}</script>
+<div class="scf scf-follows" data-component-id="/content/we-retail/us/en/community/profile/jcr:content/content/auxilary/followers" data-scf-component="social/socialgraph/components/hbs/relationships">
+    
+        <h3>Followers&nbsp;<small>0</small></h3>
+    
+    <ul class="scf-relationshiplist">
+        
+    </ul>
+</div>
+</div>
+
+    
+</div></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="scf-js-site-title" data-id="community-minqg" href="/content/we-retail/us/en/community.html" style="visibility: hidden;"></div>
+<div class="footer">
+
+    
+
+
+
+
+
+    <footer class="we-Footer">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="we-Logo we-Logo--big">
+                        we.<strong>Retail</strong>
+                    </div>
+                </div>
+
+                <div class="col-md-9 col-sm-12">
+                    <div class="we-navigation">
+<nav class="cmp-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <ul class="cmp-navigation__group">
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../experience.html" title="Experience" class="cmp-navigation__item-link">Experience</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../men.html" title="Men" class="cmp-navigation__item-link">Men</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../women.html" title="Women" class="cmp-navigation__item-link">Women</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../equipment.html" title="Equipment" class="cmp-navigation__item-link">Equipment</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../about-us.html" title="About Us" class="cmp-navigation__item-link">About Us</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0">
+        
+    <a href="../../../../../../../products.html" title="Products" class="cmp-navigation__item-link">Products</a>
+
+        
+    </li>
+
+    
+        
+    <li class="cmp-navigation__item cmp-navigation__item--level-0 cmp-navigation__item--active">
+        
+    <a href="../../../../../../../community.html" title="Community" class="cmp-navigation__item-link">Community</a>
+
+        
+    </li>
+
+    </ul>
+</nav>
+
+    
+
+</div>
+
+                </div>
+
+
+            </div>
+
+            <div class="row we-Footer-section we-Footer-section--sub">
+                <div class="we-Footer-section-item">
+                    <span class="text-uppercase text-muted">© 2019 All rights reserved</span>
+                </div>
+                <div class="we-Footer-section-item">
+                    <a href="#" class="text-uppercase text-muted">Terms of use &amp; privacy policy</a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <a href="#top" class="btn btn-action btn-action-up btn-primary">Ride to the top</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</div>
+
+</div>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/core/wcm/components/search/v1/search/clientlibs/site.js"></script>
+<script type="text/javascript" src="../../../../../../../../../../../etc.clientlibs/weretail/clientlibs/clientlib-communities.js"></script>
+
+
+
+
+</body>
+</html>

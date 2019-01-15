@@ -1,0 +1,89 @@
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2014 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+.scf-voting {
+    width: auto;
+    cursor: pointer;
+}
+
+.scf-voting .scf-votingLabel {
+    font-size: 18px;
+    width: 24px;
+    text-align: right;
+}
+
+.scf-voting span {
+    border: 0;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 38px;
+}
+
+.scf-voting .scf-vote-up:hover:before,
+.scf-voting .scf-vote-down:hover:before,
+.scf-voting .scf-vote-up.scf-voting-unset:hover:before,
+.scf-voting .scf-vote-down.scf-voting-unset:hover:before {
+    color: #4191D2;
+}
+
+.scf-voting .scf-vote-up:before {
+    content: "";
+    font-family: SCFIcons;
+    font-size: 16px;
+    color: #B4B4B4;
+}
+
+.scf-voting .scf-vote-down:before {
+    content: "";
+    font-family: SCFIcons;
+    font-size: 16px;
+    color: #B4B4B4;
+}
+
+.scf-voting .scf-vote-up.scf-voting-unset:before {
+    color: #82AA46;
+}
+
+.scf-voting .scf-vote-down.scf-voting-unset:before {
+    color: #EB413C;
+}
+
+.scf-voting .scf-votingLabel[data-vote-count] {
+    color: #82AA46;
+}
+
+.scf-voting .scf-votingLabel[data-vote-count='0'] {
+    color: #B4B4B4;
+}
+
+.scf-voting .scf-votingLabel[data-vote-count*='-'] {
+    color: #EB413C;
+}
+
+.scf-voting .scf-is-disabled {
+    cursor: not-allowed;
+}
+
+.scf-voting .scf-is-disabled:hover:before,
+.scf-voting .scf-voting-unset.scf-is-disabled:hover:before {
+    color: #B4B4B4;
+}

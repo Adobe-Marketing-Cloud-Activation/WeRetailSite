@@ -1,0 +1,706 @@
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2014 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+
+/******** composer styles ************/
+
+.scf-composer-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    float: left;
+}
+
+.scf-commentsystem header {
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.scf-composer-block {
+    padding: 10px;
+}
+
+.scf-composer-block.scf-is-collapsed input,
+.scf-composer-block.scf-is-collapsed label {
+    display: none;
+}
+
+.scf-is-collapsed .scf-composer-msg {
+    border: 1px solid #B4B4B4;
+    height: 30px;
+    margin-top: 5px;
+    display: inline;
+}
+
+.scf-is-collapsed .scf-rte-composer {
+    display: none;
+}
+
+.scf-composer-block.scf-is-collapsed .scf-rte-placeholder {
+    display: inline;
+}
+
+.scf-composer-msg {
+    display: inline;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    height: 200px;
+}
+
+input.scf-composer-msg {
+    height: 30px;
+}
+
+.scf-composer-msg::-webkit-input-placeholder:before {
+    font-family: SCFIcons;
+    content: "\f15a\00a0\00a0";
+}
+
+.scf-composer-msg:-moz-placeholder:before {
+    font-family: SCFIcons;
+    content: "\f15a\00a0\00a0";
+}
+
+.scf-composer-msg::-moz-placeholder:before {
+    font-family: SCFIcons;
+    content: "\f15a\00a0\00a0";
+}
+
+.scf-composer-msg:-ms-input-placeholder:before {
+    font-family: SCFIcons;
+    content: "\f15a\00a0\00a0";
+}
+
+.scf-is-collapsed .scf-composer-toolbar {
+    display: none;
+}
+
+.scf-composer-toolbar {
+    position: relative;
+    margin-top: 10px;
+}
+
+.scf-composer {
+    margin: 0 0 0 50px;
+}
+
+.scf-composer.scf-edit-composer {
+    margin: 0px;
+}
+
+.scf-composer-actions {
+    text-align: right;
+}
+
+.scf-comment-attachment-input {
+    display: none;
+    float: left;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 100px;
+}
+
+.scf-composer-attach {
+    float: left;
+    cursor: pointer;
+}
+
+.scf-composer-attach:before {
+    font-family: SCFIcons;
+    margin-right: 5px;
+    content: "";
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.scf-composer-delete:before {
+    font-family: SCFIcons;
+    margin-right: 5px;
+    content: "\f171";
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.scf-attachment-list {
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    list-style: none;
+}
+
+.scf-is-attached {
+    background: #969696;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.scf-is-rem-att {
+    font-size: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.scf-rte-placeholder {
+    display: none;
+}
+
+.scf-composer .scf-input {
+    display: block;
+}
+
+
+/****** ckeditor styles ********/
+
+.scf .cke {
+    margin-bottom: 10px;
+    border: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.scf .cke_contents {
+    border: 1px solid #B3B3B3;
+}
+
+.scf .cke_top {
+    border-bottom: 0px;
+    padding: 0px;
+    white-space: normal;
+    box-shadow: 0 0 0 0;
+    background: transparent;
+    background-image: none;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.scf .cke_toolgroup {
+    float: left;
+    margin: 0 6px 5px 0;
+    border: 0;
+    border-radius: 0px;
+    box-shadow: 0 0 0 0;
+    background: transparent;
+    background-image: none;
+    -webkit-filter: none;
+    filter: none;
+}
+
+
+/******** comments list ************/
+
+.scf-comments-list {
+    padding: 10px 0 0 0;
+    margin: 0px;
+    list-style: none;
+    border-top: 1px solid #E6E6E6;
+}
+
+
+/******* comment style *************/
+
+.scf-comment {
+    padding: 10px;
+    padding-right: 0px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.scf-comment:last-child {
+    border: 0;
+}
+
+.scf-comment-author {
+    width: 50px;
+    float: left;
+    overflow: hidden;
+}
+
+.scf-comment-body {
+    margin-right: 50px;
+}
+
+.scf-comment-avatar {
+    padding-bottom: 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.scf-comment-avatar.withTopLevel {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.scf-badge-image {
+    padding: 1px;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.scf-badge-text {
+    font-size: 10px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+    white-space: nowrap;
+    clear: left;
+}
+
+.scf-comment-data {
+    margin-left: 50px;
+    position: relative;
+}
+
+.scf-comment-data.withTopLevel {
+    margin-left: 60px;
+}
+
+.scf-comment-replies .scf-comments-list.withTopLevel {
+    margin-left: 60px;
+    border-top: 1px solid #E6E6E6;
+}
+
+.scf-comment-replies .scf-comments-list {
+    margin-left: 50px;
+    margin-top: 10px;
+    border-top: 1px solid #E6E6E6;
+}
+
+.scf-comment-votes {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.scf-comment-msg {
+    margin-top: 10px;
+}
+
+.scf-comment-img-att {
+    max-width: 60%;
+    border: 1px solid #E6E6E6;
+    width: auto;
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+.scf-comment-attachment-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.scf-comment-att .scf-comment-att-link {
+    margin-left: 10px;
+}
+
+.scf-comment-file-att {
+    min-height: 134px;
+}
+
+.scf-comment-file-icon {
+    font-size: 48px;
+    line-height: 134px;
+    color: white;
+}
+
+.scf-is-card-overlay-on .scf-comment-file-icon {
+    display: none;
+}
+
+.scf-comment-att-delete,
+.scf-comment-att-delete-ok,
+.scf-comment-att-delete-cancel {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.scf-comment-attachments .scf-comment-att-delete-ok,
+.scf-comment-attachments .scf-comment-att-delete-cancel {
+    display: none;
+}
+
+.scf-comment-attachments .scf-is-att-confirm-overlay-on .scf-comment-att-delete-ok,
+.scf-comment-attachments .scf-is-att-confirm-overlay-on .scf-comment-att-delete-cancel {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.scf-is-att-confirm-overlay-on .scf-comment-att-delete {
+    display: none;
+}
+
+.scf-att-confirm-text {
+    font-size: 12px;
+    display: block;
+}
+
+.scf-comment-att-name {
+    background-color: #E6E6E6;
+    line-height: 18px;
+    padding: 10px;
+}
+
+.scf-is-new {
+    background-color: #EBF0DC;
+    padding: 0.5rem 0 0 0.5rem;
+}
+
+
+/****** comment toolbar styles ******/
+
+.scf-comment-toolbar {
+    margin-top: 10px;
+}
+
+.scf-comment-action {
+    display: inline-block;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+/***** pubmod styles *****/
+
+.scf-comment-status-text {
+    margin: 10px 0;
+    color: #969696;
+    font-style: italic;
+}
+
+.scf-flag-reasons th {
+    font-weight: 300;
+    padding-right: 20px;
+    border-bottom: 1px solid #969696;
+}
+
+.scf-flag-reasons tr {
+    font-weight: 100;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+.scf-flag-reasons td {
+    padding-right: 10px;
+}
+
+
+/*** Subscriptions styles ***/
+
+.scf-cs-subscriptions-block {
+    display: inline-block;
+    position: relative;
+    margin-left: 80%;
+}
+
+.scf-comment-ugclimitdialog {
+    background-color: #3C3C3C;
+}
+
+.scf-comment-ugclimitdialog .modal-title {
+    text-align: center;
+}
+
+.scf-comment-ugclimitdialog .modal-footer {
+    text-align: center;
+}
+
+.scf-comment-ugclimitdialog .close {
+    line-height: 2.5;
+}
+
+li.scf-post {
+    margin-top: 30px;
+}
+
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2014 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+.scf-profile-heading {
+    float: left;
+    font-weight: bold;
+}
+
+.scf-user-profile .scf-is-collapsed {
+    display: none;
+}
+
+.scf-profile-form {
+    font-size: 14px;
+}
+
+.scf-profile-form-label {
+    color: #aaa;
+    font-weight: normal;
+    text-align: left;
+    margin: 5px 0 5px 0;
+}
+
+.scf-profile-form span {
+    color: #428bca;
+}
+
+.scf-profile-form .row {
+    padding-bottom: 10px;
+}
+
+.scf-profile-form .row-small-padding {
+    padding-bottom: 2px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.scf-profile-form .row-right-padding {
+    padding-bottom: 2px;
+    margin-right: -15px;
+}
+
+.scf-profile-form .row-left-padding {
+    padding-bottom: 2px;
+    margin-left: -15px;
+}
+
+.scf-profile-form-textarea {
+    resize: vertical;
+    max-height: 200px;
+    min-height: 100px;
+}
+
+.scf-profile-edit {
+    float: right;
+    margin-right: 20px;
+}
+
+.scf-tool-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.scf-container-fluid {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.scf-large-lable {
+    font-size: 16px;
+}
+
+.scf-user-info-card {
+    height: 100px;
+}
+
+.scf-user-avatar-left {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+}
+
+.scf-user-avatar-left .scf-overlay-top-right {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 1px 5px 1px 5px;
+    color: #428BCA;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.scf-user-info-middle {
+    display: inline-block;
+    float: left;
+    width: 32%;
+}
+
+.scf-user-info-right {
+    display: inline-block;
+    float: left;
+    width: 49%;
+}
+
+.scf-badge-right {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #777;
+    border-radius: 10px;
+    float: right;
+}
+
+.scf-profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 2px;
+    float: left;
+}
+
+
+/** tab */
+
+.scf-tab-content {
+    overflow: auto;
+}
+
+.scf-tab-content > .scf-tab-pane {
+    display: none;
+}
+
+.scf-tab-content > .active {
+    display: block;
+}
+
+.scf-tab-content {
+    margin-top: 10px;
+}
+
+.scf-upload-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+
+.scf-form-row {
+    margin: 0 15px 20px 15px;
+}
+
+.scf-avatar-upload {
+    position: relative;
+    overflow: hidden;
+    color: #428bca;
+}
+
+.scf-avatar-upload-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.scf-js-avatar-box {
+    color: #000;
+}
+
+.scf-password-form {
+    min-width: 500px;
+    text-align: left;
+}
+
+.scf-following-content {
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    min-width: 154px;
+}
+
+.scf-profile-button-group-right {
+    float: right;
+    margin-right: 10px;
+}
+
+.scf-profile-button-group-left {
+    float: left;
+    margin-left: 10px;
+}
+
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+.scf-js-user-profile-badges-list {
+    padding: 20px 0 10px 0;
+    line-height: 35px;
+}
+
+.scf-js-user-profile-badge {
+    padding-right: 20px;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.scf-js-user-profile-badge img {
+    padding-right: 5px;
+}
+
+.scf-user-profile-badges-select {
+    font-size: 12px;
+}
+
+.scf-user-profile-badges-select .coral3-Select-label {
+    font-size: 10px;
+}
+
+.scf-user-profile-badges {
+    min-height: 150px;
+}
+
+.scf-js-user-profile-badges-top {
+    min-height: 30px;
+}
+

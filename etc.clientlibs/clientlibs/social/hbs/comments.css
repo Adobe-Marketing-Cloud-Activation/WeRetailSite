@@ -1,0 +1,658 @@
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+.scf-cards {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    max-height: 430px;
+    overflow-y: scroll;
+    margin-top: 40px;
+}
+
+.scf-card {
+    display: inline-block;
+    width: 150px;
+    border-color: dimgray;
+    border: 1px solid;
+    border-radius: 3px;
+    background-color: #ddd;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    min-height: 154px;
+    line-height: 134px;
+}
+
+.scf-card .scf-card-img {
+    max-width: 150px;
+}
+
+.scf-card .scf-card-footer {
+    height: 20px;
+    width: 100%;
+    opacity: .9;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: gray;
+    color: white;
+    font-size: small;
+    text-align: left;
+    line-height: 20px;
+}
+
+.scf-card-footer a {
+    color: white;
+    font-size: smaller;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.scf-card-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 24px;
+    color: white;
+    display: none;
+}
+
+.scf-card-overlay:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+
+.scf-card.scf-is-card-overlay-on .scf-card-overlay {
+    display: block;
+}
+
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2014 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+
+/******** composer styles ************/
+
+.scf-composer-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    float: left;
+}
+
+.scf-commentsystem header {
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.scf-composer-block {
+    padding: 10px;
+}
+
+.scf-composer-block.scf-is-collapsed input,
+.scf-composer-block.scf-is-collapsed label {
+    display: none;
+}
+
+.scf-is-collapsed .scf-composer-msg {
+    border: 1px solid #B4B4B4;
+    height: 30px;
+    margin-top: 5px;
+    display: inline;
+}
+
+.scf-is-collapsed .scf-rte-composer {
+    display: none;
+}
+
+.scf-composer-block.scf-is-collapsed .scf-rte-placeholder {
+    display: inline;
+}
+
+.scf-composer-msg {
+    display: inline;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    height: 200px;
+}
+
+input.scf-composer-msg {
+    height: 30px;
+}
+
+.scf-composer-msg::-webkit-input-placeholder:before {
+    font-family: SCFIcons;
+    content: "\f15a\00a0\00a0";
+}
+
+.scf-composer-msg:-moz-placeholder:before {
+    font-family: SCFIcons;
+    content: "\f15a\00a0\00a0";
+}
+
+.scf-composer-msg::-moz-placeholder:before {
+    font-family: SCFIcons;
+    content: "\f15a\00a0\00a0";
+}
+
+.scf-composer-msg:-ms-input-placeholder:before {
+    font-family: SCFIcons;
+    content: "\f15a\00a0\00a0";
+}
+
+.scf-is-collapsed .scf-composer-toolbar {
+    display: none;
+}
+
+.scf-composer-toolbar {
+    position: relative;
+    margin-top: 10px;
+}
+
+.scf-composer {
+    margin: 0 0 0 50px;
+}
+
+.scf-composer.scf-edit-composer {
+    margin: 0px;
+}
+
+.scf-composer-actions {
+    text-align: right;
+}
+
+.scf-comment-attachment-input {
+    display: none;
+    float: left;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 100px;
+}
+
+.scf-composer-attach {
+    float: left;
+    cursor: pointer;
+}
+
+.scf-composer-attach:before {
+    font-family: SCFIcons;
+    margin-right: 5px;
+    content: "";
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.scf-composer-delete:before {
+    font-family: SCFIcons;
+    margin-right: 5px;
+    content: "\f171";
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.scf-attachment-list {
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    list-style: none;
+}
+
+.scf-is-attached {
+    background: #969696;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    font-size: 12px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.scf-is-rem-att {
+    font-size: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.scf-rte-placeholder {
+    display: none;
+}
+
+.scf-composer .scf-input {
+    display: block;
+}
+
+
+/****** ckeditor styles ********/
+
+.scf .cke {
+    margin-bottom: 10px;
+    border: 0;
+    box-shadow: 0 0 0 0;
+}
+
+.scf .cke_contents {
+    border: 1px solid #B3B3B3;
+}
+
+.scf .cke_top {
+    border-bottom: 0px;
+    padding: 0px;
+    white-space: normal;
+    box-shadow: 0 0 0 0;
+    background: transparent;
+    background-image: none;
+    -webkit-filter: none;
+    filter: none;
+}
+
+.scf .cke_toolgroup {
+    float: left;
+    margin: 0 6px 5px 0;
+    border: 0;
+    border-radius: 0px;
+    box-shadow: 0 0 0 0;
+    background: transparent;
+    background-image: none;
+    -webkit-filter: none;
+    filter: none;
+}
+
+
+/******** comments list ************/
+
+.scf-comments-list {
+    padding: 10px 0 0 0;
+    margin: 0px;
+    list-style: none;
+    border-top: 1px solid #E6E6E6;
+}
+
+
+/******* comment style *************/
+
+.scf-comment {
+    padding: 10px;
+    padding-right: 0px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.scf-comment:last-child {
+    border: 0;
+}
+
+.scf-comment-author {
+    width: 50px;
+    float: left;
+    overflow: hidden;
+}
+
+.scf-comment-body {
+    margin-right: 50px;
+}
+
+.scf-comment-avatar {
+    padding-bottom: 3px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.scf-comment-avatar.withTopLevel {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.scf-badge-image {
+    padding: 1px;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.scf-badge-text {
+    font-size: 10px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+    white-space: nowrap;
+    clear: left;
+}
+
+.scf-comment-data {
+    margin-left: 50px;
+    position: relative;
+}
+
+.scf-comment-data.withTopLevel {
+    margin-left: 60px;
+}
+
+.scf-comment-replies .scf-comments-list.withTopLevel {
+    margin-left: 60px;
+    border-top: 1px solid #E6E6E6;
+}
+
+.scf-comment-replies .scf-comments-list {
+    margin-left: 50px;
+    margin-top: 10px;
+    border-top: 1px solid #E6E6E6;
+}
+
+.scf-comment-votes {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.scf-comment-msg {
+    margin-top: 10px;
+}
+
+.scf-comment-img-att {
+    max-width: 60%;
+    border: 1px solid #E6E6E6;
+    width: auto;
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+.scf-comment-attachment-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.scf-comment-att .scf-comment-att-link {
+    margin-left: 10px;
+}
+
+.scf-comment-file-att {
+    min-height: 134px;
+}
+
+.scf-comment-file-icon {
+    font-size: 48px;
+    line-height: 134px;
+    color: white;
+}
+
+.scf-is-card-overlay-on .scf-comment-file-icon {
+    display: none;
+}
+
+.scf-comment-att-delete,
+.scf-comment-att-delete-ok,
+.scf-comment-att-delete-cancel {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.scf-comment-attachments .scf-comment-att-delete-ok,
+.scf-comment-attachments .scf-comment-att-delete-cancel {
+    display: none;
+}
+
+.scf-comment-attachments .scf-is-att-confirm-overlay-on .scf-comment-att-delete-ok,
+.scf-comment-attachments .scf-is-att-confirm-overlay-on .scf-comment-att-delete-cancel {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.scf-is-att-confirm-overlay-on .scf-comment-att-delete {
+    display: none;
+}
+
+.scf-att-confirm-text {
+    font-size: 12px;
+    display: block;
+}
+
+.scf-comment-att-name {
+    background-color: #E6E6E6;
+    line-height: 18px;
+    padding: 10px;
+}
+
+.scf-is-new {
+    background-color: #EBF0DC;
+    padding: 0.5rem 0 0 0.5rem;
+}
+
+
+/****** comment toolbar styles ******/
+
+.scf-comment-toolbar {
+    margin-top: 10px;
+}
+
+.scf-comment-action {
+    display: inline-block;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+
+/***** pubmod styles *****/
+
+.scf-comment-status-text {
+    margin: 10px 0;
+    color: #969696;
+    font-style: italic;
+}
+
+.scf-flag-reasons th {
+    font-weight: 300;
+    padding-right: 20px;
+    border-bottom: 1px solid #969696;
+}
+
+.scf-flag-reasons tr {
+    font-weight: 100;
+    border-bottom: 1px solid #B4B4B4;
+}
+
+.scf-flag-reasons td {
+    padding-right: 10px;
+}
+
+
+/*** Subscriptions styles ***/
+
+.scf-cs-subscriptions-block {
+    display: inline-block;
+    position: relative;
+    margin-left: 80%;
+}
+
+.scf-comment-ugclimitdialog {
+    background-color: #3C3C3C;
+}
+
+.scf-comment-ugclimitdialog .modal-title {
+    text-align: center;
+}
+
+.scf-comment-ugclimitdialog .modal-footer {
+    text-align: center;
+}
+
+.scf-comment-ugclimitdialog .close {
+    line-height: 2.5;
+}
+
+li.scf-post {
+    margin-top: 30px;
+}
+
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2014 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+ul.commentsystem {
+    list-style-type: none;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.comment {
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 0px 20px 0px;
+}
+
+.comment-data {
+    display: table;
+    margin-bottom: 5px;
+}
+
+.comment-data > * {
+    display: table-row;
+}
+
+
+/*.comment :first-child{
+    padding: 0px 10px 0px 10px;
+}*/
+
+.comment .reply-box {
+    padding: 0px 20px 0px 20px;
+}
+
+.comment .voting {
+    height: 75px;
+}
+
+.comment .voting .voting-input {
+    vertical-align: middle;
+}
+
+.comment-content {
+    margin-left: 10px;
+}
+
+.comment-avatar-img {
+    border-radius: 5px;
+    width: 105px;
+    height: 105px;
+}
+
+.comment-content > * {
+    display: table-cell;
+}
+
+.comment-detail {
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+.comment-detail p {
+    margin: 2px;
+}
+
+.comment-time {
+    color: #bdbdbd;
+}
+
+.voting {
+    display: table;
+    width: 100%
+}
+
+.replies .voting-input {
+    background-color: white;
+}
+
+.replies .comment {
+    padding-left: 0px;
+    margin-bottom: 3px;
+}
+
+.voting-input {
+    background-color: #e6e6e6;
+    display: table-cell;
+    padding: 10px;
+}
+
+.comment-composer .comment-avatar-img {
+    border-radius: 5px;
+    width: 83px;
+    height: 83px;
+}
+
+.comment-composer {
+    display: table;
+    background-color: white;
+}
+
+.comment-composer > * {
+    display: table-cell;
+}
+
+.comment-composer > form {
+    padding-top: 30px;
+    padding-left: 20px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.comment-composer-input {
+    width: 100%;
+}
+

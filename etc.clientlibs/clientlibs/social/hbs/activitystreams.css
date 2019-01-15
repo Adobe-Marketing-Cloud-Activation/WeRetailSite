@@ -1,0 +1,68 @@
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2015 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+a.scf-morelink {
+    text-decoration: none;
+    outline: none;
+}
+
+.scf-morecontent span {
+    display: none;
+}
+
+.scf-activity-avatar {
+    display: block;
+    margin-top: 5px;
+}
+
+.scf-activity-user {
+    position: relative;
+}
+
+.scf-activity-time {
+    text-align: left;
+}
+
+tr.social-activity {
+    line-height: 25px;
+}
+
+a.scf-activity-user {
+    margin-top: 10px;
+}
+
+.scf-is-my-activites .scf-activity-member {
+    display: none;
+}
+
+.scf-hasOverflow {}
+
+.scf-is-expandText {
+    cursor: pointer;
+    display: none;
+    position: relative;
+}
+
+.scf-is-expand {
+    max-height: 3em;
+    overflow: hidden;
+}
+
+.scf-activity-content p {
+    margin-bottom: 5px;
+}

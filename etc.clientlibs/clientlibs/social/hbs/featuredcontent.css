@@ -1,0 +1,189 @@
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2016 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+.scf-featuredcontent {
+    padding-top: 10px;
+}
+
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2014 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+.scf-forum .scf-is-collapsed {
+    display: none;
+}
+
+.scf-forum .scf-paste-btn {
+    min-width: 75px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.scf-forum-paste-grp .dropdown-toggle {
+    min-width: 25px;
+    border-left: 0;
+}
+
+.scf-forum-paste-grp button {
+    float: left;
+    position: relative;
+}
+
+.scf-forum-heading {
+    float: left;
+}
+
+.scf-topic-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.scf-topic-list {
+    list-style-type: none;
+}
+
+.scf-topic-listitem {
+    position: relative;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.scf-topic-listitem .scf-topic-avatar {
+    padding-bottom: 3px;
+}
+
+.scf-topic-listitem:last-child {
+    border: 0;
+}
+
+.scf-topic-userinfo {
+    float: left;
+    width: 120px;
+}
+
+.scf-badge-image {
+    padding: 1px;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.scf-badge-text {
+    font-size: 9px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+    clear: left;
+}
+
+.scf-topic-col1 {
+    position: relative;
+    margin-left: 120px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.scf-topic-col1 .scf-topic-title {
+    display: inline;
+}
+
+.scf-topic-col1 .scf-comment-msg {
+    max-height: 168px;
+    overflow: hidden;
+}
+
+.scf-topic-col2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+}
+
+.scf-topic-listitem .scf-selected-tag {
+    padding: 3px;
+    margin-right: 3px;
+    font-size: 10px;
+}
+
+.scf-post .scf-comment-data {
+    margin-left: 120px;
+}
+
+.scf-analytics-view-metrics {
+    display: none;
+}
+
+.scf-topic-list li {
+    padding: 1.2em;
+    margin-bottom: 1px;
+}
+
+.scf-topic-list span.scf-topic-glyphicon {
+    margin-right: 2px;
+}
+
+.scf-topic-list span.glyphicon {
+    font-size: 1.5em;
+}
+
+.scf-topic-list {
+    padding-left: 0;
+}
+
+.scf-sort-btngrp {
+    margin: 6px 10px 6px 0;
+    float: right;
+}
+
+li.scf-sort-item {
+    padding: 0.5em;
+}
+
+span.scf-sort-type {
+    margin-left: 5px;
+}
+
+li.scf-sort-item:hover {
+    cursor: pointer;
+    color: #262626;
+    background-color: #f5f5f5;
+}
+
+.scf-sort-list {}
+
+.ui-datepicker .ui-state-hover,
+.ui-datepicker.ui-widget-content .ui-state-hover {
+    margin: inherit;
+    font-weight: normal;
+}
+

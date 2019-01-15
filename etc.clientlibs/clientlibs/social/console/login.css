@@ -1,0 +1,104 @@
+/*
+ *
+ * ADOBE CONFIDENTIAL
+ * __________________
+ *
+ *  Copyright 2014 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+.scf-icon-fb:before {
+    content: "\f190";
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.scf-fb-login {
+    height: 36px;
+    color: #3B5998;
+    display: inline-block;
+    width: 48%;
+    cursor: pointer;
+}
+
+.scf-fb-text {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+}
+
+.scf-icon-tw:before {
+    content: "\f28d";
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+.scf-tw-login {
+    height: 36px;
+    color: #00aced;
+    display: inline-block;
+    width: 43%;
+    cursor: pointer;
+}
+
+.scf-tw-text {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+}
+
+.scf-signup-divider:before {
+    border-top: 1px solid #CCC;
+    display: block;
+    content: "";
+    right: 7%;
+    position: relative;
+    top: 11px;
+    width: 55%;
+}
+
+.scf-signup-divider:after {
+    border-top: 1px solid #CCC;
+    display: block;
+    content: "";
+    left: 52%;
+    position: relative;
+    top: -10px;
+    width: 55%;
+}
+
+.scf-signup {
+    width: 50%;
+    min-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.scf-signup .checkbox {
+    text-align: left;
+}
+
+.scf-signup-divider {
+    margin: 20px 0;
+    color: #CCC;
+}
+
+.scf-signup input[data-attrib='email'],
+.scf-signup input[data-attrib='pass'] {
+    margin: 10px 0;
+}
+
+.scf-signup button {
+    margin: 10px 0;
+    width: 100%;
+}
