@@ -26,3 +26,11 @@ This is a demo website used during the Adobe Summit Labs.  'We.Travel' is a fake
 3. Edit the `header.php` file using a text or code editor.  (We recommend https://code.visualstudio.com/Download)
 4. Paste the Launch embed code where the comments indicate it to be.  This file is included on every page of the site so doing this once will install it on the entrie WeTravel site.
 5. Save the file and refresh the site in the browser.  View the source code to ensure it worked.
+
+## Instructions on Stopping the Site
+1. Open terminal
+2. Issue the command `docker ps` to see the running containers
+3. Copy the "Container ID" value
+4. Stop the container using the following command: `docker stop [PASTE-CONTAINER-ID-HERE]`
+4. Remove the container from the machine using the following command: `docker rm [PASTE-CONTAINER-ID-HERE]`
+
