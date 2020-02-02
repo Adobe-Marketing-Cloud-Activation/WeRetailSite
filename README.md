@@ -10,10 +10,10 @@ This is a demo website used during the Adobe Summit Labs.  'We.Travel' is a fake
 1. Open Terminal
 2. Edit your local host file as an Admin `sudo vi /etc/hosts`  _(enter admin password)_
 3. Press the letter `i` to enter interactive or editing mode
-4. Add the following line to the file:   `127.0.0.1       we.travel`
+4. Add the following line to the file:   `127.0.0.1            we.travel`
 5. Press the `esc` key to exit interactive or editing mode
 6. Save and close the file `:wq`
-7. Change directory to the user's home:  `cd ~/Descktop`
+7. Change directory to the user's home:  `cd ~/Desktop`
 8. Clone the repo to your local machine:  `git clone https://github.com/Adobe-Marketing-Cloud-Activation/WeRetailSite.git WeTravelSite`
 9. Change direcory to the cloned site:  `cd WeRetailSite`
 10. Make sure Docker is running and then start the docker container `docker run -d -p 80:80 --name summit-apache-php-app -v "$PWD":/var/www/html php:7.2-apache`
