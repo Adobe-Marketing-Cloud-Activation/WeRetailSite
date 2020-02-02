@@ -1,4 +1,4 @@
-# WeRetailSite
+# WeTravelSite
 
 This is a demo website used during the Adobe Summit Labs.  'We.Travel' is a fake site and made up brand and is in no way affiliated with Adobe Systems Inc.
 
