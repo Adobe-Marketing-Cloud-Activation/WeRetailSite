@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en" class="wide wow-animation smoothscroll scrollTo">
+  <head>
+    <!-- Site Title-->
+    <title>Modern Blog</title>
+    
+    <?php include_once('includes/header.php'); ?>
+    
+  </head>
+  <body>
+    <!-- Page-->
+    <div class="page text-center">
+      <!-- Page Head-->
+      <header class="page-head">
+        <!-- RD Navbar Top Panel-->
+        <div class="rd-navbar-wrap">
+          <nav data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-md-stick-up-offset="100px" data-lg-stick-up-offset="110px" data-auto-height="false" class="rd-navbar rd-navbar-top-panel rd-navbar-default rd-navbar-white" data-lg-auto-height="true" data-md-layout="rd-navbar-fullwidth" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
+            <div class="rd-navbar-inner">
+              <!-- RD Navbar Top Panel-->
+              <div class="rd-navbar-top-panel bg-ebony-clay">
+                <div class="left-side">
+                  <!-- Contact Info-->
+                  <address class="contact-info text-left">
+                    <div class="reveal-inline-block"><a href="callto:#" class="unit unit-middle unit-horizontal unit-spacing-xs"><span class="unit-left"><span class="icon icon-xxs icon-warning icon-circle mdi mdi-phone"></span></span><span class="unit-body"><span class="text-alto">1-800-1234-567</span></span></a></div>
+                    <div class="reveal-inline-block"><a href="mailto:#" class="unit unit-middle unit-horizontal unit-spacing-xs"><span class="unit-left"><span class="icon icon-xxs icon-warning icon-circle mdi mdi-email-outline"></span></span><span class="unit-body"><span class="text-alto">info@demolink.org</span></span></a></div>
+                    <div class="reveal-inline-block"><a href="#" class="unit unit-middle unit-horizontal unit-spacing-xs"><span class="unit-left"><span class="icon icon-xxs icon-warning icon-circle mdi mdi-map-marker"></span></span><span class="unit-body"><span class="text-alto">2130 Fulton Street, San Diego, CA 94117-1080 USA</span></span></a></div>
+                  </address>
+                </div>
+                <div class="right-side">
+                  <div class="reveal-inline-block text-middle"><a href="#" class="unit unit-middle unit-horizontal unit-spacing-xs"><span class="unit-left text-middle"><span class="icon icon-xxs icon-warning icon-circle mdi mdi-login"></span></span><span class="unit-body"><span class="text-warning">Login/Register</span></span></a></div>
+                  <div class="reveal-inline-block text-middle">
+                    <ul class="list-inline list-inline-0">
+                      <li><a href="#" class="icon icon-xxs icon-boulder-filled icon-circle fa fa-facebook"></a></li>
+                      <li><a href="#" class="icon icon-xxs icon-boulder-filled icon-circle fa fa-twitter"></a></li>
+                      <li><a href="#" class="icon icon-xxs icon-boulder-filled icon-circle fa fa-google-plus"></a></li>
+                      <li><a href="#" class="icon icon-xxs icon-boulder-filled icon-circle fa fa-instagram"></a></li>
+                      <li><a href="#" class="icon icon-xxs icon-boulder-filled icon-circle fa fa-rss"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+                <!-- RD Navbar Top Panel Toggle-->
+                <button data-rd-navbar-toggle=".rd-navbar, .rd-navbar-top-panel" class="rd-navbar-top-panel-toggle"><span></span></button>
+                <!-- Navbar Brand-->
+                <div class="rd-navbar-brand"><a href="index.html"><img width='188' height='29' src='images/logo-dark.png' alt=''/></a></div>
+              </div>
+              <div class="rd-navbar-menu-wrap">
+                <div class="rd-navbar-nav-wrap">
+                  <div class="rd-navbar-mobile-scroll">
+                    <!-- Navbar Brand Mobile-->
+                    <div class="rd-navbar-mobile-brand"><a href="index.html"><img width='188' height='29' src='images/logo-dark.png' alt=''/></a></div>
+                    <div class="form-search-wrap">
+                      <!-- RD Search Form-->
+                      <form action="search-results.html" method="GET" class="form-search rd-search">
+                        <div class="form-group">
+                          <label for="rd-navbar-form-search-widget" class="form-label form-search-label form-label-sm rd-input-label">Search</label>
+                          <input id="rd-navbar-form-search-widget" type="text" name="s" autocomplete="off" class="form-search-input input-sm form-control form-control-gray-lightest input-sm"/>
+                        </div>
+                        <button type="submit" class="form-search-submit"><span class="fa fa-search"></span></button>
+                      </form>
+                    </div>
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="about.html">About</a></li>
+                      <li class="rd-navbar--has-dropdown rd-navbar-submenu"><a href="country-page.html">Countries</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="country-page.html">Germany</a></li>
+                          <li><a href="country-page.html">Italy</a></li>
+                          <li><a href="country-page.html">Spain</a></li>
+                          <li><a href="country-page.html">France</a></li>
+                          <li><a href="country-page.html">Thailand</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="guides.html">Guides</a></li>
+                      <li class="active rd-navbar--has-dropdown rd-navbar-submenu"><a href="blog-classic.html">Tips &amp; Tricks</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="blog-classic.html">Classic Blog</a></li>
+                          <li><a href="blog-grid.html">Grid Blog</a></li>
+                          <li><a href="blog-masonry.html">Masonry Blog</a></li>
+                          <li><a href="blog-modern.html">Modern Blog</a></li>
+                          <li><a href="single-post.html">Post Page</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="deals.html">Deals</a></li>
+                      <li class="rd-navbar--has-megamenu rd-navbar-submenu"><a href="#">Pages</a>
+                        <div class="rd-navbar-megamenu">
+                          <div class="row">
+                            <div class="col-md-3">
+                              <div class="veil reveal-md-block">
+                                <div>
+                                  <h6 class="text-bold text-white">Page 1</h6>
+                                </div>
+                                <div>
+                                  <div style="background: rgba(255,255,255,0.2);" class="hr offset-top-10"></div>
+                                </div>
+                              </div>
+                              <ul class="offset-md-top-5">
+                                <li><a href="404.html">404 Page</a></li>
+                                <li><a href="503.html">503 Page</a></li>
+                                <li><a href="under-construction.html">Under Construction</a></li>
+                                <li><a href="search-results.html">Search Results</a></li>
+                                <li><a href="site-map.html">Site Map</a></li>
+                                <li><a href="privacy.html">Terms of Use</a></li>
+                                <li><a href="faq.html">FAQ Page</a></li>
+                                <li><a href="testimonials.html">Testimonials</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="veil reveal-md-block">
+                                <div>
+                                  <h6 class="text-bold text-white">Page 2</h6>
+                                </div>
+                                <div>
+                                  <div style="background: rgba(255,255,255,0.2);" class="hr offset-top-10"></div>
+                                </div>
+                              </div>
+                              <ul class="offset-md-top-5">
+                                <li><a href="careers.html">Careers</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="single-service.html">Single Service</a></li>
+                                <li><a href="our-team.html">Our Team</a></li>
+                                <li><a href="team-member.html">Team Member Profile</a></li>
+                                <li><a href="country-page.html">Country Page</a></li>
+                                <li><a href="guide-page.html">Guide Page</a></li>
+                                <li><a href="single-deal.html">Single Deal Page</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="veil reveal-md-block">
+                                <div>
+                                  <h6 class="text-bold text-white">Elements</h6>
+                                </div>
+                                <div>
+                                  <div style="background: rgba(255,255,255,0.2);" class="hr offset-top-10"></div>
+                                </div>
+                              </div>
+                              <ul class="offset-md-top-5">
+                                <li><a href="typography.html">Typography</a></li>
+                                <li><a href="buttons.html">Buttons</a></li>
+                                <li><a href="forms.html">Forms</a></li>
+                                <li><a href="tables.html">Tables</a></li>
+                                <li><a href="tabs-accordions.html">Tabs and Accordions</a></li>
+                                <li><a href="progress-bars.html">Progress Bars</a></li>
+                                <li><a href="icons.html">Icons</a></li>
+                                <li><a href="grid.html">Grid</a></li>
+                              </ul>
+                            </div>
+                            <div class="col-md-3">
+                              <div class="veil reveal-md-block">
+                                <div>
+                                  <h6 class="text-bold text-white">Layouts</h6>
+                                </div>
+                                <div>
+                                  <div style="background: rgba(255,255,255,0.2);" class="hr offset-top-10"></div>
+                                </div>
+                              </div>
+                              <ul class="offset-md-top-5">
+                                <li><a href="header-corporate.html">Header Corporate</a></li>
+                                <li><a href="header-centre-footer-centre-dark.html">Header Centre, Footer Centre Dark</a></li>
+                                <li><a href="header-minimal-footer-minimal-dark.html">Header Minimal, Footer Minimal Dark</a></li>
+                                <li><a href="Header-transparent-footer-centre-light.html">Header Transparent, Footer Centre Light</a></li>
+                                <li><a href="header-hamburger-menu.html">Header Hamburger Menu</a></li>
+                                <li><a href="footer-widget-dark.html">Footer Widget Dark</a></li>
+                                <li><a href="footer-widget-light.html">Footer Widget Light</a></li>
+                                <li><a href="footer-minimal-light.html">Footer Minimal Light</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="rd-navbar--has-dropdown rd-navbar-submenu"><a href="gallery-grid.html">Gallery</a>
+                        <ul class="rd-navbar-dropdown">
+                          <li><a href="gallery-grid.html">Grid Gallery</a></li>
+                          <li><a href="grid-without-padding-gallery.html">Grid Without Padding Gallery</a></li>
+                          <li><a href="gallery-masonry.html">Masonry Gallery</a></li>
+                          <li><a href="cobbles-gallery.html">Cobbles Gallery</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- RD Navbar Search-->
+                <div class="rd-navbar-search rd-navbar-search-top-panel"><a data-rd-navbar-toggle=".rd-navbar-inner,.rd-navbar-search" href="#" class="rd-navbar-search-toggle mdi"><span></span></a>
+                  <form action="search-results.html" data-search-live="rd-search-results-live" method="GET" class="rd-navbar-search-form search-form-icon-right rd-search">
+                    <div class="form-group">
+                      <label for="rd-navbar-search-form-input" class="form-label rd-input-label">Type and hit enter...</label>
+                      <input id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off" class="rd-navbar-search-form-input form-control form-control-gray-lightest"/>
+                    </div>
+                    <div id="rd-search-results-live" class="rd-search-results-live"></div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- Modern Breadcrumbs-->
+        <section class="section-height-700 breadcrumb-modern rd-parallax context-dark bg-gray-darkest">
+          <div data-speed="0.2" data-type="media" data-url="images/backgrounds/background-06-1920x950.jpg" class="rd-parallax-layer"></div>
+          <div data-speed="0" data-type="html" class="rd-parallax-layer">
+            <div class="bg-overlay-lg-darker">
+              <div class="shell section-top-50 section-bottom-34 section-md-top-90 section-lg-bottom-34 section-lg-top-128">
+                <div class="veil reveal-md-block">
+                  <h5 class="reveal-inline-block font-default both-lines text-italic">Our Blog</h5>
+                </div>
+                <div class="veil reveal-md-block offset-top-8">
+                  <h1 class="text-bold">Tips &amp; Tricks</h1>
+                </div>
+                <ul class="list-inline list-inline-icon p offset-top-35 offset-md-top-63 offset-lg-top-108">
+                  <li class="text-warning"><a href="index.html">Home</a></li>
+                  <li class="text-warning"><a href="blog-classic.html">Tips &amp; Tricks</a></li>
+                  <li>Modern Blog
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+      <!-- Page Contents-->
+      <main class="page-content">
+        <!-- Modern Blog-->
+        <div id="fb-root"></div>
+        <section class="section-90 section-md-122 bg-catskill">
+          <div class="shell-wide">
+            <div class="range range-xs-center">
+              <div class="cell-md-10 cell-lg-8 cell-xl-5">
+                <!-- Blog Modern-->
+                <div class="post-modern-timeline-date text-sm-left">
+                  <div class="reveal-inline-block text-center">
+                    <time datetime="2016-01-01" class="text-regular text-darker">July 2, 2016 <br class="veil reveal-md-inline-block"> at 4:10pm</time>
+                  </div>
+                </div>
+                <!-- Post Modern Timeline-->
+                <article class="post post-modern post-modern-timeline post-modern-timeline-left">
+                  <!-- Post media-->
+                  <header class="post-media">
+                    <!-- RD Video-->
+                    <div data-rd-video-path="video/video-for-player" data-rd-video-title="" data-rd-video-muted="true" data-rd-video-preview="video/video-for-player.jpg" data-rd-video-preload="false" class="rd-video-player">
+                      <div class="rd-video-wrap embed-responsive-16by9">
+                        <!-- Play\Pause button--><a href="#" class="rd-video-play-pause rd-video-main-play mdi mdi-play-circle-outline"></a>
+                        <div class="rd-video-preloader"></div>
+                        <video preload="metadata"></video>
+                        <div class="rd-video-preview"></div>
+                        <div class="rd-video-top-controls">
+                          <!-- Title--><span class="rd-video-title"></span><a href="#" class="rd-video-fullscreen mdi mdi-fullscreen rd-video-icon"></a>
+                        </div>
+                        <div class="rd-video-controls">
+                          <div class="rd-video-controls-buttons">
+                            <!-- Play\Pause button--><a href="#" class="rd-video-play-pause mdi mdi-play"></a>
+                            <!-- Progress bar-->
+                          </div>
+                          <div class="rd-video-progress-bar"></div>
+                          <div class="rd-video-time"><span class="rd-video-current-time"></span> <span class="rd-video-time-divider">:</span>  <span class="rd-video-duration"></span></div>
+                          <div class="rd-video-volume-wrap">
+                            <!-- Volume button--><a href="#" class="rd-video-volume mdi mdi-volume-high rd-video-icon"></a>
+                            <div class="rd-video-volume-bar-wrap">
+                              <!-- Volume bar-->
+                              <div class="rd-video-volume-bar"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </header>
+                  <!-- Post content-->
+                  <section class="post-content text-left">
+                    <div class="post-modern-classic-meta"><a href="#"><span class="icon text-middle icon icon-xxs mdi mdi-video text-orange-peel"></span><span class="text-middle text-darker text-bold">Video</span></a></div>
+                    <!-- Post Title-->
+                    <div class="post-title offset-top-8">
+                      <h4 class="text-bold"><a href="single-post.html">New York City Travel Guide</a></h4>
+                    </div>
+                    <ul class="list list-inline text-darker offset-top-10">
+                      <li><a href="#">2 Comments</a></li>
+                    </ul>
+                    <!-- Post Body-->
+                    <div class="post-body offset-top-20">
+                      <div class="offset-top-20">
+                        <p>New York is probably the most visited city in the United States. Famous for fashion, nightlife, art, food, and theater, New York is the heart of the world. Every culture is represented here, and there’s always something to do. You can spend a lifetime exploring and never really see it all. NYC is one of the most amazing places in the world (it’s why I call it home), but as a backpacker it can take a big bite out of your budget.</p>
+                      </div>
+                    </div>
+                    <div class="post-author">
+                      <div class="post-author-img"><img width="80" height="80" src="images/users/user-jason-banks-80x80.jpg" alt="Eugene Newman" class="img-circle"/></div>
+                      <div class="post-author-name text-middle">Jason Banks
+                      </div>
+                    </div>
+                  </section>
+                </article>
+                <div class="post-modern-timeline-date text-sm-left">
+                  <div class="reveal-inline-block text-center">
+                    <time datetime="2016-01-01" class="text-regular text-darker">July 2, 2016 <br class="veil reveal-md-inline-block"> at 4:10pm</time>
+                  </div>
+                </div>
+                <!-- Post Modern Timeline-->
+                <article class="post post-modern post-modern-timeline post-modern-timeline-left">
+                  <!-- Post media-->
+                  <header class="post-media"><img width="570" height="400" src="images/blog/post-09-570x400.jpg" alt="" class="img-responsive img-cover"/>
+                  </header>
+                  <!-- Post content-->
+                  <section class="post-content text-left">
+                    <div class="post-modern-classic-meta"><a href="#"><span class="icon text-middle icon icon-xxs icon-extra-small mdi mdi-file-image text-orange-peel"></span><span class="text-middle text-darker text-bold">Photos</span></a></div>
+                    <!-- Post Title-->
+                    <div class="post-title offset-top-8">
+                      <h4 class="text-bold"><a href="single-post.html">Visiting Paris on a Budget</a></h4>
+                    </div>
+                    <ul class="list list-inline text-darker offset-top-10">
+                      <li><a href="#">10 Comments</a></li>
+                    </ul>
+                    <!-- Post Body-->
+                    <div class="post-body offset-top-20">
+                      <div class="offset-top-20">
+                        <p>Paris is one of my favourite European cities – I usually try and spend a few days out there most years, and was lucky enough to spend an autumn house-sitting there. But even though I had somewhere to stay, Paris is an easy place to spend money – with fantastic restaurants, shops and wine bars on every corner, and the entrance fees to all those world-class museums and attractions which soon start to add up.</p>
+                      </div>
+                    </div>
+                    <div class="post-author">
+                      <div class="post-author-img"><img width="80" height="80" src="images/users/user-mildred-curtis-80x80.jpg" alt="Mildred Curtis" class="img-circle"/></div>
+                      <div class="post-author-name text-middle">Mildred Curtis
+                      </div>
+                    </div>
+                  </section>
+                </article>
+                <div class="post-modern-timeline-date text-sm-left">
+                  <div class="reveal-inline-block text-center">
+                    <time datetime="2016-01-01" class="text-regular text-darker">July 2, 2016 <br class="veil reveal-md-inline-block"> at 4:10pm</time>
+                  </div>
+                </div>
+                <!-- Post Modern Timeline-->
+                <article class="post post-modern post-modern-timeline post-modern-timeline-left">
+                  <!-- Post media-->
+                  <header class="post-media"><img width="570" height="380" src="images/blog/post-10-570x380.jpg" alt="" class="img-responsive img-cover"/>
+                  </header>
+                  <!-- Post content-->
+                  <section class="post-content text-left">
+                    <div class="post-modern-classic-meta"><a href="#"><span class="icon text-middle icon icon-xxs icon-extra-small mdi mdi-file-document text-orange-peel"></span><span class="text-middle text-darker text-bold">Article</span></a></div>
+                    <!-- Post Title-->
+                    <div class="post-title offset-top-8">
+                      <h4 class="text-bold"><a href="single-post.html">How to Make Travel Videos</a></h4>
+                    </div>
+                    <ul class="list list-inline text-darker offset-top-10">
+                      <li><a href="#">10 Comments</a></li>
+                    </ul>
+                    <!-- Post Body-->
+                    <div class="post-body offset-top-20">
+                      <div class="offset-top-20">
+                        <p>Introducing our new Travel Video Course, taught by experts Sharon Carpenter and Beverly Bennett! They have over 31,000,000 YouTube views, have worked with big brands, tourism boards, and production companies. In this course, you’ll learn how to make amazing travel videos and earn money from them!</p>
+                      </div>
+                    </div>
+                    <div class="post-author">
+                      <div class="post-author-img"><img width="80" height="80" src="images/users/user-christina-vasques-80x80.jpg" alt="Christina Vasques" class="img-circle"/></div>
+                      <div class="post-author-name text-middle">Christina Vasques
+                      </div>
+                    </div>
+                  </section>
+                </article>
+                <div class="post-modern-timeline-date text-sm-left">
+                  <div class="reveal-inline-block text-center">
+                    <time datetime="2016-01-01" class="text-regular text-darker">July 2, 2016 <br class="veil reveal-md-inline-block"> at 4:10pm</time>
+                  </div>
+                </div>
+                <!-- Post Modern Timeline-->
+                <article class="post post-modern post-modern-timeline post-modern-timeline-left post-modern-timeline-left-last">
+                  <!-- Post media-->
+                  <header class="post-media"><img width="570" height="360" src="images/blog/post-11-570x360.jpg" alt="" class="img-responsive img-cover"/>
+                  </header>
+                  <!-- Post content-->
+                  <section class="post-content text-left">
+                    <div class="post-modern-classic-meta"><a href="#"><span class="icon text-middle icon icon-xxs icon-extra-small mdi mdi-file-document text-orange-peel"></span><span class="text-middle text-darker text-bold">Article</span></a></div>
+                    <!-- Post Title-->
+                    <div class="post-title offset-top-8">
+                      <h4 class="text-bold"><a href="single-post.html">9 Ways to Become a Successful Travel Blogger</a></h4>
+                    </div>
+                    <ul class="list list-inline text-darker offset-top-10">
+                      <li><a href="#">2 Comments</a></li>
+                    </ul>
+                    <!-- Post Body-->
+                    <div class="post-body offset-top-20">
+                      <div class="offset-top-20">
+                        <p>Travel blogging is a crowded field — and it gets more crowded by the day. And a lot of the advice that people give are actually counterintuitive to your success. It takes a lot of hard work to be successful in this industry. After years of doing this, here are my 9 tips for running a blog that’s successful.</p>
+                      </div>
+                    </div>
+                    <div class="post-author">
+                      <div class="post-author-img"><img width="80" height="80" src="images/users/user-jason-banks-80x80.jpg" alt="Jason Banks" class="img-circle"/></div>
+                      <div class="post-author-name text-middle">Jason Banks
+                      </div>
+                    </div>
+                  </section>
+                </article>
+                <div class="text-left offset-top-66 offset-md-top-0">
+                  <!-- Classic Pagination-->
+                  <nav>
+                    <ul class="pagination-classic">
+                      <li><a href="#" class="icon icon-xxs icon-primary fa fa-chevron-left"></a></li>
+                      <li class="active"><a href="#">1</a></li>
+                      <li><a href="#">2</a></li>
+                      <li><a href="#">3</a></li>
+                      <li><a href="#">4</a></li>
+                      <li><a href="#" class="icon icon-xxs icon-primary fa fa-chevron-right"></a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+              <div class="cell-sm-10 cell-md-8 cell-lg-3 offset-top-66 offset-md-top-90 offset-lg-top-0">
+                <div class="blog-grid-sidebar inset-xl-left-80">
+                  <!-- Aside-->
+                  <aside class="text-left">
+                    <!-- Search in Blog-->
+                    <div>
+                      <h4 class="text-bold">Search in Blog</h4>
+                    </div>
+                    <div class="offset-top-10">
+                      <div class="hr bg-gray"></div>
+                    </div>
+                    <div class="offset-top-13 offset-md-top-20 rd-search-blog">
+                                        <!-- RD Search Form-->
+                                        <form action="search-results.html" method="GET" class="form-search rd-search">
+                                          <div class="form-group">
+                                            <label for="blog-classic-form-search-widget" class="form-label form-search-label">Search...</label>
+                                            <input id="blog-classic-form-search-widget" type="text" name="s" autocomplete="off" class="form-search-input form-control null">
+                                          </div>
+                                          <button type="submit" class="form-search-submit"><span class="fa fa-search"></span></button>
+                                        </form>
+                    </div>
+                    <!-- Archive-->
+                    <div class="offset-top-30 offset-md-top-63">
+                      <h4 class="text-bold">Archive</h4>
+                    </div>
+                    <div class="offset-top-10">
+                      <div class="hr bg-gray"></div>
+                    </div>
+                    <div class="offset-top-13 offset-md-top-20">
+                      <div class="range range-xs-center">
+                        <div class="cell-xs-6">
+                          <div class="inset-xs-left-5">
+                            <!-- List Marked-->
+                            <ul class="list list-marked list-marked-icon text-dark">
+                              <li><a href="#" class="text-atlantis">Jan 2016</a></li>
+                              <li><a href="#" class="text-atlantis">Mar 2016</a></li>
+                              <li><a href="#" class="text-atlantis">May 2016</a></li>
+                              <li><a href="#" class="text-atlantis">Jul 2016</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="cell-xs-6 offset-top-10 offset-xs-top-0 inset-xs-left-5">
+                          <!-- List Marked-->
+                          <ul class="list list-marked list-marked-icon text-dark">
+                            <li><a href="#" class="text-atlantis">Feb 2016</a></li>
+                            <li><a href="#" class="text-atlantis">Apr 2016</a></li>
+                            <li><a href="#" class="text-atlantis">Jun 2016</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Flickr @fasttravel-->
+                    <div class="offset-top-30 offset-md-top-63">
+                      <h4 class="text-bold">Flickr @fasttravel</h4>
+                    </div>
+                    <div class="offset-top-10">
+                      <div class="hr bg-gray"></div>
+                    </div>
+                    <div class="offset-top-13 offset-md-top-20">
+                                        <div data-photo-swipe="gallery" data-flickr-tags="tm60026blogs" class="flickr widget-flickrfeed group widget-flickrfeed-lg"><a data-photo-swipe-item="" href="" data-image_c="href" data-size="1050x700" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="160" height="160" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a><a data-photo-swipe-item="" href="" data-image_c="href" data-size="1050x700" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="160" height="160" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a><a data-photo-swipe-item="" href="" data-image_c="href" data-size="1050x700" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="160" height="160" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a><a data-photo-swipe-item="" href="" data-image_c="href" data-size="1050x700" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="160" height="160" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a><a data-photo-swipe-item="" href="" data-image_c="href" data-size="1050x700" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="160" height="160" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a><a data-photo-swipe-item="" href="" data-image_c="href" data-size="1050x700" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="160" height="160" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a>
+                                        </div>
+                    </div>
+                    <!-- Categories-->
+                    <div class="offset-top-30 offset-md-top-63">
+                      <h4 class="text-bold">Categories</h4>
+                    </div>
+                    <div class="offset-top-10">
+                      <div class="hr bg-gray"></div>
+                    </div>
+                    <div class="offset-top-13 offset-md-top-20">
+                      <div class="inset-xs-left-5">
+                        <!-- List Marked-->
+                        <ul class="list list-marked list-marked-icon text-dark">
+                          <li><a href="#" class="text-atlantis">Articles</a></li>
+                          <li><a href="#" class="text-atlantis">Photos</a></li>
+                          <li><a href="#" class="text-atlantis">Videos</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <!-- Recent Posts-->
+                    <div class="offset-top-30 offset-md-top-63">
+                      <h4 class="text-bold">Recent Posts</h4>
+                    </div>
+                    <div class="offset-top-10">
+                      <div class="hr bg-gray"></div>
+                    </div>
+                    <div class="offset-top-13 offset-md-top-20">
+                      <div class="inset-xs-left-5">
+                        <!-- List Marked-->
+                        <ul class="list list-marked list-marked-icon text-dark">
+                          <li><a href="single-post.html" class="text-atlantis">Visiting Paris on a Budget</a></li>
+                          <li><a href="single-post.html" class="text-atlantis">9 Ways to Become a Successful Travel <br class="veil reveal-lg-inline-block"> Blogger</a></li>
+                          <li><a href="single-post.html" class="text-atlantis">How to Make Travel Videos</a></li>
+                          <li><a href="single-post.html" class="text-atlantis">How These 5 People Found The Path to Their Dream Trip</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="offset-top-63">
+                      <!-- Facebook standart widget-->
+                      <div>
+                        <div class="fb-root fb-widget">
+                          <div class="fb-page-responsive">
+                            <div data-href="https://www.facebook.com/TemplateMonster" data-tabs="timeline" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" class="fb-page">
+                              <div class="fb-xfbml-parse-ignore">
+                                <blockquote cite="https://www.facebook.com/TemplateMonster"><a href="https://www.facebook.com/TemplateMonster">TemplateMonster</a></blockquote>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Tags-->
+                    <div class="offset-top-30 offset-md-top-63">
+                      <h4 class="text-bold">Tags</h4>
+                    </div>
+                    <div class="offset-top-10">
+                      <div class="hr bg-gray"></div>
+                    </div>
+                    <div class="offset-top-13 offset-md-top-20">
+                      <div class="tags group group-sm offset-top-23"><a href="#" class="btn-tag btn btn-orange-peel btn-orange-peel-transparent">Travel</a><a href="blog-classic.html" class="btn-tag btn btn-orange-peel btn-orange-peel-transparent">Blog</a><a href="#" class="btn-tag btn btn-orange-peel btn-orange-peel-transparent">Video</a><a href="guides.html" class="btn-tag btn btn-orange-peel btn-orange-peel-transparent">Guide</a><a href="country-page.html" class="btn-tag btn btn-orange-peel btn-orange-peel-transparent">France</a><a href="#" class="btn-tag btn btn-orange-peel btn-orange-peel-transparent">USA</a></div>
+                    </div>
+                  </aside>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Page Footer-->
+      <!-- Footer Default-->
+      <footer class="section-relative section-90 page-footer bg-ebony-clay context-dark">
+        <div class="shell-wide">
+          <div class="range range-xs-center range-xl-justify text-lg-left">
+            <div class="cell-xs-8 cell-sm-5 cell-md-4 cell-lg-3 cell-xl-2 cell-sm-push-2">
+              <h4>Contact Us</h4>
+              <div class="text-subline"></div>
+              <!-- Contact Info-->
+              <address class="contact-info text-left offset-top-20">
+                <div class="reveal-inline-block"><a href="callto:#" class="unit unit-middle unit-horizontal unit-spacing-xs"><span class="unit-left"><span class="icon icon-xxs icon-warning icon-circle mdi mdi-phone"></span></span><span class="unit-body"><span class="text-alto">1-800-1234-567</span></span></a></div>
+                <div class="reveal-inline-block"><a href="mailto:#" class="unit unit-middle unit-horizontal unit-spacing-xs offset-top-18"><span class="unit-left"><span class="icon icon-xxs icon-warning icon-circle mdi mdi-email-outline"></span></span><span class="unit-body"><span class="text-alto">info@demolink.org</span></span></a></div>
+                <div class="reveal-inline-block"><a href="#" class="unit unit-horizontal unit-spacing-xs offset-top-18"><span class="unit-left"><span class="icon icon-xxs icon-warning icon-circle mdi mdi-map-marker"></span></span><span class="unit-body"><span class="text-alto">2130 Fulton Street, San Diego, <br class="veil reveal-lg-inline-block"> CA 94117-1080 USA</span></span></a></div>
+              </address>
+            </div>
+            <div class="cell-xs-10 cell-sm-8 cell-md-5 cell-lg-3 cell-xl-3 offset-top-66 offset-lg-top-0 cell-sm-push-3">
+              <h4>Newsletter</h4>
+              <div class="text-subline"></div>
+              <p class="text-alto">Enter your email address to get the latest traveling news, special offers and other discount information delivered right to your inbox.</p>
+              <div class="offset-top-30">
+                      <form data-form-output="form-subscribe-footer" data-form-type="subscribe" method="post" action="bat/rd-mailform.php" class="rd-mailform rd-mailform-subscribe">
+                        <div class="form-group">
+                          <div class="input-group">
+                            <input placeholder="Enter your e-mail" type="email" name="email" data-constraints="@Required @Email" class="form-control"><span class="input-group-btn">
+                              <button type="submit" class="btn btn-sm btn-primary">Subscribe</button></span>
+                          </div>
+                        </div>
+                        <div id="form-subscribe-footer" class="form-output"></div>
+                      </form>
+              </div>
+            </div>
+            <div class="cell-xs-8 cell-sm-5 cell-md-4 cell-lg-3 cell-xl-2 offset-top-66 offset-lg-top-0 cell-sm-push-4">
+              <h4>@fasttravel</h4>
+              <div class="text-subline"></div>
+              <div class="offset-top-20">
+                      <div data-photo-swipe="gallery" data-flickr-tags="tm60026" class="flickr widget-flickrfeed group-sm"><a data-photo-swipe-item="" href="" data-image_c="href" data-size="800x800" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="82" height="82" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a><a data-photo-swipe-item="" href="" data-image_c="href" data-size="800x800" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="82" height="82" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a><a data-photo-swipe-item="" href="" data-image_c="href" data-size="800x800" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="82" height="82" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a><a data-photo-swipe-item="" href="" data-image_c="href" data-size="800x800" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="82" height="82" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a><a data-photo-swipe-item="" href="" data-image_c="href" data-size="800x800" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="82" height="82" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a><a data-photo-swipe-item="" href="" data-image_c="href" data-size="800x800" data-type="flickr-item" class="flickr-item thumbnail-classic"><img width="82" height="82" data-title="alt" src="images/_blank.png" alt="" data-image_q="src"></a>
+                      </div>
+              </div>
+            </div>
+            <div class="cell-xs-10 cell-sm-6 cell-md-4 cell-lg-3 cell-xl-2 offset-top-66 offset-sm-top-0">
+              <!-- Footer brand-->
+              <div class="footer-brand"><a href="index.html"><img width='188' height='29' src='images/logo-light.png' alt=''/></a></div>
+              <ul class="list-inline list-inline-2 reveal-inline-block offset-top-30">
+                <li><a href="#" class="icon icon-xxs icon-boulder-filled icon-circle fa fa-facebook"></a></li>
+                <li><a href="#" class="icon icon-xxs icon-boulder-filled icon-circle fa fa-twitter"></a></li>
+                <li><a href="#" class="icon icon-xxs icon-boulder-filled icon-circle fa fa-google-plus"></a></li>
+                <li><a href="#" class="icon icon-xxs icon-boulder-filled icon-circle fa fa-instagram"></a></li>
+                <li><a href="#" class="icon icon-xxs icon-boulder-filled icon-circle fa fa-rss"></a></li>
+              </ul>
+              <p class="no-md-wrap text-dark offset-xl-top-108">&copy; <span id="copyright-year"></span>. All rights reserved. <br class="veil-xs"> <a href="privacy.html">Privacy Policy</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- Global Mailform Output-->
+    <div id="form-output-global" class="snackbars"></div>
+    <!-- PhotoSwipe Gallery-->
+    <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
+            <button title="Share" class="pswp__button pswp__button--share"></button>
+            <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
+            <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
+          <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Java script-->
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
